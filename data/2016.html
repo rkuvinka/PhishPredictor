@@ -1,0 +1,1159 @@
+<!doctype html>
+<html lang="en">
+<!-- The source was quite invisible, the ever-present voice... -->
+<!-- Carini Had a Lumpy... --><head>
+	<title>Setlists > Phish.net</title>
+	<meta charset="ISO-8859-1" />
+	<meta name="theme-color" content="#336699">
+	<!-- <meta charset="UTF-8" /> (we had some issues with this) -->
+	<meta name="google-site-verification" content="H2BoGXg050tDUgH12X6iFwAvVmhBqmFSzV5w1IHjK9Y" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge; chrome=1"/><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[(new Date).getTime()].concat(u(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(2),u=t(3),c=t("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","finished","addToTrace","inlineHit"],p="api-",l=p+"ixn-";a(s,function(t,e){f[e]=o(p+e,!0,"api")}),f.addPageAction=o(p+"addPageAction",!0),e.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(l+"tracer",[Date.now(),t,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){d[e]=o(l+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,(new Date).getTime()])}},{}],2:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],3:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?u(t,a,i):i()}function n(n,r,o){t&&t(n,r,o);for(var i=e(o),a=l(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var s=f[m[n]];return s&&s.push([w,n,r,i]),i}function p(t,e){g[t]=l(t).concat(e)}function l(t){return g[t]||[]}function d(t){return s[t]=s[t]||o(n)}function v(t,e){c(t,function(t,n){e=e||"feature",m[n]=e,e in f||(f[e]=[])})}var g={},m={},w={on:p,emit:n,get:d,listeners:l,context:e,buffer:v};return w}function i(){return new r}var a="nr@context",u=t("gos"),c=t(2),f={},s={},p=e.exports=o();p.backlog=f},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!h++){var t=y.info=NREUM.info,e=s.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){c(m,function(e,n){t[e]||(t[e]=n)});var n="https"===g.split(":")[0]||t.sslForHttp;y.proto=n?"https://":"http://",u("mark",["onload",a()],null,"api");var r=s.createElement("script");r.src=y.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function o(){"complete"===s.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=t("handle"),c=t(2),f=window,s=f.document,p="addEventListener",l="attachEvent",d=f.XMLHttpRequest,v=d&&d.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:d,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},t(1);var g=""+location,m={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-963.min.js"},w=d&&v&&v[p]&&!/CriOS/.test(navigator.userAgent),y=e.exports={offset:a(),origin:g,features:{},xhrWrappable:w};s[p]?(s[p]("DOMContentLoaded",i,!1),f[p]("load",r,!1)):(s[l]("onreadystatechange",o),f[l]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script> <!-- jive and strive  -->
+	<meta name="application-name" content="Phish.net"/> <!-- like a potato to the throat -->
+	<link rel="stylesheet" href="http://scripts.phish.net/css/uibuttons.css" type="text/css" media="screen" />
+	<!-- offer them some meat -->
+	<link rel="stylesheet" href="http://sscripts.pnet-static.com/css/bootstrap/bscallout.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="http://sscripts.pnet-static.com/css/_phishnet.min.css?v=1.14" type="text/css" media="screen" />
+		<link rel="stylesheet" href="http://sscripts.pnet-static.com/css/ratings/rating.css" type="text/css" />
+	<link rel="stylesheet" href="http://sscripts.pnet-static.com/js/tinybox2/pnet.css" type="text/css" />
+	<link rel="stylesheet" href="http://sscripts.pnet-static.com/css/setlist-main.css?v=1" type="text/css" />
+	<link rel="stylesheet" href="http://sscripts.pnet-static.com/css/jquery.powertip.min.css?v=1" type="text/css" />
+	<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<script type="text/javascript" src="http://sscripts.pnet-static.com/js/jqplot/excanvas.min.js"></script>
+	<![endif]-->
+	<!-- with the right device you can make a pattern grow or you can tune up your car -->
+	<script type="text/javascript" src="http://sscripts.pnet-static.com/js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="http://sscripts.pnet-static.com/fancybox/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+	<script type="text/javascript" src="http://sscripts.pnet-static.com/js/scripts.js?v=1.16"></script>
+	<script type="text/javascript" src="http://sscripts.pnet-static.com/smint/js/jquery.smint.js"></script>
+	<script type="text/javascript" src="http://sscripts.pnet-static.com/js/rate-behavior.js"></script>
+	<script type="text/javascript" src="http://sscripts.pnet-static.com/js/rate-showrating.js"></script>
+	<script type="text/javascript" src="http://sscripts.pnet-static.com/js/iframe.js"></script>
+	<script type="text/javascript" src="http://sscripts.pnet-static.com/js/tinybox2/tinybox.js"></script>
+	<script type="text/javascript" src="http://sscripts.pnet-static.com/js/jquery.powertip.min.js"></script>
+	<script type="text/javascript" src="http://sscripts.pnet-static.com/js/setlist-main.js?v=18"></script>
+	<!-- boom --> 
+	<!-- the forest's tasty nectar shoot -->
+	<link rel="alternate" title="Phish.Net News" href="http://phish.net/feed/index.xml" type="application/rss+xml" />
+	<meta name="summary" content="The Phish.Net home page - A guide to the band Phish, its music and its fans and their presence on the Internet; created for Phish Fans by Phish Fans." />
+	<meta name="keywords" content="Phish, Phishnet, Phish.Net, Phish Net, News, About, FAQ, PhishFAQ, What is Phish?, Intro, Phishtory, Articles, Media, Lyrics, Chords, Helping Friendly Book, Helping Phriendly Book, Setlists, Reviews, Sound Clips, Tour Information, Upcoming and Current Events, Discussion, Rosemary's Digest, Benjy's Digest, Phish-Info, Digi-Phish, IRC, WWW, Graphics, Netshirt, The Mockingbird Foundation, Gamehendge, @phishnet, Phish api, Phans, Phish mobile, Phish blog" />
+	<link rel="shortcut icon" href="http://smedia.pnet-static.com/favicon.ico">
+	<link rel="apple-touch-icon" href="http://smedia.pnet-static.com/apple-touch-icon.png">
+<!-- Lucy Had a Lumpy...  --></head>
+
+<body>
+ 	<header class='logo-container'>
+		<h1 style="padding:8px;"><a href="/"><img src="http://smedia.pnet-static.com/logo/logo.png" style="width:220px;" alt="Phish.net: a Project of the Mockingbird Foundation" /></a></h1>
+	</header>
+	<nav id='nav'> 
+		<ul> 
+			<li><a href="/news">News</a>					
+				<ul class="submenu"> 
+					<li><a href="/news">Recent News</a></li> 
+					<li><a href="http://twitter.com/phishnet">.net on Twitter</a></li> 
+					<li><a href="http://facebook.com/phishnet">.net on Facebook</a></li> 
+				</ul>	
+			</li> 
+			<li class="selected"><a href="/setlists/">Shows</a>					
+				<ul class="submenu"> 
+					<li class="haslevel3" rel="setlist">
+						<a href="/setlists">Setlists</a>
+						<ul class="subsubmenu" id="setlistsubmenu">
+							<li><a href="/setlists/">Phish Setlists</a></li>
+							<li><a href="/sideshows/">Side Projects</a></li>
+							<li><a href="/setlists/upcoming.php">Upcoming Shows</a></li>
+						</ul>
+					</li> 
+					<li><a href="/venue">Venues</a></li>  
+					<li><a href="/tour">Tours</a></li> 
+				</ul>	
+			</li> 
+			<li><a href="/song/">Music</a>					
+				<ul class="submenu"> 
+					<li><a href="/song">Song Histories</a></li> 
+					<li class="haslevel3" rel="charts">
+						<a href="#">Charts</a>
+						<ul class="subsubmenu" id="chartssubmenu">
+							<li><a href="/jamcharts">Jam Charts</a></li> 
+							<li><a href="/tease-chart">Tease Chart</a></li> 
+							<li><a href="/debut-chart">Debut Chart</a></li> 
+							<li><a href="/guest-chart">Guest Chart</a></li> 						
+							<li><a href="/setlists/twenty-minute-jams.php">20 Min+ Jam Chart</a></li> 
+						</ul>
+					</li> 
+					<li><a href="/discography">Discography</a></li>
+					<li><a href="/special/lyrics/index.php">Lyrics Index</a></li>
+				</ul>	
+			</li>  
+			<li><a href="http://forum.phish.net">Community</a>					
+				<ul class="submenu"> 
+					<li><a href="http://forum.phish.net">.net Forum</a></li> 
+					<li><a href="/reviews">Fan Reviews</a></li> 
+					<li><a href="/chat">Chat</a></li> 
+					<li><a href="/trades">Ticket Trades</a></li> 
+					<li><a href="/special/activity-stream.php">Recent Activity</a></li> 
+				</ul>	
+			</li>			
+			<li><a href="http://blog.phish.net">Blog</a></li>
+			<li><a href="/faq/">FAQ</a></li>  
+			<li><a href="#">Site</a>					
+				<ul class="submenu"> 
+					<li class='haslevel3' rel='fun'><a href="/fun">Just for Fun</a>
+						<ul class="subsubmenu" id="funsubmenu">
+							<li><a href="http://phish.net/setlists/jump.php?showdate=RAND">Random Setlist</a></li>
+							<li><a href="http://phish.net/setlists/fantasy.php">Fantasy Setlist</a></li>
+							<li><a href="http://phish.net/user/dream-setlist.php">Dream Setlist</a></li>
+							<li><a href="http://phish.net/treys-notebook">Trey's Notebook</a></li>
+							<li><a href="http://phish.net/timeline">Phish.net Timeline</a></li>
+							<li><a href="http://smedia.pnet-static.com/fotonotes/index.php">101 Phish Songs</a></li>
+							<li><a href="http://phish.net/memes">The Meme Game</a></li>
+						</ul>
+					</li>
+					<li class="haslevel3" rel="tech">
+						<a href="#">Technology</a>
+						<ul class="subsubmenu" id="techsubmenu">
+							<li><a href="http://api.phish.net/">API</a></li>
+							<!-- <li><a href="/changelog">Change Log</a></li> -->
+						</ul>
+					</li> 					<li><a href="/partners.php">Partners</a></li> 
+					<li><a href="/contact">Contact</a></li>	
+				</ul>	
+			</li>  
+			<li><a href="/store" target='_blank'>Store</a></li>
+		</ul> 
+<a href="http://phish.net/feed"><img src="http://smedia.pnet-static.com/site/socialmedia/rss.png" alt="RSS Feeds" class='navimg' /></a>		<a href="http://facebook.com/phishnet"><img src="http://smedia.pnet-static.com/site/socialmedia/facebook.png" alt="Facebook" class='navimg' /></a>
+		<a href="http://twitter.com/phishnet"><img src="http://smedia.pnet-static.com/site/socialmedia/twitter.png" alt="Twitter" class='navimg' /></a>
+		<a href="http://mbird.org"><img src="http://smedia.pnet-static.com/site/socialmedia/mbird.png" alt="Mockingbird Foundation" class='navimg' /></a>
+	</nav>
+	<br style="clear:both;" />
+
+	<div id="content">
+		<div id="mainContent">
+			<input type="hidden" name="showdate" id="showdate" value="" />
+			<input type="hidden" name="showid" id="showid" value="" /><p>
+	<form action="?" method="get" id="jumpform">
+	<b>Jump to:</b> 
+		<select name="jumpmonth" id="jumpmonth">
+			<option value="01">1</option>
+			<option value="02">2</option>
+			<option value="03">3</option>
+			<option value="04">4</option>
+			<option value="05">5</option>
+			<option value="06">6</option>
+			<option value="07">7</option>
+			<option value="08">8</option>
+			<option value="09">9</option>
+			<option value="10">10</option>
+			<option value="11">11</option>
+			<option value="12">12</option>
+			
+		</select> / 
+		<select name="jumpday" id="jumpday">
+			<option value="01">1</option>
+			<option value="02">2</option>
+			<option value="03">3</option>
+			<option value="04">4</option>
+			<option value="05">5</option>
+			<option value="06">6</option>
+			<option value="07">7</option>
+			<option value="08">8</option>
+			<option value="09">9</option>
+			<option value="10">10</option>
+			<option value="11">11</option>
+			<option value="12">12</option>
+			<option value="13">13</option>
+			<option value="14">14</option>
+			<option value="15">15</option>
+			<option value="16">16</option>
+			<option value="17">17</option>
+			<option value="18">18</option>
+			<option value="19">19</option>
+			<option value="20">20</option>
+			<option value="21">21</option>
+			<option value="22">22</option>
+			<option value="23">23</option>
+			<option value="24">24</option>
+			<option value="25">25</option>
+			<option value="26">26</option>
+			<option value="27">27</option>
+			<option value="28">28</option>
+			<option value="29">29</option>
+			<option value="30">30</option>
+			<option value="31">31</option>
+			
+		</select> / 
+		<select name="jumpyear" id="jumpyear">
+			<option value="2016">2016</option>
+			<option value="2015">2015</option>
+			<option value="2014">2014</option>
+			<option value="2013">2013</option>
+			<option value="2012">2012</option>
+			<option value="2011">2011</option>
+			<option value="2010">2010</option>
+			<option value="2009">2009</option>
+			<option value="2008">2008</option>
+			<option value="2004">2004</option>
+			<option value="2003">2003</option>
+			<option value="2002">2002</option>
+			<option value="2001">2001</option>
+			<option value="2000">2000</option>
+			<option value="1999">1999</option>
+			<option value="1998">1998</option>
+			<option value="1997">1997</option>
+			<option value="1996">1996</option>
+			<option value="1995">1995</option>
+			<option value="1994">1994</option>
+			<option value="1993">1993</option>
+			<option value="1992">1992</option>
+			<option value="1991">1991</option>
+			<option value="1990">1990</option>
+			<option value="1989">1989</option>
+			<option value="1988">1988</option>
+			<option value="1987">1987</option>
+			<option value="1986">1986</option>
+			<option value="1985">1985</option>
+			<option value="1984">1984</option>
+			<option value="1983">1983</option>
+		</select> 
+		<input type="button" id="showjumper" value="Jump to Date!" />
+		<a href='#void' onclick="$(this).hide();$('.setlistoptions').show();" style='font-weight:bold;margin-left:5px;'>Setlist Options</a>
+		<fieldset class="setlistoptions" style='display:none;'>
+			<legend>Setlist Options</legend>
+			<span id="fontadjust">
+				Adjust Text size: <a class="increaseFont">Bigger</a> | <a class="decreaseFont">Smaller</a> | <a class="resetFont">Reset</a>
+			</span><br />
+			Footnotes: <a href="http://phish.net/lib/php/session.php?op=set&pref=songfootnotes&val=off">Hide Song Footnotes</a><br />View: <a href="http://phish.net/lib/php/session.php?op=set&pref=songnicknames&val=1" style="color:green;">Show Song Nicknames</a>
+				<a href="http://blog.phish.net/1296494327/introducing-shorthand-setlists" style="font-size:x-small;font-weight:bold;">[?]</a>			<a href="http://phish.net/abbr" style="font-size:x-small;color:#333;">[guide]</a>  
+			Teases: <a href="http://phish.net/lib/php/session.php?op=set&pref=teasebox&val=no">Hide Teases</a>			
+			Albums: <a href="http://phish.net/lib/php/session.php?op=set&pref=albums&val=no">Hide Song Distribution</a>		</fieldset>
+	</form>	
+</p>		<div id="setlistlegend"><br />: <a href="#2016-01-01">1</a> | <a href="#2016-01-02">2</a> | <a href="#2016-01-15">15</a> | <a href="#2016-01-16">16</a> | <a href="#2016-01-17">17</a><br />: <a href="#2016-06-22">22</a> | <a href="#2016-06-24">24</a> | <a href="#2016-06-25">25</a> | <a href="#2016-06-26">26</a> | <a href="#2016-06-28">28</a> | <a href="#2016-06-29">29</a><br />: <a href="#2016-07-01">1</a> | <a href="#2016-07-02">2</a> | <a href="#2016-07-03">3</a> | <a href="#2016-07-06">6</a> | <a href="#2016-07-08">8</a> | <a href="#2016-07-09">9</a> | <a href="#2016-07-10">10</a> | <a href="#2016-07-15">15</a> | <a href="#2016-07-16">16</a> | <a href="#2016-07-18">18</a> | <a href="#2016-07-19">19</a> | <a href="#2016-07-20">20</a> | <a href="#2016-07-22">22</a> | <a href="#2016-07-23">23</a><br />: <a href="#2016-08-26">26</a> | <a href="#2016-08-28">28</a><br />: <a href="#2016-09-02">2</a> | <a href="#2016-09-03">3</a> | <a href="#2016-09-04">4</a><br />: <a href="#2016-10-14">14</a> | <a href="#2016-10-15">15</a> | <a href="#2016-10-16">16</a> | <a href="#2016-10-18">18</a> | <a href="#2016-10-19">19</a> | <a href="#2016-10-21">21</a> | <a href="#2016-10-22">22</a> | <a href="#2016-10-24">24</a> | <a href="#2016-10-25">25</a> | <a href="#2016-10-28">28</a> | <a href="#2016-10-29">29</a> | <a href="#2016-10-30">30</a> | <a href="#2016-10-31">31</a></div><a name="2016-01-01" class="anchor">&nbsp;</a>
+<div class="setlist">
+	<h2>
+		<a href="http://phish.net/setlists/?d=2016-01-01"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=2016-01-01" class="sldate">Friday, 01/01/2016</a> 
+		<br /><i><a href="http://phish.net/venue/157" class='venue'>Madison Square Garden</a>, New York, NY</i>
+	</h2>
+	<p><b>Set 1</b>: <a href="http://phish.net/song/stealing-time-from-the-faulty-plan" title="Stealing Time From the Faulty Plan" class='jcard'>STFTFP</a><a href="http://phish.net/song/stealing-time-from-the-faulty-plan" class="full">Stealing Time From the Faulty Plan</a> <a href="http://phish.net/song/heavy-things">Heavy Things</a> <a href="http://phish.net/song/how-many-people-are-you">How Many People Are You</a> <a href="http://phish.net/song/stash">Stash</a> <a href="http://phish.net/song/undermind">Undermind</a> <a href="http://phish.net/song/rift">Rift</a> <a href="http://phish.net/song/wingsuit">Wingsuit</a> <a href="http://phish.net/song/ocelot">Ocelot</a> <a href="http://phish.net/song/lawn-boy">Lawn Boy</a> <a href="http://phish.net/song/run-like-an-antelope" title="Run Like an Antelope" class='jcard'>Antelope</a><a href="http://phish.net/song/run-like-an-antelope" class="full">Run Like an Antelope</a></p>
+	<p><b>Set 2</b>: <a href="http://phish.net/song/down-with-disease" title="Down with Disease" class='jcard'>DwD</a><a href="http://phish.net/song/down-with-disease" class="full">Down with Disease</a><sup>[1]</sup> <a href="http://phish.net/song/dirt">Dirt</a> <a href="http://phish.net/song/halfway-to-the-moon">Halfway to the Moon</a> <a href="http://phish.net/song/theme-from-the-bottom" title="Theme From the Bottom" class='jcard'>Theme</a><a href="http://phish.net/song/theme-from-the-bottom" class="full">Theme From the Bottom</a> <a href="http://phish.net/song/light">Light</a> <a href="http://phish.net/song/fuego">Fuego</a> <a href="http://phish.net/song/slave-to-the-traffic-light" title="Slave to the Traffic Light" class='jcard'>Slave</a><a href="http://phish.net/song/slave-to-the-traffic-light" class="full">Slave to the Traffic Light</a></p>
+	<p><b>Encore</b>: <a href="http://phish.net/song/farmhouse">Farmhouse</a></p></p>
+	<p class='footnotes'>[1] Unfinished.<br /></p><p style='clear:both !important;'><strong>Teases:</strong><br />&middot; <a href="/setlists/teases/stash?teaseid=3957">Stash</a>, <a href="/setlists/teases/stealing-time-from-the-faulty-plan?teaseid=3958">Stealing Time From the Faulty Plan</a>, and <a href="/setlists/teases/how-many-people-are-you?teaseid=3959">How Many People Are You</a> teases  in Undermind<br />&middot; <a href="/setlists/teases/stealing-time-from-the-faulty-plan?teaseid=3960">Stealing Time From the Faulty Plan</a>, <a href="/setlists/teases/stash?teaseid=3961">Stash</a>, and <a href="/setlists/teases/how-many-people-are-you?teaseid=3963">How Many People Are You</a> teases  in Run Like an Antelope<br />&middot; <a href="/setlists/teases/manteca?teaseid=3962">Manteca</a> and <a href="/setlists/teases/linus-and-lucy?teaseid=3966">Linus and Lucy</a> teases  in Light</p>
+	<p><strong>Notes:</strong> This show was&nbsp;webcast via&nbsp;<a href="http://www.livephish.com/">Live Phish</a>. Undermind and Antelope&nbsp;contained Stash, STFTFP, and How Many People Are You teases.&nbsp;Disease was unfinished. Light included a Linus and Lucy tease from Page and a Manteca tease from Trey.</p>
+	<h5 class="r"><a href="?d=2016-01-01"><img src="http://smedia.pnet-static.com/famfamfam/application_form.png" alt="Reviews" /></a> 
+			<a href="http://phish.net/setlists/?d=2016-01-01" class="h rpad">7 Reviews</a> 
+			<a href="http://phish.net/reviews/add.php?d=2016-01-01"><img src="http://smedia.pnet-static.com/famfamfam/application_form_add.png" alt="Add Review" /></a>
+			<a href="http://phish.net/reviews/add.php?d=2016-01-01" class="h rpad">Add Review</a><a href="http://phish.net/setlists/gapchart.php?d=2016-01-01"><img src="http://smedia.pnet-static.com/famfamfam/chart_curve.png" alt="Gap Chart" /></a>
+			<a href="http://phish.net/setlists/gapchart.php?d=2016-01-01" class="h">Gap Chart</a>
+			
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> <a name="2016-01-02" class="anchor">&nbsp;</a>
+<div class="setlist">
+	<h2>
+		<a href="http://phish.net/setlists/?d=2016-01-02"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=2016-01-02" class="sldate">Saturday, 01/02/2016</a> 
+		<br /><i><a href="http://phish.net/venue/157" class='venue'>Madison Square Garden</a>, New York, NY</i>
+	</h2>
+	<p><b>Set 1</b>: <a href="http://phish.net/song/your-pet-cat">Your Pet Cat</a> <a href="http://phish.net/song/acdc-bag" title="AC/DC Bag" class='jcard'>Bag</a><a href="http://phish.net/song/acdc-bag" class="full">AC/DC Bag</a> <a href="http://phish.net/song/nicu">NICU</a> <a href="http://phish.net/song/its-ice">It's Ice</a> <a href="http://phish.net/song/horn">Horn</a> <a href="http://phish.net/song/divided-sky" title="Divided Sky" class='jcard'>Divided</a><a href="http://phish.net/song/divided-sky" class="full">Divided Sky</a> <a href="http://phish.net/song/axilla">Axilla</a> <a href="http://phish.net/song/maze">Maze</a> <a href="http://phish.net/song/train-song">Train Song</a> <a href="http://phish.net/song/julius">Julius</a></p>
+	<p><b>Set 2</b>: <a href="http://phish.net/song/tweezer">Tweezer</a> <a href="http://phish.net/song/sand">Sand</a> <a href="http://phish.net/song/limb-by-limb" title="Limb By Limb" class='jcard'>LxL</a><a href="http://phish.net/song/limb-by-limb" class="full">Limb By Limb</a> <a href="http://phish.net/song/suzy-greenberg" title="Suzy Greenberg" class='jcard'>Suzy</a><a href="http://phish.net/song/suzy-greenberg" class="full">Suzy Greenberg</a> <a href="http://phish.net/song/harry-hood" title="Harry Hood" class='jcard'>Hood</a><a href="http://phish.net/song/harry-hood" class="full">Harry Hood</a> <a href="http://phish.net/song/you-enjoy-myself" title="You Enjoy Myself" class='jcard'>YEM</a><a href="http://phish.net/song/you-enjoy-myself" class="full">You Enjoy Myself</a><sup>[1]</sup></p>
+	<p><b>Encore</b>: <a href="http://phish.net/song/the-lizards" title="The Lizards" class='jcard'>Lizards</a><a href="http://phish.net/song/the-lizards" class="full">The Lizards</a> <a href="http://phish.net/song/tweezer-reprise" title="Tweezer Reprise" class='jcard'>Tweeprise</a><a href="http://phish.net/song/tweezer-reprise" class="full">Tweezer Reprise</a></p></p>
+	<p class='footnotes'>[1] Trey briefly joined Fish on drums.<br /></p><p style='clear:both !important;'><strong>Teases:</strong><br />&middot; <a href="/setlists/teases/stash?teaseid=3964">Stash</a> tease in Divided Sky<br />&middot; <a href="/setlists/teases/axilla?teaseid=3965">Axilla</a> tease in Maze</p>
+	<p><strong>Notes:</strong> This show was&nbsp;webcast via&nbsp;<a href="http://www.livephish.com/">Live Phish</a>. Trey teased Stash during Divided Sky and Axilla during Maze.&nbsp;During YEM, Trey briefly joined Fish on the drums.</p>
+	<h5 class="r"><a href="?d=2016-01-02"><img src="http://smedia.pnet-static.com/famfamfam/application_form.png" alt="Reviews" /></a> 
+			<a href="http://phish.net/setlists/?d=2016-01-02" class="h rpad">19 Reviews</a> 
+			<a href="http://phish.net/reviews/add.php?d=2016-01-02"><img src="http://smedia.pnet-static.com/famfamfam/application_form_add.png" alt="Add Review" /></a>
+			<a href="http://phish.net/reviews/add.php?d=2016-01-02" class="h rpad">Add Review</a><a href="http://phish.net/setlists/gapchart.php?d=2016-01-02"><img src="http://smedia.pnet-static.com/famfamfam/chart_curve.png" alt="Gap Chart" /></a>
+			<a href="http://phish.net/setlists/gapchart.php?d=2016-01-02" class="h">Gap Chart</a>
+			
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> <a name="2016-01-15" class="anchor">&nbsp;</a>
+<div class="setlist">
+	<h2>
+		<a href="http://phish.net/setlists/?d=2016-01-15"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=2016-01-15" class="sldate">Friday, 01/15/2016</a> 
+		<br /><i><a href="http://phish.net/venue/1349" class='venue'>Barceló Maya Beach</a>, Riviera Maya, Quintana Roo, Mexico</i>
+	</h2>
+	<p><b>Set 1</b>: <a href="http://phish.net/song/a-song-i-heard-the-ocean-sing" title="A Song I Heard the Ocean Sing" class='jcard'>ASIHTOS</a><a href="http://phish.net/song/a-song-i-heard-the-ocean-sing" class="full">A Song I Heard the Ocean Sing</a> <a href="http://phish.net/song/my-soul">My Soul</a> <a href="http://phish.net/song/martian-monster">Martian Monster</a> <a href="http://phish.net/song/ya-mar">Ya Mar</a> <a href="http://phish.net/song/halleys-comet" title="Halley's Comet" class='jcard'>Halley's</a><a href="http://phish.net/song/halleys-comet" class="full">Halley's Comet</a> <a href="http://phish.net/song/fuego">Fuego</a> <a href="http://phish.net/song/the-wedge" title="The Wedge" class='jcard'>Wedge</a><a href="http://phish.net/song/the-wedge" class="full">The Wedge</a> <a href="http://phish.net/song/theme-from-the-bottom" title="Theme From the Bottom" class='jcard'>Theme</a><a href="http://phish.net/song/theme-from-the-bottom" class="full">Theme From the Bottom</a> <a href="http://phish.net/song/free">Free</a> <a href="http://phish.net/song/david-bowie" title="David Bowie" class='jcard'>Bowie</a><a href="http://phish.net/song/david-bowie" class="full">David Bowie</a></p>
+	<p><b>Set 2</b>: <a href="http://phish.net/song/drowned">Drowned</a> <a href="http://phish.net/song/whats-the-use" title="What's the Use?" class='jcard'>WTU?</a><a href="http://phish.net/song/whats-the-use" class="full">What's the Use?</a> <a href="http://phish.net/song/sand">Sand</a> <a href="http://phish.net/song/ghost">Ghost</a> <a href="http://phish.net/song/also-sprach-zarathustra" title="Also Sprach Zarathustra" class='jcard'>2001</a><a href="http://phish.net/song/also-sprach-zarathustra" class="full">Also Sprach Zarathustra</a> <a href="http://phish.net/song/wolfmans-brother" title="Wolfman's Brother" class='jcard'>Wolfman's</a><a href="http://phish.net/song/wolfmans-brother" class="full">Wolfman's Brother</a> <a href="http://phish.net/song/possum">Possum</a> <a href="http://phish.net/song/shine-a-light">Shine a Light</a></p>
+	<p><b>Encore</b>: <a href="http://phish.net/song/rock-and-roll" title="Rock and Roll" class='jcard'>R&amp;R</a><a href="http://phish.net/song/rock-and-roll" class="full">Rock and Roll</a></p></p><p style='clear:both !important;'><strong>Teases:</strong><br />&middot; <a href="/setlists/teases/sneakin-sally-through-the-alley?teaseid=3978">Sneakin' Sally through the Alley</a> tease in Possum<br />&middot; <a href="/setlists/teases/theme-from-gilligans-island?teaseid=3979">Theme from Gilligan's Island</a> tease in David Bowie</p>
+	<p><strong>Notes:</strong> This show was&nbsp;webcast via&nbsp;<a href="http://www.livephish.com/">Live Phish</a>. David Bowie contained a Theme from <em>Gilligan&#39;s Island</em> tease from Mike. Trey teased Sneakin&#39; Sally in Possum.&nbsp;Jefferson Waful assisted Chris Kuroda on lights for the first time and would do so for the rest of the weekend&#39;s shows.</p>
+	<h5 class="r"><a href="?d=2016-01-15"><img src="http://smedia.pnet-static.com/famfamfam/application_form.png" alt="Reviews" /></a> 
+			<a href="http://phish.net/setlists/?d=2016-01-15" class="h rpad">5 Reviews</a> 
+			<a href="http://phish.net/reviews/add.php?d=2016-01-15"><img src="http://smedia.pnet-static.com/famfamfam/application_form_add.png" alt="Add Review" /></a>
+			<a href="http://phish.net/reviews/add.php?d=2016-01-15" class="h rpad">Add Review</a><a href="http://phish.net/setlists/gapchart.php?d=2016-01-15"><img src="http://smedia.pnet-static.com/famfamfam/chart_curve.png" alt="Gap Chart" /></a>
+			<a href="http://phish.net/setlists/gapchart.php?d=2016-01-15" class="h">Gap Chart</a>
+			
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> <a name="2016-01-16" class="anchor">&nbsp;</a>
+<div class="setlist">
+	<h2>
+		<a href="http://phish.net/setlists/?d=2016-01-16"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=2016-01-16" class="sldate">Saturday, 01/16/2016</a> 
+		<br /><i><a href="http://phish.net/venue/1349" class='venue'>Barceló Maya Beach</a>, Riviera Maya, Quintana Roo, Mexico</i>
+	</h2>
+	<p><b>Set 1</b>: <a href="http://phish.net/song/camel-walk">Camel Walk</a> <a href="http://phish.net/song/555">555</a> <a href="http://phish.net/song/rift">Rift</a> <a href="http://phish.net/song/cities">Cities</a> <a href="http://phish.net/song/light">Light</a> <a href="http://phish.net/song/simple">Simple</a> <a href="http://phish.net/song/timber-jerry" title="Timber (Jerry)" class='jcard'>Timber</a><a href="http://phish.net/song/timber-jerry" class="full">Timber (Jerry)</a> <a href="http://phish.net/song/wading-in-the-velvet-sea" title="Wading in the Velvet Sea" class='jcard'>Velvet Sea</a><a href="http://phish.net/song/wading-in-the-velvet-sea" class="full">Wading in the Velvet Sea</a> <a href="http://phish.net/song/reba">Reba</a><sup>[1]</sup> <a href="http://phish.net/song/chalk-dust-torture" title="Chalk Dust Torture" class='jcard'>CDT</a><a href="http://phish.net/song/chalk-dust-torture" class="full">Chalk Dust Torture</a></p>
+	<p><b>Set 2</b>: <a href="http://phish.net/song/golden-age">Golden Age</a> <a href="http://phish.net/song/prince-caspian" title="Prince Caspian" class='jcard'>Caspian</a><a href="http://phish.net/song/prince-caspian" class="full">Prince Caspian</a> <a href="http://phish.net/song/halfway-to-the-moon">Halfway to the Moon</a> <a href="http://phish.net/song/joy">Joy</a> <a href="http://phish.net/song/46-days">46 Days</a> <a href="http://phish.net/song/twenty-years-later">Twenty Years Later</a> <a href="http://phish.net/song/julius">Julius</a> <a href="http://phish.net/song/harry-hood" title="Harry Hood" class='jcard'>Hood</a><a href="http://phish.net/song/harry-hood" class="full">Harry Hood</a></p>
+	<p><b>Encore</b>: <a href="http://phish.net/song/character-zero">Character Zero</a></p></p>
+	<p class='footnotes'>[1] No whistling.<br /></p><p style='clear:both !important;'><strong>Teases:</strong><br />&middot; <a href="/setlists/teases/magilla?teaseid=3969">Magilla</a> tease in Simple<br />&middot; <a href="/setlists/teases/reba?teaseid=3971">Reba</a> quote in Chalk Dust Torture</p>
+	<p><strong>Notes:</strong> This show was&nbsp;webcast via&nbsp;<a href="http://www.livephish.com/">Live Phish</a>. Page teased Magilla during Simple. Reba did not contain the whistling ending, but Trey briefly&nbsp;quoted Reba&#39;s whistling coda&nbsp;in&nbsp;Chalk Dust.</p>
+	<h5 class="r"><a href="?d=2016-01-16"><img src="http://smedia.pnet-static.com/famfamfam/application_form.png" alt="Reviews" /></a> 
+			<a href="http://phish.net/setlists/?d=2016-01-16" class="h rpad">9 Reviews</a> 
+			<a href="http://phish.net/reviews/add.php?d=2016-01-16"><img src="http://smedia.pnet-static.com/famfamfam/application_form_add.png" alt="Add Review" /></a>
+			<a href="http://phish.net/reviews/add.php?d=2016-01-16" class="h rpad">Add Review</a><a href="http://phish.net/setlists/gapchart.php?d=2016-01-16"><img src="http://smedia.pnet-static.com/famfamfam/chart_curve.png" alt="Gap Chart" /></a>
+			<a href="http://phish.net/setlists/gapchart.php?d=2016-01-16" class="h">Gap Chart</a>
+			
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> <a name="2016-01-17" class="anchor">&nbsp;</a>
+<div class="setlist">
+	<h2>
+		<a href="http://phish.net/setlists/?d=2016-01-17"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=2016-01-17" class="sldate">Sunday, 01/17/2016</a> 
+		<br /><i><a href="http://phish.net/venue/1349" class='venue'>Barceló Maya Beach</a>, Riviera Maya, Quintana Roo, Mexico</i>
+	</h2>
+	<p><b>Set 1</b>: <a href="http://phish.net/song/mexican-cousin">Mexican Cousin</a> <a href="http://phish.net/song/the-curtain-with" title="The Curtain With" class='jcard'>Curtain With</a><a href="http://phish.net/song/the-curtain-with" class="full">The Curtain With</a> <a href="http://phish.net/song/sample-in-a-jar" title="Sample in a Jar" class='jcard'>Sample</a><a href="http://phish.net/song/sample-in-a-jar" class="full">Sample in a Jar</a> <a href="http://phish.net/song/yarmouth-road">Yarmouth Road</a> <a href="http://phish.net/song/the-landlady" title="The Landlady" class='jcard'>Landlady</a><a href="http://phish.net/song/the-landlady" class="full">The Landlady</a> <a href="http://phish.net/song/army-of-one">Army of One</a> <a href="http://phish.net/song/kill-devil-falls" title="Kill Devil Falls" class='jcard'>KDF</a><a href="http://phish.net/song/kill-devil-falls" class="full">Kill Devil Falls</a> <a href="http://phish.net/song/bathtub-gin" title="Bathtub Gin" class='jcard'>Gin</a><a href="http://phish.net/song/bathtub-gin" class="full">Bathtub Gin</a> <a href="http://phish.net/song/funky-bitch">Funky Bitch</a> <a href="http://phish.net/song/the-moma-dance" title="The Moma Dance" class='jcard'>Moma</a><a href="http://phish.net/song/the-moma-dance" class="full">The Moma Dance</a><sup>[1]</sup> <a href="http://phish.net/song/saw-it-again">Saw It Again</a></p>
+	<p><b>Set 2</b>: <a href="http://phish.net/song/down-with-disease" title="Down with Disease" class='jcard'>DwD</a><a href="http://phish.net/song/down-with-disease" class="full">Down with Disease</a><sup>[1]</sup> <a href="http://phish.net/song/roggae">Roggae</a> <a href="http://phish.net/song/crosseyed-and-painless" title="Crosseyed and Painless" class='jcard'>C&amp;P</a><a href="http://phish.net/song/crosseyed-and-painless" class="full">Crosseyed and Painless</a> <a href="http://phish.net/song/farmhouse">Farmhouse</a> <a href="http://phish.net/song/mikes-song" title="Mike's Song" class='jcard'>Mike's</a><a href="http://phish.net/song/mikes-song" class="full">Mike's Song</a> <a href="http://phish.net/song/bug">Bug</a> <a href="http://phish.net/song/weekapaug-groove" title="Weekapaug Groove" class='jcard'>Weekapaug</a><a href="http://phish.net/song/weekapaug-groove" class="full">Weekapaug Groove</a> <a href="http://phish.net/song/slave-to-the-traffic-light" title="Slave to the Traffic Light" class='jcard'>Slave</a><a href="http://phish.net/song/slave-to-the-traffic-light" class="full">Slave to the Traffic Light</a></p>
+	<p><b>Encore</b>: <a href="http://phish.net/song/the-ocean">The Ocean</a><sup>[2]</sup></p></p>
+	<p class='footnotes'>[1] Unfinished.<br />[2] Phish debut.<br /></p><p style='clear:both !important;'><strong>Teases:</strong><br />&middot; <a href="/setlists/teases/shipwreck?teaseid=3973">Shipwreck</a> and <a href="/setlists/teases/the-rover?teaseid=3977">The Rover</a> quotes  in Down with Disease<br />&middot; <a href="/setlists/teases/shipwreck?teaseid=3975">Shipwreck</a> and <a href="/setlists/teases/i-dont-live-today?teaseid=3980">I Don't Live Today</a> quotes  in Crosseyed and Painless<br />&middot; <a href="/setlists/teases/shipwreck?teaseid=3976">Shipwreck</a> and <a href="/setlists/teases/your-pet-cat?teaseid=3988">Your Pet Cat</a> quotes  in Weekapaug Groove</p>
+	<p><strong>Notes:</strong> This show was&nbsp;webcast via&nbsp;<a href="http://www.livephish.com/">Live Phish</a>&nbsp;and featured the Phish debut of The Ocean. Moma Dance and DWD were unfinished.&nbsp;Trey teased The Rover at the start of&nbsp;DWD. DWD,&nbsp;Crosseyed, and Weekapaug contained Shipwreck quotes. Crosseyed also contained an I Don&#39;t Live Today quote from Fish.&nbsp;Trey teased Your Pet Cat in Weekapaug.</p>
+	<h5 class="r"><a href="?d=2016-01-17"><img src="http://smedia.pnet-static.com/famfamfam/application_form.png" alt="Reviews" /></a> 
+			<a href="http://phish.net/setlists/?d=2016-01-17" class="h rpad">3 Reviews</a> 
+			<a href="http://phish.net/reviews/add.php?d=2016-01-17"><img src="http://smedia.pnet-static.com/famfamfam/application_form_add.png" alt="Add Review" /></a>
+			<a href="http://phish.net/reviews/add.php?d=2016-01-17" class="h rpad">Add Review</a><a href="http://phish.net/setlists/gapchart.php?d=2016-01-17"><img src="http://smedia.pnet-static.com/famfamfam/chart_curve.png" alt="Gap Chart" /></a>
+			<a href="http://phish.net/setlists/gapchart.php?d=2016-01-17" class="h">Gap Chart</a>
+			
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> <a name="2016-06-22" class="anchor">&nbsp;</a>
+<div class="setlist">
+	<h2>
+		<a href="http://phish.net/setlists/?d=2016-06-22"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=2016-06-22" class="sldate">Wednesday, 06/22/2016</a> 
+		<br /><i><a href="http://phish.net/venue/1366" class='venue'>Xcel Energy Center</a>, St. Paul, MN</i>
+	</h2>
+	<p><i>Soundcheck</i>: Bouncing Around the Room, The Dogs, Pigtail, Unknown song (Trey vocals), Waking Up Dead, Things People Do, Shade, Yarmouth Road, Heavy Things (partial), Halfway To The Moon, Yarmouth Road Jam</p>	<p><b>Set 1</b>: <a href="http://phish.net/song/pigtail">Pigtail</a> <a href="http://phish.net/song/wolfmans-brother" title="Wolfman's Brother" class='jcard'>Wolfman's</a><a href="http://phish.net/song/wolfmans-brother" class="full">Wolfman's Brother</a> <a href="http://phish.net/song/daniel-saw-the-stone">Daniel Saw the Stone</a> <a href="http://phish.net/song/the-dogs">The Dogs</a> <a href="http://phish.net/song/undermind">Undermind</a> <a href="http://phish.net/song/dear-prudence">Dear Prudence</a> <a href="http://phish.net/song/stash">Stash</a> <a href="http://phish.net/song/round-room">Round Room</a> <a href="http://phish.net/song/horn">Horn</a> <a href="http://phish.net/song/uncle-pen">Uncle Pen</a> <a href="http://phish.net/song/halfway-to-the-moon">Halfway to the Moon</a> <a href="http://phish.net/song/walls-of-the-cave" title="Walls of the Cave" class='jcard'>WotC</a><a href="http://phish.net/song/walls-of-the-cave" class="full">Walls of the Cave</a></p>
+	<p><b>Set 2</b>: <a href="http://phish.net/song/mikes-song" title="Mike's Song" class='jcard'>Mike's</a><a href="http://phish.net/song/mikes-song" class="full">Mike's Song</a> <a href="http://phish.net/song/i-am-hydrogen" title="I Am Hydrogen" class='jcard'>Hydrogen</a><a href="http://phish.net/song/i-am-hydrogen" class="full">I Am Hydrogen</a> <a href="http://phish.net/song/weekapaug-groove" title="Weekapaug Groove" class='jcard'>Weekapaug</a><a href="http://phish.net/song/weekapaug-groove" class="full">Weekapaug Groove</a> <a href="http://phish.net/song/bouncing-around-the-room" title="Bouncing Around the Room" class='jcard'>Bouncin'</a><a href="http://phish.net/song/bouncing-around-the-room" class="full">Bouncing Around the Room</a> <a href="http://phish.net/song/ghost">Ghost</a> <a href="http://phish.net/song/the-line">The Line</a> <a href="http://phish.net/song/simple">Simple</a> <a href="http://phish.net/song/i-found-a-reason">I Found a Reason</a> <a href="http://phish.net/song/no-men-in-no-mans-land" title="No Men In No Man's Land" class='jcard'>NMINML</a><a href="http://phish.net/song/no-men-in-no-mans-land" class="full">No Men In No Man's Land</a> <a href="http://phish.net/song/billy-breathes">Billy Breathes</a> <a href="http://phish.net/song/bathtub-gin" title="Bathtub Gin" class='jcard'>Gin</a><a href="http://phish.net/song/bathtub-gin" class="full">Bathtub Gin</a></p>
+	<p><b>Encore</b>: <a href="http://phish.net/song/water-in-the-sky">Water in the Sky</a> <a href="http://phish.net/song/character-zero">Character Zero</a></p></p><p style='clear:both !important;'><strong>Teases:</strong><br />&middot; <a href="/setlists/teases/the-little-drummer-boy?teaseid=4041">The Little Drummer Boy</a> tease in Ghost<br />&middot; <a href="/setlists/teases/magilla?teaseid=4042">Magilla</a> tease in Simple</p>
+	<p><strong>Notes:</strong> This show featured several&nbsp;bustouts:&nbsp;Pigtail (last played&nbsp;December 28,&nbsp;2010, or&nbsp;195 shows),&nbsp;Daniel Saw the Stone (last played June 30, 2012, or&nbsp;140 shows),&nbsp;Dear Prudence (last played October 31, 1994, or&nbsp;796 shows),&nbsp;Round Room (last played January 1, 2011, or 192 shows),&nbsp;Uncle Pen (last played August 31, 2012, or 123 shows), and I Found A Reason (last played October 31, 1998, or 493 shows). Trey teased The Little Drummer Boy in Ghost. Page teased Magilla in Simple.</p>
+	<h5 class="r"><a href="?d=2016-06-22"><img src="http://smedia.pnet-static.com/famfamfam/application_form.png" alt="Reviews" /></a> 
+			<a href="http://phish.net/setlists/?d=2016-06-22" class="h rpad">16 Reviews</a> 
+			<a href="http://phish.net/reviews/add.php?d=2016-06-22"><img src="http://smedia.pnet-static.com/famfamfam/application_form_add.png" alt="Add Review" /></a>
+			<a href="http://phish.net/reviews/add.php?d=2016-06-22" class="h rpad">Add Review</a><a href="http://phish.net/setlists/gapchart.php?d=2016-06-22"><img src="http://smedia.pnet-static.com/famfamfam/chart_curve.png" alt="Gap Chart" /></a>
+			<a href="http://phish.net/setlists/gapchart.php?d=2016-06-22" class="h">Gap Chart</a>
+			
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> <a name="2016-06-24" class="anchor">&nbsp;</a>
+<div class="setlist">
+	<h2>
+		<a href="http://phish.net/setlists/?d=2016-06-24"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=2016-06-24" class="sldate">Friday, 06/24/2016</a> 
+		<br /><i><a href="http://phish.net/venue/1367" class='venue'>Wrigley Field</a>, Chicago, IL</i>
+	</h2>
+	<p><i>Soundcheck</i>: Unknown song, Waking Up Dead, Things People Do, Miss You, Blues Jam</p>	<p><b>Set 1</b>: <a href="http://phish.net/song/sample-in-a-jar" title="Sample in a Jar" class='jcard'>Sample</a><a href="http://phish.net/song/sample-in-a-jar" class="full">Sample in a Jar</a> <a href="http://phish.net/song/chalk-dust-torture" title="Chalk Dust Torture" class='jcard'>CDT</a><a href="http://phish.net/song/chalk-dust-torture" class="full">Chalk Dust Torture</a> <a href="http://phish.net/song/martian-monster">Martian Monster</a> <a href="http://phish.net/song/rift">Rift</a> <a href="http://phish.net/song/yarmouth-road">Yarmouth Road</a> <a href="http://phish.net/song/sand">Sand</a> <a href="http://phish.net/song/miss-you-phish">Miss You</a><sup>[1]</sup> <a href="http://phish.net/song/the-wedge" title="The Wedge" class='jcard'>Wedge</a><a href="http://phish.net/song/the-wedge" class="full">The Wedge</a> <a href="http://phish.net/song/free">Free</a> <a href="http://phish.net/song/blaze-on">Blaze On</a></p>
+	<p><b>Set 2</b>: <a href="http://phish.net/song/down-with-disease" title="Down with Disease" class='jcard'>DwD</a><a href="http://phish.net/song/down-with-disease" class="full">Down with Disease</a><sup>[2]</sup> <a href="http://phish.net/song/fuego">Fuego</a> <a href="http://phish.net/song/twist">Twist</a> <a href="http://phish.net/song/twenty-years-later">Twenty Years Later</a> <a href="http://phish.net/song/waste">Waste</a> <a href="http://phish.net/song/also-sprach-zarathustra" title="Also Sprach Zarathustra" class='jcard'>2001</a><a href="http://phish.net/song/also-sprach-zarathustra" class="full">Also Sprach Zarathustra</a> <a href="http://phish.net/song/backwards-down-the-number-line" title="Backwards Down the Number Line" class='jcard'>BDTNL</a><a href="http://phish.net/song/backwards-down-the-number-line" class="full">Backwards Down the Number Line</a> <a href="http://phish.net/song/loving-cup">Loving Cup</a></p>
+	<p><b>Encore</b>: <a href="http://phish.net/song/space-oddity">Space Oddity</a><sup>[3]</sup> <a href="http://phish.net/song/run-like-an-antelope" title="Run Like an Antelope" class='jcard'>Antelope</a><a href="http://phish.net/song/run-like-an-antelope" class="full">Run Like an Antelope</a></p></p>
+	<p class='footnotes'>[1] Debut.<br />[2] Unfinished.<br />[3] Phish debut.<br /></p><p style='clear:both !important;'><strong>Teases:</strong><br />&middot; <a href="/setlists/teases/weekapaug-groove?teaseid=4043">Weekapaug Groove</a> tease in Twist</p>
+	<p><strong>Notes:</strong> This show was&nbsp;webcast via&nbsp;<a href="http://www.livephish.com/">Live Phish</a>. Following the debut of Miss You, Trey noted&nbsp;that the song would be&nbsp;on their new album&nbsp;and thanked the crowd for letting them try new material. Disease was unfinished. Fish teased Weekapaug in Twist.&nbsp;Space Oddity was a Phish debut.</p>
+	<h5 class="r"><a href="?d=2016-06-24"><img src="http://smedia.pnet-static.com/famfamfam/application_form.png" alt="Reviews" /></a> 
+			<a href="http://phish.net/setlists/?d=2016-06-24" class="h rpad">8 Reviews</a> 
+			<a href="http://phish.net/reviews/add.php?d=2016-06-24"><img src="http://smedia.pnet-static.com/famfamfam/application_form_add.png" alt="Add Review" /></a>
+			<a href="http://phish.net/reviews/add.php?d=2016-06-24" class="h rpad">Add Review</a><a href="http://phish.net/setlists/gapchart.php?d=2016-06-24"><img src="http://smedia.pnet-static.com/famfamfam/chart_curve.png" alt="Gap Chart" /></a>
+			<a href="http://phish.net/setlists/gapchart.php?d=2016-06-24" class="h">Gap Chart</a>
+			
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> <a name="2016-06-25" class="anchor">&nbsp;</a>
+<div class="setlist">
+	<h2>
+		<a href="http://phish.net/setlists/?d=2016-06-25"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=2016-06-25" class="sldate">Saturday, 06/25/2016</a> 
+		<br /><i><a href="http://phish.net/venue/1367" class='venue'>Wrigley Field</a>, Chicago, IL</i>
+	</h2>
+	<p><b>Set 1</b>: <a href="http://phish.net/song/the-moma-dance" title="The Moma Dance" class='jcard'>Moma</a><a href="http://phish.net/song/the-moma-dance" class="full">The Moma Dance</a> <a href="http://phish.net/song/acdc-bag" title="AC/DC Bag" class='jcard'>Bag</a><a href="http://phish.net/song/acdc-bag" class="full">AC/DC Bag</a> <a href="http://phish.net/song/555">555</a> <a href="http://phish.net/song/waiting-all-night">Waiting All Night</a> <a href="http://phish.net/song/heavy-things">Heavy Things</a> <a href="http://phish.net/song/happy-birthday-to-you" title="Happy Birthday to You" class='jcard'>Happy Birthday</a><a href="http://phish.net/song/happy-birthday-to-you" class="full">Happy Birthday to You</a> <a href="http://phish.net/song/46-days">46 Days</a> <a href="http://phish.net/song/i-didnt-know" title="I Didn't Know" class='jcard'>IDK</a><a href="http://phish.net/song/i-didnt-know" class="full">I Didn't Know</a> <a href="http://phish.net/song/divided-sky" title="Divided Sky" class='jcard'>Divided</a><a href="http://phish.net/song/divided-sky" class="full">Divided Sky</a> <a href="http://phish.net/song/cavern">Cavern</a> <a href="http://phish.net/song/good-times-bad-times" title="Good Times Bad Times" class='jcard'>GTBT</a><a href="http://phish.net/song/good-times-bad-times" class="full">Good Times Bad Times</a></p>
+	<p><b>Set 2</b>: <a href="http://phish.net/song/carini">Carini</a> <a href="http://phish.net/song/tweezer">Tweezer</a> <a href="http://phish.net/song/fluffhead">Fluffhead</a> <a href="http://phish.net/song/piper">Piper</a> <a href="http://phish.net/song/steam">Steam</a> <a href="http://phish.net/song/wading-in-the-velvet-sea" title="Wading in the Velvet Sea" class='jcard'>Velvet Sea</a><a href="http://phish.net/song/wading-in-the-velvet-sea" class="full">Wading in the Velvet Sea</a> <a href="http://phish.net/song/harry-hood" title="Harry Hood" class='jcard'>Hood</a><a href="http://phish.net/song/harry-hood" class="full">Harry Hood</a> <a href="http://phish.net/song/tweezer-reprise" title="Tweezer Reprise" class='jcard'>Tweeprise</a><a href="http://phish.net/song/tweezer-reprise" class="full">Tweezer Reprise</a></p>
+	<p><b>Encore</b>: <a href="http://phish.net/song/i-am-the-walrus">I Am the Walrus</a></p></p>
+	<p><strong>Notes:</strong> This show was&nbsp;webcast via&nbsp;<a href="http://www.livephish.com/">Live Phish</a>. Happy Birthday was played for Phish tour manager Richard Glasgow. I Am the Walrus was played for the first time since June 29, 2010 (229 shows).</p>
+	<h5 class="r"><a href="?d=2016-06-25"><img src="http://smedia.pnet-static.com/famfamfam/application_form.png" alt="Reviews" /></a> 
+			<a href="http://phish.net/setlists/?d=2016-06-25" class="h rpad">14 Reviews</a> 
+			<a href="http://phish.net/reviews/add.php?d=2016-06-25"><img src="http://smedia.pnet-static.com/famfamfam/application_form_add.png" alt="Add Review" /></a>
+			<a href="http://phish.net/reviews/add.php?d=2016-06-25" class="h rpad">Add Review</a><a href="http://phish.net/setlists/gapchart.php?d=2016-06-25"><img src="http://smedia.pnet-static.com/famfamfam/chart_curve.png" alt="Gap Chart" /></a>
+			<a href="http://phish.net/setlists/gapchart.php?d=2016-06-25" class="h">Gap Chart</a>
+			
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> <a name="2016-06-26" class="anchor">&nbsp;</a>
+<div class="setlist">
+	<h2>
+		<a href="http://phish.net/setlists/?d=2016-06-26"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=2016-06-26" class="sldate">Sunday, 06/26/2016</a> 
+		<br /><i><a href="http://phish.net/venue/1194" class='venue'>Klipsch Music Center</a>, Noblesville, IN</i>
+	</h2>
+	<p><b>Set 1</b>: <a href="http://phish.net/song/my-friend-my-friend" title="My Friend, My Friend" class='jcard'>My Friend</a><a href="http://phish.net/song/my-friend-my-friend" class="full">My Friend, My Friend</a> <a href="http://phish.net/song/kill-devil-falls" title="Kill Devil Falls" class='jcard'>KDF</a><a href="http://phish.net/song/kill-devil-falls" class="full">Kill Devil Falls</a> <a href="http://phish.net/song/camel-walk">Camel Walk</a> <a href="http://phish.net/song/a-song-i-heard-the-ocean-sing" title="A Song I Heard the Ocean Sing" class='jcard'>ASIHTOS</a><a href="http://phish.net/song/a-song-i-heard-the-ocean-sing" class="full">A Song I Heard the Ocean Sing</a> <a href="http://phish.net/song/poor-heart">Poor Heart</a> <a href="http://phish.net/song/tube">Tube</a> <a href="http://phish.net/song/halleys-comet" title="Halley's Comet" class='jcard'>Halley's</a><a href="http://phish.net/song/halleys-comet" class="full">Halley's Comet</a> <a href="http://phish.net/song/maze">Maze</a> <a href="http://phish.net/song/lawn-boy">Lawn Boy</a> <a href="http://phish.net/song/breath-and-burning">Breath and Burning</a><sup>[1]</sup> <a href="http://phish.net/song/saw-it-again">Saw It Again</a> <a href="http://phish.net/song/theme-from-the-bottom" title="Theme From the Bottom" class='jcard'>Theme</a><a href="http://phish.net/song/theme-from-the-bottom" class="full">Theme From the Bottom</a> <a href="http://phish.net/song/first-tube">First Tube</a></p>
+	<p><b>Set 2</b>: <a href="http://phish.net/song/punch-you-in-the-eye" title="Punch You In the Eye" class='jcard'>PYITE</a><a href="http://phish.net/song/punch-you-in-the-eye" class="full">Punch You In the Eye</a> <a href="http://phish.net/song/back-on-the-train" title="Back on the Train" class='jcard'>BOTT</a><a href="http://phish.net/song/back-on-the-train" class="full">Back on the Train</a> <a href="http://phish.net/song/light">Light</a> <a href="http://phish.net/song/golden-age">Golden Age</a> <a href="http://phish.net/song/boogie-on-reggae-woman" title="Boogie On Reggae Woman" class='jcard'>Boogie On</a><a href="http://phish.net/song/boogie-on-reggae-woman" class="full">Boogie On Reggae Woman</a> <a href="http://phish.net/song/wingsuit">Wingsuit</a> <a href="http://phish.net/song/shade">Shade</a> <a href="http://phish.net/song/possum">Possum</a></p>
+	<p><b>Encore</b>: <a href="http://phish.net/song/rock-and-roll" title="Rock and Roll" class='jcard'>R&amp;R</a><a href="http://phish.net/song/rock-and-roll" class="full">Rock and Roll</a></p></p>
+	<p class='footnotes'>[1] Debut.<br /></p>
+	<p><strong>Notes:</strong> This show featured the debut of&nbsp;Breath and Burning.</p>
+	<h5 class="r"><a href="?d=2016-06-26"><img src="http://smedia.pnet-static.com/famfamfam/application_form.png" alt="Reviews" /></a> 
+			<a href="http://phish.net/setlists/?d=2016-06-26" class="h rpad">12 Reviews</a> 
+			<a href="http://phish.net/reviews/add.php?d=2016-06-26"><img src="http://smedia.pnet-static.com/famfamfam/application_form_add.png" alt="Add Review" /></a>
+			<a href="http://phish.net/reviews/add.php?d=2016-06-26" class="h rpad">Add Review</a><a href="http://phish.net/setlists/gapchart.php?d=2016-06-26"><img src="http://smedia.pnet-static.com/famfamfam/chart_curve.png" alt="Gap Chart" /></a>
+			<a href="http://phish.net/setlists/gapchart.php?d=2016-06-26" class="h">Gap Chart</a>
+			
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> <a name="2016-06-28" class="anchor">&nbsp;</a>
+<div class="setlist">
+	<h2>
+		<a href="http://phish.net/setlists/?d=2016-06-28"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=2016-06-28" class="sldate">Tuesday, 06/28/2016</a> 
+		<br /><i><a href="http://phish.net/venue/213" class='venue'>The Mann Center for the Performing Arts</a>, Philadelphia, PA</i>
+	</h2>
+	<p><b>Set 1</b>: <a href="http://phish.net/song/wilson">Wilson</a> <a href="http://phish.net/song/funky-bitch">Funky Bitch</a> <a href="http://phish.net/song/no-men-in-no-mans-land" title="No Men In No Man's Land" class='jcard'>NMINML</a><a href="http://phish.net/song/no-men-in-no-mans-land" class="full">No Men In No Man's Land</a> <a href="http://phish.net/song/roggae">Roggae</a> <a href="http://phish.net/song/nellie-kane">Nellie Kane</a> <a href="http://phish.net/song/gumbo">Gumbo</a> <a href="http://phish.net/song/birds-of-a-feather" title="Birds of a Feather" class='jcard'>BOAF</a><a href="http://phish.net/song/birds-of-a-feather" class="full">Birds of a Feather</a> <a href="http://phish.net/song/sleep-again">Sleep Again</a> <a href="http://phish.net/song/things-people-do">Things People Do</a><sup>[1]</sup> <a href="http://phish.net/song/limb-by-limb" title="Limb By Limb" class='jcard'>LxL</a><a href="http://phish.net/song/limb-by-limb" class="full">Limb By Limb</a> <a href="http://phish.net/song/split-open-and-melt" title="Split Open and Melt" class='jcard'>SOAMelt</a><a href="http://phish.net/song/split-open-and-melt" class="full">Split Open and Melt</a> <a href="http://phish.net/song/the-oh-kee-pa-ceremony" title="The Oh Kee Pa Ceremony" class='jcard'>Oh Kee Pa</a><a href="http://phish.net/song/the-oh-kee-pa-ceremony" class="full">The Oh Kee Pa Ceremony</a> <a href="http://phish.net/song/suzy-greenberg" title="Suzy Greenberg" class='jcard'>Suzy</a><a href="http://phish.net/song/suzy-greenberg" class="full">Suzy Greenberg</a></p>
+	<p><b>Set 2</b>: <a href="http://phish.net/song/fuego">Fuego</a> <a href="http://phish.net/song/runaway-jim">Runaway Jim</a> <a href="http://phish.net/song/gotta-jibboo" title="Gotta Jibboo" class='jcard'>Jibboo</a><a href="http://phish.net/song/gotta-jibboo" class="full">Gotta Jibboo</a> <a href="http://phish.net/song/breath-and-burning">Breath and Burning</a> <a href="http://phish.net/song/timber-jerry" title="Timber (Jerry)" class='jcard'>Timber</a><a href="http://phish.net/song/timber-jerry" class="full">Timber (Jerry)</a> <a href="http://phish.net/song/slave-to-the-traffic-light" title="Slave to the Traffic Light" class='jcard'>Slave</a><a href="http://phish.net/song/slave-to-the-traffic-light" class="full">Slave to the Traffic Light</a> <a href="http://phish.net/song/you-enjoy-myself" title="You Enjoy Myself" class='jcard'>YEM</a><a href="http://phish.net/song/you-enjoy-myself" class="full">You Enjoy Myself</a><sup>[2]</sup></p>
+	<p><b>Encore</b>: <a href="http://phish.net/song/quinn-the-eskimo" title="Quinn the Eskimo" class='jcard'>Quinn</a><a href="http://phish.net/song/quinn-the-eskimo" class="full">Quinn the Eskimo</a></p></p>
+	<p class='footnotes'>[1] Debut.<br />[2] With Trey on Marimba Lumina.<br /></p><p style='clear:both !important;'><strong>Teases:</strong><br />&middot; <a href="/setlists/teases/the-birds?teaseid=4048">The Birds</a> quote in Birds of a Feather</p>
+	<p><strong>Notes:</strong> The Birds was quoted at the end of Birds of a Feather.&nbsp;Sleep Again was last played August 8, 2010&nbsp;(224&nbsp;shows). This show featured the debut of Things People Do.YEM featured Trey on Marimba Lumina.</p>
+	<h5 class="r"><a href="?d=2016-06-28"><img src="http://smedia.pnet-static.com/famfamfam/application_form.png" alt="Reviews" /></a> 
+			<a href="http://phish.net/setlists/?d=2016-06-28" class="h rpad">5 Reviews</a> 
+			<a href="http://phish.net/reviews/add.php?d=2016-06-28"><img src="http://smedia.pnet-static.com/famfamfam/application_form_add.png" alt="Add Review" /></a>
+			<a href="http://phish.net/reviews/add.php?d=2016-06-28" class="h rpad">Add Review</a><a href="http://phish.net/setlists/gapchart.php?d=2016-06-28"><img src="http://smedia.pnet-static.com/famfamfam/chart_curve.png" alt="Gap Chart" /></a>
+			<a href="http://phish.net/setlists/gapchart.php?d=2016-06-28" class="h">Gap Chart</a>
+			
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> <a name="2016-06-29" class="anchor">&nbsp;</a>
+<div class="setlist">
+	<h2>
+		<a href="http://phish.net/setlists/?d=2016-06-29"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=2016-06-29" class="sldate">Wednesday, 06/29/2016</a> 
+		<br /><i><a href="http://phish.net/venue/213" class='venue'>The Mann Center for the Performing Arts</a>, Philadelphia, PA</i>
+	</h2>
+	<p><i>Soundcheck</i>: Friends, Tide Turns, Things People Do, Unknown song (unconfirmed and possibly incomplete)</p>	<p><b>Set 1</b>: <a href="http://phish.net/song/wolfmans-brother" title="Wolfman's Brother" class='jcard'>Wolfman's</a><a href="http://phish.net/song/wolfmans-brother" class="full">Wolfman's Brother</a> <a href="http://phish.net/song/your-pet-cat">Your Pet Cat</a> <a href="http://phish.net/song/blaze-on">Blaze On</a> <a href="http://phish.net/song/waking-up-dead">Waking Up Dead</a><sup>[1]</sup> <a href="http://phish.net/song/llama">Llama</a><sup>[2]</sup> <a href="http://phish.net/song/devotion-to-a-dream">Devotion To a Dream</a> <a href="http://phish.net/song/reba">Reba</a> <a href="http://phish.net/song/mikes-song" title="Mike's Song" class='jcard'>Mike's</a><a href="http://phish.net/song/mikes-song" class="full">Mike's Song</a> <a href="http://phish.net/song/horn">Horn</a> <a href="http://phish.net/song/farmhouse">Farmhouse</a> <a href="http://phish.net/song/weekapaug-groove" title="Weekapaug Groove" class='jcard'>Weekapaug</a><a href="http://phish.net/song/weekapaug-groove" class="full">Weekapaug Groove</a></p>
+	<p><b>Set 2</b>: <a href="http://phish.net/song/crosseyed-and-painless" title="Crosseyed and Painless" class='jcard'>C&amp;P</a><a href="http://phish.net/song/crosseyed-and-painless" class="full">Crosseyed and Painless</a> <a href="http://phish.net/song/friends">Friends</a><sup>[1]</sup> <a href="http://phish.net/song/down-with-disease" title="Down with Disease" class='jcard'>DwD</a><a href="http://phish.net/song/down-with-disease" class="full">Down with Disease</a><sup>[3]</sup> <a href="http://phish.net/song/whats-the-use" title="What's the Use?" class='jcard'>WTU?</a><a href="http://phish.net/song/whats-the-use" class="full">What's the Use?</a> <a href="http://phish.net/song/meatstick">Meatstick</a> <a href="http://phish.net/song/the-line">The Line</a> <a href="http://phish.net/song/tide-turnss">Tide Turns</a><sup>[1]</sup> <a href="http://phish.net/song/backwards-down-the-number-line" title="Backwards Down the Number Line" class='jcard'>BDTNL</a><a href="http://phish.net/song/backwards-down-the-number-line" class="full">Backwards Down the Number Line</a> <a href="http://phish.net/song/dem-bones">Dem Bones</a></p>
+	<p><b>Encore</b>: <a href="http://phish.net/song/dear-prudence">Dear Prudence</a> <a href="http://phish.net/song/harry-hood" title="Harry Hood" class='jcard'>Hood</a><a href="http://phish.net/song/harry-hood" class="full">Harry Hood</a></p></p>
+	<p class='footnotes'>[1] Debut.<br />[2] Performed in a slow funk style.<br />[3] Unfinished.<br /></p><p style='clear:both !important;'><strong>Teases:</strong><br />&middot; <a href="/setlists/teases/the-birds?teaseid=4049">The Birds</a> quote in Weekapaug Groove<br />&middot; <a href="/setlists/teases/whole-lotta-love?teaseid=4050">Whole Lotta Love</a> tease in Llama</p>
+	<p><strong>Notes:</strong> This show featured the debut of Waking Up Dead,&nbsp;Friends, and Tide Turns.&nbsp;Llama was performed in a slow funk style and ended with a Whole Lotta Love tease from Trey.&nbsp;The Birds was quoted in Weekapaug. DWD was unfinished.</p>
+	<h5 class="r"><a href="?d=2016-06-29"><img src="http://smedia.pnet-static.com/famfamfam/application_form.png" alt="Reviews" /></a> 
+			<a href="http://phish.net/setlists/?d=2016-06-29" class="h rpad">9 Reviews</a> 
+			<a href="http://phish.net/reviews/add.php?d=2016-06-29"><img src="http://smedia.pnet-static.com/famfamfam/application_form_add.png" alt="Add Review" /></a>
+			<a href="http://phish.net/reviews/add.php?d=2016-06-29" class="h rpad">Add Review</a><a href="http://phish.net/setlists/gapchart.php?d=2016-06-29"><img src="http://smedia.pnet-static.com/famfamfam/chart_curve.png" alt="Gap Chart" /></a>
+			<a href="http://phish.net/setlists/gapchart.php?d=2016-06-29" class="h">Gap Chart</a>
+			
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> <a name="2016-07-01" class="anchor">&nbsp;</a>
+<div class="setlist">
+	<h2>
+		<a href="http://phish.net/setlists/?d=2016-07-01"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=2016-07-01" class="sldate">Friday, 07/01/2016</a> 
+		<br /><i><a href="http://phish.net/venue/220" class='venue'>Saratoga Performing Arts Center</a>, Saratoga Springs, NY</i>
+	</h2>
+	<p><i>Soundcheck</i>: Alaska, Let's Go, Running Scared, Unknown Mike Song</p>	<p><b>Set 1</b>: <a href="http://phish.net/song/stealing-time-from-the-faulty-plan" title="Stealing Time From the Faulty Plan" class='jcard'>STFTFP</a><a href="http://phish.net/song/stealing-time-from-the-faulty-plan" class="full">Stealing Time From the Faulty Plan</a> <a href="http://phish.net/song/the-birds">The Birds</a> <a href="http://phish.net/song/nicu">NICU</a> <a href="http://phish.net/song/cities">Cities</a> <a href="http://phish.net/song/david-bowie" title="David Bowie" class='jcard'>Bowie</a><a href="http://phish.net/song/david-bowie" class="full">David Bowie</a> <a href="http://phish.net/song/free">Free</a> <a href="http://phish.net/song/uncle-pen">Uncle Pen</a> <a href="http://phish.net/song/halfway-to-the-moon">Halfway to the Moon</a> <a href="http://phish.net/song/let-go">Let's Go</a><sup>[1]</sup> <a href="http://phish.net/song/waiting-all-night">Waiting All Night</a> <a href="http://phish.net/song/bathtub-gin" title="Bathtub Gin" class='jcard'>Gin</a><a href="http://phish.net/song/bathtub-gin" class="full">Bathtub Gin</a> <a href="http://phish.net/song/golgi-apparatus" title="Golgi Apparatus" class='jcard'>Golgi</a><a href="http://phish.net/song/golgi-apparatus" class="full">Golgi Apparatus</a> <a href="http://phish.net/song/the-squirming-coil" title="The Squirming Coil" class='jcard'>Coil</a><a href="http://phish.net/song/the-squirming-coil" class="full">The Squirming Coil</a></p>
+	<p><b>Set 2</b>: <a href="http://phish.net/song/sand">Sand</a> <a href="http://phish.net/song/carini">Carini</a> <a href="http://phish.net/song/chalk-dust-torture" title="Chalk Dust Torture" class='jcard'>CDT</a><a href="http://phish.net/song/chalk-dust-torture" class="full">Chalk Dust Torture</a><sup>[2]</sup> <a href="http://phish.net/song/prince-caspian" title="Prince Caspian" class='jcard'>Caspian</a><a href="http://phish.net/song/prince-caspian" class="full">Prince Caspian</a> <a href="http://phish.net/song/bug">Bug</a> <a href="http://phish.net/song/shine-a-light">Shine a Light</a> <a href="http://phish.net/song/my-sweet-one" title="My Sweet One" class='jcard'>MSO</a><a href="http://phish.net/song/my-sweet-one" class="full">My Sweet One</a> <a href="http://phish.net/song/sleeping-monkey">Sleeping Monkey</a> <a href="http://phish.net/song/also-sprach-zarathustra" title="Also Sprach Zarathustra" class='jcard'>2001</a><a href="http://phish.net/song/also-sprach-zarathustra" class="full">Also Sprach Zarathustra</a> <a href="http://phish.net/song/fire">Fire</a></p>
+	<p><b>Encore</b>: <a href="http://phish.net/song/character-zero">Character Zero</a></p></p>
+	<p class='footnotes'>[1] Debut.<br />[2] Unfinished. With Trey on Marimba Lumina and Mike on keys.<br /></p><p style='clear:both !important;'><strong>Teases:</strong><br />&middot; <a href="/setlists/teases/my-sweet-one?teaseid=4051">My Sweet One</a> and <a href="/setlists/teases/say-my-name?teaseid=4052">Say My Name</a> quotes  in Sleeping Monkey</p>
+	<p><strong>Notes:</strong> This show was webcast via&nbsp;<a href="http://www.livephish.com/">Live Phish</a>. This show featured the debut of Let&#39;s Go. Chalk Dust Torture was unfinished and&nbsp;featured Trey on Marimba Lumina and Mike on keys. Sleeping Monkey included the last lyric of My Sweet One and a Say My Name quote.</p>
+	<h5 class="r"><a href="?d=2016-07-01"><img src="http://smedia.pnet-static.com/famfamfam/application_form.png" alt="Reviews" /></a> 
+			<a href="http://phish.net/setlists/?d=2016-07-01" class="h rpad">9 Reviews</a> 
+			<a href="http://phish.net/reviews/add.php?d=2016-07-01"><img src="http://smedia.pnet-static.com/famfamfam/application_form_add.png" alt="Add Review" /></a>
+			<a href="http://phish.net/reviews/add.php?d=2016-07-01" class="h rpad">Add Review</a><a href="http://phish.net/setlists/gapchart.php?d=2016-07-01"><img src="http://smedia.pnet-static.com/famfamfam/chart_curve.png" alt="Gap Chart" /></a>
+			<a href="http://phish.net/setlists/gapchart.php?d=2016-07-01" class="h">Gap Chart</a>
+			
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> <a name="2016-07-02" class="anchor">&nbsp;</a>
+<div class="setlist">
+	<h2>
+		<a href="http://phish.net/setlists/?d=2016-07-02"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=2016-07-02" class="sldate">Saturday, 07/02/2016</a> 
+		<br /><i><a href="http://phish.net/venue/220" class='venue'>Saratoga Performing Arts Center</a>, Saratoga Springs, NY</i>
+	</h2>
+	<p><i>Soundcheck</i>: Funky Bitch, How Many People Are You, Miss You, Tide Turns</p>	<p><b>Set 1</b>: <a href="http://phish.net/song/crowd-control">Crowd Control</a> <a href="http://phish.net/song/555">555</a> <a href="http://phish.net/song/seven-below">Seven Below</a> <a href="http://phish.net/song/back-on-the-train" title="Back on the Train" class='jcard'>BOTT</a><a href="http://phish.net/song/back-on-the-train" class="full">Back on the Train</a> <a href="http://phish.net/song/army-of-one">Army of One</a> <a href="http://phish.net/song/divided-sky" title="Divided Sky" class='jcard'>Divided</a><a href="http://phish.net/song/divided-sky" class="full">Divided Sky</a> <a href="http://phish.net/song/martian-monster">Martian Monster</a><sup>[1]</sup> <a href="http://phish.net/song/rift">Rift</a> <a href="http://phish.net/song/water-in-the-sky">Water in the Sky</a> <a href="http://phish.net/song/46-days">46 Days</a> <a href="http://phish.net/song/walls-of-the-cave" title="Walls of the Cave" class='jcard'>WotC</a><a href="http://phish.net/song/walls-of-the-cave" class="full">Walls of the Cave</a></p>
+	<p><b>Set 2</b>: <a href="http://phish.net/song/no-men-in-no-mans-land" title="No Men In No Man's Land" class='jcard'>NMINML</a><a href="http://phish.net/song/no-men-in-no-mans-land" class="full">No Men In No Man's Land</a> <a href="http://phish.net/song/fuego">Fuego</a> <a href="http://phish.net/song/light">Light</a> <a href="http://phish.net/song/golden-age">Golden Age</a> <a href="http://phish.net/song/taste">Taste</a> <a href="http://phish.net/song/the-horse" title="The Horse" class='jcard'>Horse</a><a href="http://phish.net/song/the-horse" class="full">The Horse</a> <a href="http://phish.net/song/silent-in-the-morning" title="Silent in the Morning" class='jcard'>Silent</a><a href="http://phish.net/song/silent-in-the-morning" class="full">Silent in the Morning</a> <a href="http://phish.net/song/julius">Julius</a> <a href="http://phish.net/song/a-day-in-the-life" title="A Day in the Life" class='jcard'>ADITL</a><a href="http://phish.net/song/a-day-in-the-life" class="full">A Day in the Life</a></p>
+	<p><b>Encore</b>: <a href="http://phish.net/song/bouncing-around-the-room" title="Bouncing Around the Room" class='jcard'>Bouncin'</a><a href="http://phish.net/song/bouncing-around-the-room" class="full">Bouncing Around the Room</a> <a href="http://phish.net/song/run-like-an-antelope" title="Run Like an Antelope" class='jcard'>Antelope</a><a href="http://phish.net/song/run-like-an-antelope" class="full">Run Like an Antelope</a></p></p>
+	<p class='footnotes'>[1] Trey on Marimba Lumina.<br /></p><p style='clear:both !important;'><strong>Teases:</strong><br />&middot; <a href="/setlists/teases/sleeping-monkey?teaseid=4053">Sleeping Monkey</a> quote in Back on the Train<br />&middot; <a href="/setlists/teases/no-men-in-no-mans-land?teaseid=4054">No Men In No Man's Land</a> quote in Light<br />&middot; <a href="/setlists/teases/the-birds?teaseid=4055">The Birds</a> quote</p>
+	<p><strong>Notes:</strong> This show was webcast via&nbsp;<a href="http://www.livephish.com/">Live Phish</a>. Trey quoted Sleeping Monkey&nbsp;during BOTT. Martian Monster featured Trey on Marimba Lumina. Light featured NMINML quotes. Following Antelope, Trey picked up a shirt that read &quot;They Attack!&quot;&nbsp;prompting a The Birds quote before the band left the stage.</p>
+	<h5 class="r"><a href="?d=2016-07-02"><img src="http://smedia.pnet-static.com/famfamfam/application_form.png" alt="Reviews" /></a> 
+			<a href="http://phish.net/setlists/?d=2016-07-02" class="h rpad">12 Reviews</a> 
+			<a href="http://phish.net/reviews/add.php?d=2016-07-02"><img src="http://smedia.pnet-static.com/famfamfam/application_form_add.png" alt="Add Review" /></a>
+			<a href="http://phish.net/reviews/add.php?d=2016-07-02" class="h rpad">Add Review</a><a href="http://phish.net/setlists/gapchart.php?d=2016-07-02"><img src="http://smedia.pnet-static.com/famfamfam/chart_curve.png" alt="Gap Chart" /></a>
+			<a href="http://phish.net/setlists/gapchart.php?d=2016-07-02" class="h">Gap Chart</a>
+			
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> <a name="2016-07-03" class="anchor">&nbsp;</a>
+<div class="setlist">
+	<h2>
+		<a href="http://phish.net/setlists/?d=2016-07-03"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=2016-07-03" class="sldate">Sunday, 07/03/2016</a> 
+		<br /><i><a href="http://phish.net/venue/220" class='venue'>Saratoga Performing Arts Center</a>, Saratoga Springs, NY</i>
+	</h2>
+	<p><i>Soundcheck</i>: Winterqueen (x2), Guelah Papyrus</p>	<p><b>Set 1</b>: <a href="http://phish.net/song/the-wedge" title="The Wedge" class='jcard'>Wedge</a><a href="http://phish.net/song/the-wedge" class="full">The Wedge</a> <a href="http://phish.net/song/heavy-things">Heavy Things</a> <a href="http://phish.net/song/tube">Tube</a> <a href="http://phish.net/song/sugar-shack">Sugar Shack</a> <a href="http://phish.net/song/lawn-boy">Lawn Boy</a> <a href="http://phish.net/song/sparkle">Sparkle</a> <a href="http://phish.net/song/sample-in-a-jar" title="Sample in a Jar" class='jcard'>Sample</a><a href="http://phish.net/song/sample-in-a-jar" class="full">Sample in a Jar</a> <a href="http://phish.net/song/its-ice">It's Ice</a> <a href="http://phish.net/song/guelah-papyrus" title="Guelah Papyrus" class='jcard'>Guelah</a><a href="http://phish.net/song/guelah-papyrus" class="full">Guelah Papyrus</a> <a href="http://phish.net/song/ocelot">Ocelot</a> <a href="http://phish.net/song/scent-of-a-mule" title="Scent of a Mule" class='jcard'>SOAMule</a><a href="http://phish.net/song/scent-of-a-mule" class="full">Scent of a Mule</a><sup>[1]</sup> <a href="http://phish.net/song/possum">Possum</a></p>
+	<p><b>Set 2</b>: <a href="http://phish.net/song/soul-shakedown-party">Soul Shakedown Party</a> <a href="http://phish.net/song/the-moma-dance" title="The Moma Dance" class='jcard'>Moma</a><a href="http://phish.net/song/the-moma-dance" class="full">The Moma Dance</a><sup>[2]</sup> <a href="http://phish.net/song/twist">Twist</a> <a href="http://phish.net/song/joy">Joy</a> <a href="http://phish.net/song/breath-and-burning">Breath and Burning</a> <a href="http://phish.net/song/axilla">Axilla</a> <a href="http://phish.net/song/theme-from-the-bottom" title="Theme From the Bottom" class='jcard'>Theme</a><a href="http://phish.net/song/theme-from-the-bottom" class="full">Theme From the Bottom</a> <a href="http://phish.net/song/harry-hood" title="Harry Hood" class='jcard'>Hood</a><a href="http://phish.net/song/harry-hood" class="full">Harry Hood</a> <a href="http://phish.net/song/show-of-life">Show of Life</a></p>
+	<p><b>Encore</b>: <a href="http://phish.net/song/rock-and-roll" title="Rock and Roll" class='jcard'>R&amp;R</a><a href="http://phish.net/song/rock-and-roll" class="full">Rock and Roll</a></p></p>
+	<p class='footnotes'>[1] Fish on Marimba Lumina. <br />[2] Unfinished.<br /></p>
+	<p><strong>Notes:</strong> This show was webcast via&nbsp;<a href="http://www.livephish.com/">Live Phish</a>.&nbsp;Scent of a Mule featured Fish on Marimba Lumina. Moma Dance was unfinished.</p>
+	<h5 class="r"><a href="?d=2016-07-03"><img src="http://smedia.pnet-static.com/famfamfam/application_form.png" alt="Reviews" /></a> 
+			<a href="http://phish.net/setlists/?d=2016-07-03" class="h rpad">15 Reviews</a> 
+			<a href="http://phish.net/reviews/add.php?d=2016-07-03"><img src="http://smedia.pnet-static.com/famfamfam/application_form_add.png" alt="Add Review" /></a>
+			<a href="http://phish.net/reviews/add.php?d=2016-07-03" class="h rpad">Add Review</a><a href="http://phish.net/setlists/gapchart.php?d=2016-07-03"><img src="http://smedia.pnet-static.com/famfamfam/chart_curve.png" alt="Gap Chart" /></a>
+			<a href="http://phish.net/setlists/gapchart.php?d=2016-07-03" class="h">Gap Chart</a>
+			
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> <a name="2016-07-06" class="anchor">&nbsp;</a>
+<div class="setlist">
+	<h2>
+		<a href="http://phish.net/setlists/?d=2016-07-06"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=2016-07-06" class="sldate">Wednesday, 07/06/2016</a> 
+		<br /><i><a href="http://phish.net/venue/1368" class='venue'>Cross Insurance Arena</a>, Portland, ME</i>
+	</h2>
+	<p><b>Set 1</b>: <a href="http://phish.net/song/grind">Grind</a> <a href="http://phish.net/song/cars-trucks-buses" title="Cars Trucks Buses" class='jcard'>CTB</a><a href="http://phish.net/song/cars-trucks-buses" class="full">Cars Trucks Buses</a> <a href="http://phish.net/song/blaze-on">Blaze On</a> <a href="http://phish.net/song/yarmouth-road">Yarmouth Road</a> <a href="http://phish.net/song/kill-devil-falls" title="Kill Devil Falls" class='jcard'>KDF</a><a href="http://phish.net/song/kill-devil-falls" class="full">Kill Devil Falls</a> <a href="http://phish.net/song/the-sloth" title="The Sloth" class='jcard'>Sloth</a><a href="http://phish.net/song/the-sloth" class="full">The Sloth</a> <a href="http://phish.net/song/billy-breathes">Billy Breathes</a> <a href="http://phish.net/song/my-friend-my-friend" title="My Friend, My Friend" class='jcard'>My Friend</a><a href="http://phish.net/song/my-friend-my-friend" class="full">My Friend, My Friend</a> <a href="http://phish.net/song/heavy-things">Heavy Things</a> <a href="http://phish.net/song/555">555</a> <a href="http://phish.net/song/things-people-do">Things People Do</a> <a href="http://phish.net/song/the-line">The Line</a> <a href="http://phish.net/song/stash">Stash</a></p>
+	<p><b>Set 2</b>: <a href="http://phish.net/song/first-tube">First Tube</a> <a href="http://phish.net/song/tweezer">Tweezer</a> <a href="http://phish.net/song/guyute">Guyute</a> <a href="http://phish.net/song/mikes-song" title="Mike's Song" class='jcard'>Mike's</a><a href="http://phish.net/song/mikes-song" class="full">Mike's Song</a> <a href="http://phish.net/song/tide-turnss">Tide Turns</a> <a href="http://phish.net/song/devotion-to-a-dream">Devotion To a Dream</a> <a href="http://phish.net/song/wingsuit">Wingsuit</a> <a href="http://phish.net/song/bittersweet-motel">Bittersweet Motel</a> <a href="http://phish.net/song/fluffhead">Fluffhead</a> <a href="http://phish.net/song/weekapaug-groove" title="Weekapaug Groove" class='jcard'>Weekapaug</a><a href="http://phish.net/song/weekapaug-groove" class="full">Weekapaug Groove</a></p>
+	<p><b>Encore</b>: <a href="http://phish.net/song/contact">Contact</a> <a href="http://phish.net/song/tweezer-reprise" title="Tweezer Reprise" class='jcard'>Tweeprise</a><a href="http://phish.net/song/tweezer-reprise" class="full">Tweezer Reprise</a></p></p>
+	<p><strong>Notes:</strong> Bittersweet Motel was last played on July 4, 2012 (146 shows).</p>
+	<h5 class="r"><a href="?d=2016-07-06"><img src="http://smedia.pnet-static.com/famfamfam/application_form.png" alt="Reviews" /></a> 
+			<a href="http://phish.net/setlists/?d=2016-07-06" class="h rpad">27 Reviews</a> 
+			<a href="http://phish.net/reviews/add.php?d=2016-07-06"><img src="http://smedia.pnet-static.com/famfamfam/application_form_add.png" alt="Add Review" /></a>
+			<a href="http://phish.net/reviews/add.php?d=2016-07-06" class="h rpad">Add Review</a><a href="http://phish.net/setlists/gapchart.php?d=2016-07-06"><img src="http://smedia.pnet-static.com/famfamfam/chart_curve.png" alt="Gap Chart" /></a>
+			<a href="http://phish.net/setlists/gapchart.php?d=2016-07-06" class="h">Gap Chart</a>
+			
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> <a name="2016-07-08" class="anchor">&nbsp;</a>
+<div class="setlist">
+	<h2>
+		<a href="http://phish.net/setlists/?d=2016-07-08"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=2016-07-08" class="sldate">Friday, 07/08/2016</a> 
+		<br /><i><a href="http://phish.net/venue/1306" class='venue'>Xfinity Center</a>, Mansfield, MA</i>
+	</h2>
+	<p><b>Set 1</b>: <a href="http://phish.net/song/party-time">Party Time</a> <a href="http://phish.net/song/46-days">46 Days</a> <a href="http://phish.net/song/poor-heart">Poor Heart</a> <a href="http://phish.net/song/the-dogs">The Dogs</a> <a href="http://phish.net/song/bathtub-gin" title="Bathtub Gin" class='jcard'>Gin</a><a href="http://phish.net/song/bathtub-gin" class="full">Bathtub Gin</a> <a href="http://phish.net/song/fast-enough-for-you" title="Fast Enough for You" class='jcard'>FEFY</a><a href="http://phish.net/song/fast-enough-for-you" class="full">Fast Enough for You</a> <a href="http://phish.net/song/how-many-people-are-you">How Many People Are You</a> <a href="http://phish.net/song/strange-design">Strange Design</a> <a href="http://phish.net/song/fuego">Fuego</a> <a href="http://phish.net/song/cities">Cities</a><sup>[1]</sup> <a href="http://phish.net/song/space-oddity">Space Oddity</a></p>
+	<p><b>Set 2</b>: <a href="http://phish.net/song/ghost">Ghost</a> <a href="http://phish.net/song/light">Light</a> <a href="http://phish.net/song/wolfmans-brother" title="Wolfman's Brother" class='jcard'>Wolfman's</a><a href="http://phish.net/song/wolfmans-brother" class="full">Wolfman's Brother</a><sup>[2]</sup> <a href="http://phish.net/song/chalk-dust-torture" title="Chalk Dust Torture" class='jcard'>CDT</a><a href="http://phish.net/song/chalk-dust-torture" class="full">Chalk Dust Torture</a> <a href="http://phish.net/song/saw-it-again">Saw It Again</a> <a href="http://phish.net/song/back-on-the-train" title="Back on the Train" class='jcard'>BOTT</a><a href="http://phish.net/song/back-on-the-train" class="full">Back on the Train</a> <a href="http://phish.net/song/slave-to-the-traffic-light" title="Slave to the Traffic Light" class='jcard'>Slave</a><a href="http://phish.net/song/slave-to-the-traffic-light" class="full">Slave to the Traffic Light</a></p>
+	<p><b>Encore</b>: <a href="http://phish.net/song/i-am-the-walrus">I Am the Walrus</a></p></p>
+	<p class='footnotes'>[1] Trey broke a string and switched guitars mid-song, also introducing his guitar tech, Brian Brown. Trey then switched to Marimba Lumina and Mike played Trey's guitar.<br />[2] Vocal jam, during which the PA cut out and the band left the stage. Unfinished.<br /></p><p style='clear:both !important;'><strong>Teases:</strong><br />&middot; <a href="/setlists/teases/eine-kleine-nachtmusik?teaseid=4056">Eine kleine Nachtmusik</a> tease</p>
+	<p><strong>Notes:</strong> Eine kleine Nachtmusik was teased prior to Party Time.&nbsp;During Cities, Trey broke a string, switched guitars, and&nbsp;introduced&nbsp;his guitar tech,&nbsp;Brian Brown;&nbsp;Trey then switched to Marimba Lumina while Mike played Trey&#39;s guitar. Wolfman&#39;s contained a vocal jam, during which the PA cut out and the band left the stage. Wolfman&#39;s was unfinished, and after several minutes the band resumed&nbsp;with CDT.</p>
+	<h5 class="r"><a href="?d=2016-07-08"><img src="http://smedia.pnet-static.com/famfamfam/application_form.png" alt="Reviews" /></a> 
+			<a href="http://phish.net/setlists/?d=2016-07-08" class="h rpad">16 Reviews</a> 
+			<a href="http://phish.net/reviews/add.php?d=2016-07-08"><img src="http://smedia.pnet-static.com/famfamfam/application_form_add.png" alt="Add Review" /></a>
+			<a href="http://phish.net/reviews/add.php?d=2016-07-08" class="h rpad">Add Review</a><a href="http://phish.net/setlists/gapchart.php?d=2016-07-08"><img src="http://smedia.pnet-static.com/famfamfam/chart_curve.png" alt="Gap Chart" /></a>
+			<a href="http://phish.net/setlists/gapchart.php?d=2016-07-08" class="h">Gap Chart</a>
+			
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> <a name="2016-07-09" class="anchor">&nbsp;</a>
+<div class="setlist">
+	<h2>
+		<a href="http://phish.net/setlists/?d=2016-07-09"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=2016-07-09" class="sldate">Saturday, 07/09/2016</a> 
+		<br /><i><a href="http://phish.net/venue/1369" class='venue'>XFINITY Theatre</a>, Hartford, CT</i>
+	</h2>
+	<p><i>Soundcheck</i>: Let Me Lie, Pigtail, Pebbles and Marbles, My Soul</p>	<p><b>Set 1</b>: <a href="http://phish.net/song/pigtail">Pigtail</a> <a href="http://phish.net/song/the-moma-dance" title="The Moma Dance" class='jcard'>Moma</a><a href="http://phish.net/song/the-moma-dance" class="full">The Moma Dance</a> <a href="http://phish.net/song/birds-of-a-feather" title="Birds of a Feather" class='jcard'>BOAF</a><a href="http://phish.net/song/birds-of-a-feather" class="full">Birds of a Feather</a> <a href="http://phish.net/song/meat">Meat</a> <a href="http://phish.net/song/vultures">Vultures</a> <a href="http://phish.net/song/free">Free</a> <a href="http://phish.net/song/let-me-lie">Let Me Lie</a> <a href="http://phish.net/song/halleys-comet" title="Halley's Comet" class='jcard'>Halley's</a><a href="http://phish.net/song/halleys-comet" class="full">Halley's Comet</a> <a href="http://phish.net/song/julius">Julius</a> <a href="http://phish.net/song/you-enjoy-myself" title="You Enjoy Myself" class='jcard'>YEM</a><a href="http://phish.net/song/you-enjoy-myself" class="full">You Enjoy Myself</a><sup>[1]</sup></p>
+	<p><b>Set 2</b>: <a href="http://phish.net/song/down-with-disease" title="Down with Disease" class='jcard'>DwD</a><a href="http://phish.net/song/down-with-disease" class="full">Down with Disease</a><sup>[2]</sup> <a href="http://phish.net/song/sand">Sand</a> <a href="http://phish.net/song/tela">Tela</a> <a href="http://phish.net/song/carini">Carini</a> <a href="http://phish.net/song/twenty-years-later">Twenty Years Later</a> <a href="http://phish.net/song/run-like-an-antelope" title="Run Like an Antelope" class='jcard'>Antelope</a><a href="http://phish.net/song/run-like-an-antelope" class="full">Run Like an Antelope</a> <a href="http://phish.net/song/backwards-down-the-number-line" title="Backwards Down the Number Line" class='jcard'>BDTNL</a><a href="http://phish.net/song/backwards-down-the-number-line" class="full">Backwards Down the Number Line</a></p>
+	<p><b>Encore</b>: <a href="http://phish.net/song/the-lizards" title="The Lizards" class='jcard'>Lizards</a><a href="http://phish.net/song/the-lizards" class="full">The Lizards</a> <a href="http://phish.net/song/loving-cup">Loving Cup</a></p></p>
+	<p class='footnotes'>[1] Trey on Marimba Lumina, Page on bass, Mike on keys for portion of the jam.<br />[2] Unfinished.<br /></p><p style='clear:both !important;'><strong>Teases:</strong><br />&middot; <a href="/setlists/teases/the-birds?teaseid=4059">The Birds</a> quote</p>
+	<p><strong>Notes:</strong> The Birds was quoted after&nbsp;BOAF. Let Me Lie was last performed on August 10, 2010&nbsp;(229 shows). Portions of the YEM jam featured Trey on Marimba Lumina,&nbsp;Mike on keys, and Page on bass. DWD was unfinished.</p>
+	<h5 class="r"><a href="?d=2016-07-09"><img src="http://smedia.pnet-static.com/famfamfam/application_form.png" alt="Reviews" /></a> 
+			<a href="http://phish.net/setlists/?d=2016-07-09" class="h rpad">20 Reviews</a> 
+			<a href="http://phish.net/reviews/add.php?d=2016-07-09"><img src="http://smedia.pnet-static.com/famfamfam/application_form_add.png" alt="Add Review" /></a>
+			<a href="http://phish.net/reviews/add.php?d=2016-07-09" class="h rpad">Add Review</a><a href="http://phish.net/setlists/gapchart.php?d=2016-07-09"><img src="http://smedia.pnet-static.com/famfamfam/chart_curve.png" alt="Gap Chart" /></a>
+			<a href="http://phish.net/setlists/gapchart.php?d=2016-07-09" class="h">Gap Chart</a>
+			
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> <a name="2016-07-10" class="anchor">&nbsp;</a>
+<div class="setlist">
+	<h2>
+		<a href="http://phish.net/setlists/?d=2016-07-10"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=2016-07-10" class="sldate">Sunday, 07/10/2016</a> 
+		<br /><i><a href="http://phish.net/venue/1370" class='venue'>Lakeview Amphitheater</a>, Syracuse, NY</i>
+	</h2>
+	<p><i>Soundcheck</i>: Funky Bitch</p>	<p><b>Set 1</b>: <a href="http://phish.net/song/the-landlady" title="The Landlady" class='jcard'>Landlady</a><a href="http://phish.net/song/the-landlady" class="full">The Landlady</a> <a href="http://phish.net/song/blaze-on">Blaze On</a> <a href="http://phish.net/song/ha-ha-ha">Ha Ha Ha</a> <a href="http://phish.net/song/friends">Friends</a> <a href="http://phish.net/song/tube">Tube</a> <a href="http://phish.net/song/destiny-unbound" title="Destiny Unbound" class='jcard'>Destiny</a><a href="http://phish.net/song/destiny-unbound" class="full">Destiny Unbound</a> <a href="http://phish.net/song/my-friend-my-friend" title="My Friend, My Friend" class='jcard'>My Friend</a><a href="http://phish.net/song/my-friend-my-friend" class="full">My Friend, My Friend</a><sup>[1]</sup> <a href="http://phish.net/song/the-mango-song" title="The Mango Song" class='jcard'>Mango</a><a href="http://phish.net/song/the-mango-song" class="full">The Mango Song</a> <a href="http://phish.net/song/timber-haunted">Timber</a> <a href="http://phish.net/song/timber-jerry" title="Timber (Jerry)" class='jcard'>Timber</a><a href="http://phish.net/song/timber-jerry" class="full">Timber (Jerry)</a> <a href="http://phish.net/song/timber-haunted">Timber</a> <a href="http://phish.net/song/the-ballad-of-curtis-loew" title="The Ballad of Curtis Loew" class='jcard'>Curtis Loew</a><a href="http://phish.net/song/the-ballad-of-curtis-loew" class="full">The Ballad of Curtis Loew</a> <a href="http://phish.net/song/stealing-time-from-the-faulty-plan" title="Stealing Time From the Faulty Plan" class='jcard'>STFTFP</a><a href="http://phish.net/song/stealing-time-from-the-faulty-plan" class="full">Stealing Time From the Faulty Plan</a> <a href="http://phish.net/song/mound">Mound</a> <a href="http://phish.net/song/winterqueen">Winterqueen</a> <a href="http://phish.net/song/bold-as-love">Bold As Love</a></p>
+	<p><b>Set 2</b>: <a href="http://phish.net/song/drowned">Drowned</a> <a href="http://phish.net/song/twist">Twist</a> <a href="http://phish.net/song/waste">Waste</a> <a href="http://phish.net/song/piper">Piper</a> <a href="http://phish.net/song/simple">Simple</a> <a href="http://phish.net/song/breath-and-burning">Breath and Burning</a> <a href="http://phish.net/song/rocky-top">Rocky Top</a> <a href="http://phish.net/song/martian-monster">Martian Monster</a><sup>[2]</sup> <a href="http://phish.net/song/golgi-apparatus" title="Golgi Apparatus" class='jcard'>Golgi</a><a href="http://phish.net/song/golgi-apparatus" class="full">Golgi Apparatus</a> <a href="http://phish.net/song/frankenstein">Frankenstein</a></p>
+	<p><b>Encore</b>: <a href="http://phish.net/song/character-zero">Character Zero</a></p></p>
+	<p class='footnotes'>[1] No "Myfe" ending. <br />[2] Trey on Marimba Lumina; Mike on guitar; Page on bass.<br /></p><p style='clear:both !important;'><strong>Teases:</strong><br />&middot; <a href="/setlists/teases/magilla?teaseid=4060">Magilla</a> tease in Simple</p>
+	<p><strong>Notes:</strong> My Friend did not contain the &quot;Myfe&quot; ending. After Winterqueen,&nbsp;Page brought out his&nbsp;keytar, ostensibly to play Frankenstein.&nbsp;He played a brief jam on the&nbsp;keytar (with Trey playing it as well), but apparently had equipment problems and opted for Bold as Love&nbsp;instead. When Frankenstein&nbsp;closed the second set, Page attempted to play the&nbsp;keytar&nbsp;again but had more technical difficulties and had to play the song on his standard keyboard rig.&nbsp;Simple contained a Magilla tease from Page. Martian Monster featured Trey on Marimba Lumina, Mike on guitar, and Page on bass.</p>
+	<h5 class="r"><a href="?d=2016-07-10"><img src="http://smedia.pnet-static.com/famfamfam/application_form.png" alt="Reviews" /></a> 
+			<a href="http://phish.net/setlists/?d=2016-07-10" class="h rpad">14 Reviews</a> 
+			<a href="http://phish.net/reviews/add.php?d=2016-07-10"><img src="http://smedia.pnet-static.com/famfamfam/application_form_add.png" alt="Add Review" /></a>
+			<a href="http://phish.net/reviews/add.php?d=2016-07-10" class="h rpad">Add Review</a><a href="http://phish.net/setlists/gapchart.php?d=2016-07-10"><img src="http://smedia.pnet-static.com/famfamfam/chart_curve.png" alt="Gap Chart" /></a>
+			<a href="http://phish.net/setlists/gapchart.php?d=2016-07-10" class="h">Gap Chart</a>
+			
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> <a name="2016-07-15" class="anchor">&nbsp;</a>
+<div class="setlist">
+	<h2>
+		<a href="http://phish.net/setlists/?d=2016-07-15"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=2016-07-15" class="sldate">Friday, 07/15/2016</a> 
+		<br /><i><a href="http://phish.net/venue/248" class='venue'>Gorge Amphitheatre</a>, George, WA</i>
+	</h2>
+	<p><i>Soundcheck</i>: Miss You, Unknown song (Trey vocals), Ass Handed, My Soul</p>	<p><b>Set 1</b>: <a href="http://phish.net/song/tweezer">Tweezer</a> <a href="http://phish.net/song/sample-in-a-jar" title="Sample in a Jar" class='jcard'>Sample</a><a href="http://phish.net/song/sample-in-a-jar" class="full">Sample in a Jar</a> <a href="http://phish.net/song/the-old-home-place">The Old Home Place</a> <a href="http://phish.net/song/wolfmans-brother" title="Wolfman's Brother" class='jcard'>Wolfman's</a><a href="http://phish.net/song/wolfmans-brother" class="full">Wolfman's Brother</a> <a href="http://phish.net/song/bouncing-around-the-room" title="Bouncing Around the Room" class='jcard'>Bouncin'</a><a href="http://phish.net/song/bouncing-around-the-room" class="full">Bouncing Around the Room</a> <a href="http://phish.net/song/undermind">Undermind</a> <a href="http://phish.net/song/kill-devil-falls" title="Kill Devil Falls" class='jcard'>KDF</a><a href="http://phish.net/song/kill-devil-falls" class="full">Kill Devil Falls</a> <a href="http://phish.net/song/lawn-boy">Lawn Boy</a> <a href="http://phish.net/song/ass-handed">Ass Handed</a><sup>[1]</sup> <a href="http://phish.net/song/party-time">Party Time</a> <a href="http://phish.net/song/the-line">The Line</a> <a href="http://phish.net/song/tide-turnss">Tide Turns</a> <a href="http://phish.net/song/rift">Rift</a> <a href="http://phish.net/song/walls-of-the-cave" title="Walls of the Cave" class='jcard'>WotC</a><a href="http://phish.net/song/walls-of-the-cave" class="full">Walls of the Cave</a></p>
+	<p><b>Set 2</b>: <a href="http://phish.net/song/crosseyed-and-painless" title="Crosseyed and Painless" class='jcard'>C&amp;P</a><a href="http://phish.net/song/crosseyed-and-painless" class="full">Crosseyed and Painless</a> <a href="http://phish.net/song/whats-the-use" title="What's the Use?" class='jcard'>WTU?</a><a href="http://phish.net/song/whats-the-use" class="full">What's the Use?</a> <a href="http://phish.net/song/no-men-in-no-mans-land" title="No Men In No Man's Land" class='jcard'>NMINML</a><a href="http://phish.net/song/no-men-in-no-mans-land" class="full">No Men In No Man's Land</a> <a href="http://phish.net/song/stash">Stash</a> <a href="http://phish.net/song/ghost">Ghost</a><sup>[2]</sup> <a href="http://phish.net/song/chalk-dust-torture" title="Chalk Dust Torture" class='jcard'>CDT</a><a href="http://phish.net/song/chalk-dust-torture" class="full">Chalk Dust Torture</a> <a href="http://phish.net/song/meatstick">Meatstick</a> <a href="http://phish.net/song/also-sprach-zarathustra" title="Also Sprach Zarathustra" class='jcard'>2001</a><a href="http://phish.net/song/also-sprach-zarathustra" class="full">Also Sprach Zarathustra</a> <a href="http://phish.net/song/cavern">Cavern</a></p>
+	<p><b>Encore</b>: <a href="http://phish.net/song/makisupa-policeman" title="Makisupa Policeman" class='jcard'>Makisupa</a><a href="http://phish.net/song/makisupa-policeman" class="full">Makisupa Policeman</a> <a href="http://phish.net/song/wilson">Wilson</a> <a href="http://phish.net/song/good-times-bad-times" title="Good Times Bad Times" class='jcard'>GTBT</a><a href="http://phish.net/song/good-times-bad-times" class="full">Good Times Bad Times</a></p></p>
+	<p class='footnotes'>[1] Debut.<br />[2] Trey on Marimba Lumina; Mike and Page on percussion.<br /></p><p style='clear:both !important;'><strong>Teases:</strong><br />&middot; <a href="/setlists/teases/crosseyed-and-painless?teaseid=4061">Crosseyed and Painless</a> quote in No Men In No Man's Land<br />&middot; <a href="/setlists/teases/whats-the-use?teaseid=4062">What's the Use?</a> and <a href="/setlists/teases/crosseyed-and-painless?teaseid=4075">Crosseyed and Painless</a> teases  in Stash<br />&middot; <a href="/setlists/teases/whats-the-use?teaseid=4064">What's the Use?</a>, <a href="/setlists/teases/crosseyed-and-painless?teaseid=4076">Crosseyed and Painless</a>, and <a href="/setlists/teases/no-men-in-no-mans-land?teaseid=4077">No Men In No Man's Land</a> teases  in Ghost<br />&middot; <a href="/setlists/teases/no-men-in-no-mans-land?teaseid=4066">No Men In No Man's Land</a>, <a href="/setlists/teases/crosseyed-and-painless?teaseid=4067">Crosseyed and Painless</a>, and <a href="/setlists/teases/whats-the-use?teaseid=4068">What's the Use?</a> teases  in Chalk Dust Torture<br />&middot; <a href="/setlists/teases/crosseyed-and-painless?teaseid=4069">Crosseyed and Painless</a> and <a href="/setlists/teases/no-men-in-no-mans-land?teaseid=4070">No Men In No Man's Land</a> quotes  in Also Sprach Zarathustra<br />&middot; <a href="/setlists/teases/crosseyed-and-painless?teaseid=4071">Crosseyed and Painless</a> and <a href="/setlists/teases/whats-the-use?teaseid=4072">What's the Use?</a> quotes  in Cavern<br />&middot; <a href="/setlists/teases/under-pressure?teaseid=4073">Under Pressure</a> tease in Crosseyed and Painless<br />&middot; <a href="/setlists/teases/makisupa-policeman?teaseid=4074">Makisupa Policeman</a> quote in Wilson<br />&middot; <a href="/setlists/teases/ramble-on?teaseid=4078">Ramble On</a> tease in Good Times Bad Times</p>
+	<p><strong>Notes:</strong> This show was&nbsp;webcast via&nbsp;<a href="http://www.livephish.com/">Live Phish</a>.&nbsp;This show featured the debut of&nbsp;Ass Handed.&nbsp;The Old Home Place was played for the first time since June 28, 2012&nbsp;(155 shows).&nbsp;Crosseyed contained an Under Pressure tease from Trey. Ghost featured Trey on Marimba Lumina and Mike and Page on percussion. NMINML was teased in Ghost, CDT, and 2001 and quoted in Ghost. Crosseyed was teased in Stash, Ghost, CDT and quoted in NMINML, Ghost, 2001, and Cavern. What&#39;s The Use? was teased in Stash, Ghost, CDT, and Cavern. Fish quoted Makisupa in Wilson. Mike teased Ramble On in GTBT.</p>
+	<h5 class="r"><a href="?d=2016-07-15"><img src="http://smedia.pnet-static.com/famfamfam/application_form.png" alt="Reviews" /></a> 
+			<a href="http://phish.net/setlists/?d=2016-07-15" class="h rpad">12 Reviews</a> 
+			<a href="http://phish.net/reviews/add.php?d=2016-07-15"><img src="http://smedia.pnet-static.com/famfamfam/application_form_add.png" alt="Add Review" /></a>
+			<a href="http://phish.net/reviews/add.php?d=2016-07-15" class="h rpad">Add Review</a><a href="http://phish.net/setlists/gapchart.php?d=2016-07-15"><img src="http://smedia.pnet-static.com/famfamfam/chart_curve.png" alt="Gap Chart" /></a>
+			<a href="http://phish.net/setlists/gapchart.php?d=2016-07-15" class="h">Gap Chart</a>
+			
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> <a name="2016-07-16" class="anchor">&nbsp;</a>
+<div class="setlist">
+	<h2>
+		<a href="http://phish.net/setlists/?d=2016-07-16"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=2016-07-16" class="sldate">Saturday, 07/16/2016</a> 
+		<br /><i><a href="http://phish.net/venue/248" class='venue'>Gorge Amphitheatre</a>, George, WA</i>
+	</h2>
+	<p><i>Soundcheck</i>: Sleep Again, Sugar Shack</p>	<p><b>Set 1</b>: <a href="http://phish.net/song/buried-alive">Buried Alive</a> <a href="http://phish.net/song/acdc-bag" title="AC/DC Bag" class='jcard'>Bag</a><a href="http://phish.net/song/acdc-bag" class="full">AC/DC Bag</a> <a href="http://phish.net/song/the-moma-dance" title="The Moma Dance" class='jcard'>Moma</a><a href="http://phish.net/song/the-moma-dance" class="full">The Moma Dance</a> <a href="http://phish.net/song/uncle-pen">Uncle Pen</a> <a href="http://phish.net/song/555">555</a> <a href="http://phish.net/song/sleep-again">Sleep Again</a> <a href="http://phish.net/song/its-ice">It's Ice</a> <a href="http://phish.net/song/driver">Driver</a> <a href="http://phish.net/song/sand">Sand</a> <a href="http://phish.net/song/horn">Horn</a> <a href="http://phish.net/song/halfway-to-the-moon">Halfway to the Moon</a> <a href="http://phish.net/song/bathtub-gin" title="Bathtub Gin" class='jcard'>Gin</a><a href="http://phish.net/song/bathtub-gin" class="full">Bathtub Gin</a></p>
+	<p><b>Set 2</b>: <a href="http://phish.net/song/blaze-on">Blaze On</a> <a href="http://phish.net/song/backwards-down-the-number-line" title="Backwards Down the Number Line" class='jcard'>BDTNL</a><a href="http://phish.net/song/backwards-down-the-number-line" class="full">Backwards Down the Number Line</a> <a href="http://phish.net/song/carini">Carini</a> <a href="http://phish.net/song/birds-of-a-feather" title="Birds of a Feather" class='jcard'>BOAF</a><a href="http://phish.net/song/birds-of-a-feather" class="full">Birds of a Feather</a> <a href="http://phish.net/song/wingsuit">Wingsuit</a> <a href="http://phish.net/song/shade">Shade</a> <a href="http://phish.net/song/mikes-song" title="Mike's Song" class='jcard'>Mike's</a><a href="http://phish.net/song/mikes-song" class="full">Mike's Song</a> <a href="http://phish.net/song/farmhouse">Farmhouse</a> <a href="http://phish.net/song/weekapaug-groove" title="Weekapaug Groove" class='jcard'>Weekapaug</a><a href="http://phish.net/song/weekapaug-groove" class="full">Weekapaug Groove</a> <a href="http://phish.net/song/shine-a-light">Shine a Light</a></p>
+	<p><b>Encore</b>: <a href="http://phish.net/song/hold-your-head-up" title="Hold Your Head Up" class='jcard'>HYHU</a><a href="http://phish.net/song/hold-your-head-up" class="full">Hold Your Head Up</a> <a href="http://phish.net/song/love-you">Love You</a> <a href="http://phish.net/song/hold-your-head-up" title="Hold Your Head Up" class='jcard'>HYHU</a><a href="http://phish.net/song/hold-your-head-up" class="full">Hold Your Head Up</a> <a href="http://phish.net/song/harry-hood" title="Harry Hood" class='jcard'>Hood</a><a href="http://phish.net/song/harry-hood" class="full">Harry Hood</a> <a href="http://phish.net/song/tweezer-reprise" title="Tweezer Reprise" class='jcard'>Tweeprise</a><a href="http://phish.net/song/tweezer-reprise" class="full">Tweezer Reprise</a></p></p><p style='clear:both !important;'><strong>Teases:</strong><br />&middot; <a href="/setlists/teases/sundown?teaseid=4091">Sundown</a> tease in Bathtub Gin</p>
+	<p><strong>Notes:</strong> This show was webcast via&nbsp;<a href="http://www.livephish.com/">Live Phish</a>. Driver&nbsp;was played for the first time since August&nbsp;3, 2013&nbsp;(111&nbsp;shows). Mike teased Sundown in Bathtub Gin.&nbsp;Love You was played for the first time since October 23, 2010 (216 shows).</p>
+	<h5 class="r"><a href="?d=2016-07-16"><img src="http://smedia.pnet-static.com/famfamfam/application_form.png" alt="Reviews" /></a> 
+			<a href="http://phish.net/setlists/?d=2016-07-16" class="h rpad">13 Reviews</a> 
+			<a href="http://phish.net/reviews/add.php?d=2016-07-16"><img src="http://smedia.pnet-static.com/famfamfam/application_form_add.png" alt="Add Review" /></a>
+			<a href="http://phish.net/reviews/add.php?d=2016-07-16" class="h rpad">Add Review</a><a href="http://phish.net/setlists/gapchart.php?d=2016-07-16"><img src="http://smedia.pnet-static.com/famfamfam/chart_curve.png" alt="Gap Chart" /></a>
+			<a href="http://phish.net/setlists/gapchart.php?d=2016-07-16" class="h">Gap Chart</a>
+			
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> <a name="2016-07-18" class="anchor">&nbsp;</a>
+<div class="setlist">
+	<h2>
+		<a href="http://phish.net/setlists/?d=2016-07-18"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=2016-07-18" class="sldate">Monday, 07/18/2016</a> 
+		<br /><i><a href="http://phish.net/venue/816" class='venue'>Bill Graham Civic Auditorium</a>, San Francisco, CA</i>
+	</h2>
+	<p><b>Set 1</b>: <a href="http://phish.net/song/martian-monster">Martian Monster</a> <a href="http://phish.net/song/halleys-comet" title="Halley's Comet" class='jcard'>Halley's</a><a href="http://phish.net/song/halleys-comet" class="full">Halley's Comet</a> <a href="http://phish.net/song/46-days">46 Days</a> <a href="http://phish.net/song/sugar-shack">Sugar Shack</a> <a href="http://phish.net/song/roggae">Roggae</a> <a href="http://phish.net/song/daniel-saw-the-stone">Daniel Saw the Stone</a> <a href="http://phish.net/song/divided-sky" title="Divided Sky" class='jcard'>Divided</a><a href="http://phish.net/song/divided-sky" class="full">Divided Sky</a> <a href="http://phish.net/song/ocelot">Ocelot</a> <a href="http://phish.net/song/ya-mar">Ya Mar</a><sup>[1]</sup> <a href="http://phish.net/song/possum">Possum</a></p>
+	<p><b>Set 2</b>: <a href="http://phish.net/song/golden-age">Golden Age</a> <a href="http://phish.net/song/twist">Twist</a> <a href="http://phish.net/song/my-sweet-one" title="My Sweet One" class='jcard'>MSO</a><a href="http://phish.net/song/my-sweet-one" class="full">My Sweet One</a> <a href="http://phish.net/song/the-line">The Line</a> <a href="http://phish.net/song/simple">Simple</a> <a href="http://phish.net/song/sneakin-sally-through-the-alley" title="Sneakin' Sally Through the Alley" class='jcard'>Sneakin' Sally</a><a href="http://phish.net/song/sneakin-sally-through-the-alley" class="full">Sneakin' Sally Through the Alley</a> <a href="http://phish.net/song/limb-by-limb" title="Limb By Limb" class='jcard'>LxL</a><a href="http://phish.net/song/limb-by-limb" class="full">Limb By Limb</a> <a href="http://phish.net/song/slave-to-the-traffic-light" title="Slave to the Traffic Light" class='jcard'>Slave</a><a href="http://phish.net/song/slave-to-the-traffic-light" class="full">Slave to the Traffic Light</a></p>
+	<p><b>Encore</b>: <a href="http://phish.net/song/when-the-circus-comes" title="When the Circus Comes" class='jcard'>Circus</a><a href="http://phish.net/song/when-the-circus-comes" class="full">When the Circus Comes</a> <a href="http://phish.net/song/run-like-an-antelope" title="Run Like an Antelope" class='jcard'>Antelope</a><a href="http://phish.net/song/run-like-an-antelope" class="full">Run Like an Antelope</a></p></p>
+	<p class='footnotes'>[1] Trey on Marimba Lumina, Mike on guitar, and Page on bass.<br /></p><p style='clear:both !important;'><strong>Teases:</strong><br />&middot; <a href="/setlists/teases/magilla?teaseid=4079">Magilla</a> tease in Simple</p>
+	<p><strong>Notes:</strong> Ya Mar featured Trey on Marimba Lumina, Mike on guitar, and Page on bass.&nbsp;Simple contained a Magilla tease from Page.</p>
+	<h5 class="r"><a href="?d=2016-07-18"><img src="http://smedia.pnet-static.com/famfamfam/application_form.png" alt="Reviews" /></a> 
+			<a href="http://phish.net/setlists/?d=2016-07-18" class="h rpad">9 Reviews</a> 
+			<a href="http://phish.net/reviews/add.php?d=2016-07-18"><img src="http://smedia.pnet-static.com/famfamfam/application_form_add.png" alt="Add Review" /></a>
+			<a href="http://phish.net/reviews/add.php?d=2016-07-18" class="h rpad">Add Review</a><a href="http://phish.net/setlists/gapchart.php?d=2016-07-18"><img src="http://smedia.pnet-static.com/famfamfam/chart_curve.png" alt="Gap Chart" /></a>
+			<a href="http://phish.net/setlists/gapchart.php?d=2016-07-18" class="h">Gap Chart</a>
+			
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> <a name="2016-07-19" class="anchor">&nbsp;</a>
+<div class="setlist">
+	<h2>
+		<a href="http://phish.net/setlists/?d=2016-07-19"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=2016-07-19" class="sldate">Tuesday, 07/19/2016</a> 
+		<br /><i><a href="http://phish.net/venue/816" class='venue'>Bill Graham Civic Auditorium</a>, San Francisco, CA</i>
+	</h2>
+	<p><i>Soundcheck</i>: Scents and Subtle Sounds</p>	<p><b>Set 1</b>: <a href="http://phish.net/song/chalk-dust-torture" title="Chalk Dust Torture" class='jcard'>CDT</a><a href="http://phish.net/song/chalk-dust-torture" class="full">Chalk Dust Torture</a> <a href="http://phish.net/song/free">Free</a> <a href="http://phish.net/song/breath-and-burning">Breath and Burning</a> <a href="http://phish.net/song/theme-from-the-bottom" title="Theme From the Bottom" class='jcard'>Theme</a><a href="http://phish.net/song/theme-from-the-bottom" class="full">Theme From the Bottom</a> <a href="http://phish.net/song/cities">Cities</a> <a href="http://phish.net/song/maze">Maze</a> <a href="http://phish.net/song/wombat">Wombat</a> <a href="http://phish.net/song/split-open-and-melt" title="Split Open and Melt" class='jcard'>SOAMelt</a><a href="http://phish.net/song/split-open-and-melt" class="full">Split Open and Melt</a> <a href="http://phish.net/song/sparkle">Sparkle</a> <a href="http://phish.net/song/a-song-i-heard-the-ocean-sing" title="A Song I Heard the Ocean Sing" class='jcard'>ASIHTOS</a><a href="http://phish.net/song/a-song-i-heard-the-ocean-sing" class="full">A Song I Heard the Ocean Sing</a> <a href="http://phish.net/song/space-oddity">Space Oddity</a></p>
+	<p><b>Set 2</b>: <a href="http://phish.net/song/down-with-disease" title="Down with Disease" class='jcard'>DwD</a><a href="http://phish.net/song/down-with-disease" class="full">Down with Disease</a><sup>[1]</sup> <a href="http://phish.net/song/fuego">Fuego</a> <a href="http://phish.net/song/ghost">Ghost</a> <a href="http://phish.net/song/scents-and-subtle-sounds">Scents and Subtle Sounds</a><sup>[2]</sup> <a href="http://phish.net/song/light">Light</a> <a href="http://phish.net/song/manteca">Manteca</a> <a href="http://phish.net/song/no-quarter">No Quarter</a> <a href="http://phish.net/song/fluffhead">Fluffhead</a></p>
+	<p><b>Encore</b>: <a href="http://phish.net/song/bug">Bug</a> <a href="http://phish.net/song/first-tube">First Tube</a></p></p>
+	<p class='footnotes'>[1] Unfinished.<br />[2] No intro.<br /></p><p style='clear:both !important;'><strong>Teases:</strong><br />&middot; <a href="/setlists/teases/theme-from-i-dream-of-jeannie?teaseid=4082">Theme from I Dream of Jeannie</a> and <a href="/setlists/teases/under-pressure?teaseid=4083">Under Pressure</a> teases  in Down with Disease<br />&middot; <a href="/setlists/teases/daves-energy-guide?teaseid=4090">Dave's Energy Guide</a> tease in Scents and Subtle Sounds<br />&middot; <a href="/setlists/teases/bug?teaseid=4097">Bug</a> tease in Fuego</p>
+	<p><strong>Notes:</strong> DWD contained <em>I Dream of Jeannie&nbsp;</em>theme and Under Pressure teases and was unfinished. Fuego included a Bug tease from Trey.&nbsp;Scents and Subtle Sounds did not contain the Intro, but did include a DEG tease. Manteca was last played June 16, 2012 (165 shows).</p>
+	<h5 class="r"><a href="?d=2016-07-19"><img src="http://smedia.pnet-static.com/famfamfam/application_form.png" alt="Reviews" /></a> 
+			<a href="http://phish.net/setlists/?d=2016-07-19" class="h rpad">11 Reviews</a> 
+			<a href="http://phish.net/reviews/add.php?d=2016-07-19"><img src="http://smedia.pnet-static.com/famfamfam/application_form_add.png" alt="Add Review" /></a>
+			<a href="http://phish.net/reviews/add.php?d=2016-07-19" class="h rpad">Add Review</a><a href="http://phish.net/setlists/gapchart.php?d=2016-07-19"><img src="http://smedia.pnet-static.com/famfamfam/chart_curve.png" alt="Gap Chart" /></a>
+			<a href="http://phish.net/setlists/gapchart.php?d=2016-07-19" class="h">Gap Chart</a>
+			
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> <a name="2016-07-20" class="anchor">&nbsp;</a>
+<div class="setlist">
+	<h2>
+		<a href="http://phish.net/setlists/?d=2016-07-20"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=2016-07-20" class="sldate">Wednesday, 07/20/2016</a> 
+		<br /><i><a href="http://phish.net/venue/816" class='venue'>Bill Graham Civic Auditorium</a>, San Francisco, CA</i>
+	</h2>
+	<p><b>Set 1</b>: <a href="http://phish.net/song/demand">Demand</a> <a href="http://phish.net/song/the-curtain-with" title="The Curtain With" class='jcard'>Curtain With</a><a href="http://phish.net/song/the-curtain-with" class="full">The Curtain With</a> <a href="http://phish.net/song/alumni-blues" title="Alumni Blues" class='jcard'>Alumni</a><a href="http://phish.net/song/alumni-blues" class="full">Alumni Blues</a> <a href="http://phish.net/song/letter-to-jimmy-page" title="Letter to Jimmy Page" class='jcard'>LTJP</a><a href="http://phish.net/song/letter-to-jimmy-page" class="full">Letter to Jimmy Page</a> <a href="http://phish.net/song/alumni-blues" title="Alumni Blues" class='jcard'>Alumni</a><a href="http://phish.net/song/alumni-blues" class="full">Alumni Blues</a> <a href="http://phish.net/song/fuck-your-face" title="Fuck Your Face" class='jcard'>FYF</a><a href="http://phish.net/song/fuck-your-face" class="full">Fuck Your Face</a> <a href="http://phish.net/song/cry-baby-cry">Cry Baby Cry</a> <a href="http://phish.net/song/sing-monica">Sing Monica</a> <a href="http://phish.net/song/mcgrupp-and-the-watchful-hosemasters" title="McGrupp and the Watchful Hosemasters" class='jcard'>McGrupp</a><a href="http://phish.net/song/mcgrupp-and-the-watchful-hosemasters" class="full">McGrupp and the Watchful Hosemasters</a> <a href="http://phish.net/song/the-very-long-fuse">The Very Long Fuse</a> <a href="http://phish.net/song/big-black-furry-creature-from-mars" title="Big Black Furry Creature from Mars" class='jcard'>BBFCFM</a><a href="http://phish.net/song/big-black-furry-creature-from-mars" class="full">Big Black Furry Creature from Mars</a> <a href="http://phish.net/song/walk-away">Walk Away</a> <a href="http://phish.net/song/sanity">Sanity</a> <a href="http://phish.net/song/david-bowie" title="David Bowie" class='jcard'>Bowie</a><a href="http://phish.net/song/david-bowie" class="full">David Bowie</a></p>
+	<p><b>Set 2</b>: <a href="http://phish.net/song/no-men-in-no-mans-land" title="No Men In No Man's Land" class='jcard'>NMINML</a><a href="http://phish.net/song/no-men-in-no-mans-land" class="full">No Men In No Man's Land</a> <a href="http://phish.net/song/mikes-song" title="Mike's Song" class='jcard'>Mike's</a><a href="http://phish.net/song/mikes-song" class="full">Mike's Song</a> <a href="http://phish.net/song/fee">Fee</a><sup>[1]</sup> <a href="http://phish.net/song/seven-below">Seven Below</a> <a href="http://phish.net/song/waiting-all-night">Waiting All Night</a> <a href="http://phish.net/song/gotta-jibboo" title="Gotta Jibboo" class='jcard'>Jibboo</a><a href="http://phish.net/song/gotta-jibboo" class="full">Gotta Jibboo</a> <a href="http://phish.net/song/miss-you-phish">Miss You</a> <a href="http://phish.net/song/weekapaug-groove" title="Weekapaug Groove" class='jcard'>Weekapaug</a><a href="http://phish.net/song/weekapaug-groove" class="full">Weekapaug Groove</a><sup>[2]</sup> <a href="http://phish.net/song/the-oh-kee-pa-ceremony" title="The Oh Kee Pa Ceremony" class='jcard'>Oh Kee Pa</a><a href="http://phish.net/song/the-oh-kee-pa-ceremony" class="full">The Oh Kee Pa Ceremony</a> <a href="http://phish.net/song/suzy-greenberg" title="Suzy Greenberg" class='jcard'>Suzy</a><a href="http://phish.net/song/suzy-greenberg" class="full">Suzy Greenberg</a> <a href="http://phish.net/song/julius">Julius</a></p>
+	<p><b>Encore</b>: <a href="http://phish.net/song/wading-in-the-velvet-sea" title="Wading in the Velvet Sea" class='jcard'>Velvet Sea</a><a href="http://phish.net/song/wading-in-the-velvet-sea" class="full">Wading in the Velvet Sea</a> <a href="http://phish.net/song/character-zero">Character Zero</a><sup>[3]</sup></p></p>
+	<p class='footnotes'>[1] Trey on megaphone.<br />[2] Trey on Marimba Lumina and Mike on keys.<br />[3] The majority of the song was sung solely by the audience with the band playing and singing the chorus.<br /></p><p style='clear:both !important;'><strong>Teases:</strong><br />&middot; <a href="/setlists/teases/the-very-long-fuse?teaseid=4084">The Very Long Fuse</a> quote in Sanity</p>
+	<p><strong>Notes:</strong> Demand was played for the first time since December 31, 2009 (258 shows). Alumni Blues and Letter to Jimmy Page were played for the first time since August 3, 2013 (114 shows). Cry Baby Cry was played for the first time since November 21, 1998 (496 shows). Sing Monica was dedicated to producer <a href="https://en.wikipedia.org/wiki/Bob_Ezrin">Bob Ezrin</a>, who was in attendance.&nbsp;Walk Away was played for the first time since October 29, 2013 (100 shows). Fee featured Trey on megaphone. Weekapaug featured Trey on Marimba Lumina and Mike on keys. Character Zero was primarily sung by solely by the audience with the band playing music and singing the chorus.</p>
+	<h5 class="r"><a href="?d=2016-07-20"><img src="http://smedia.pnet-static.com/famfamfam/application_form.png" alt="Reviews" /></a> 
+			<a href="http://phish.net/setlists/?d=2016-07-20" class="h rpad">13 Reviews</a> 
+			<a href="http://phish.net/reviews/add.php?d=2016-07-20"><img src="http://smedia.pnet-static.com/famfamfam/application_form_add.png" alt="Add Review" /></a>
+			<a href="http://phish.net/reviews/add.php?d=2016-07-20" class="h rpad">Add Review</a><a href="http://phish.net/setlists/gapchart.php?d=2016-07-20"><img src="http://smedia.pnet-static.com/famfamfam/chart_curve.png" alt="Gap Chart" /></a>
+			<a href="http://phish.net/setlists/gapchart.php?d=2016-07-20" class="h">Gap Chart</a>
+			
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> <a name="2016-07-22" class="anchor">&nbsp;</a>
+<div class="setlist">
+	<h2>
+		<a href="http://phish.net/setlists/?d=2016-07-22"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=2016-07-22" class="sldate">Friday, 07/22/2016</a> 
+		<br /><i><a href="http://phish.net/venue/1314" class='venue'>The Forum</a>, Inglewood, CA</i>
+	</h2>
+	<p><b>Set 1</b>: <a href="http://phish.net/song/the-moma-dance" title="The Moma Dance" class='jcard'>Moma</a><a href="http://phish.net/song/the-moma-dance" class="full">The Moma Dance</a> <a href="http://phish.net/song/sample-in-a-jar" title="Sample in a Jar" class='jcard'>Sample</a><a href="http://phish.net/song/sample-in-a-jar" class="full">Sample in a Jar</a> <a href="http://phish.net/song/paul-and-silas">Paul and Silas</a> <a href="http://phish.net/song/yarmouth-road">Yarmouth Road</a> <a href="http://phish.net/song/kill-devil-falls" title="Kill Devil Falls" class='jcard'>KDF</a><a href="http://phish.net/song/kill-devil-falls" class="full">Kill Devil Falls</a> <a href="http://phish.net/song/horn">Horn</a> <a href="http://phish.net/song/halfway-to-the-moon">Halfway to the Moon</a> <a href="http://phish.net/song/heavy-things">Heavy Things</a> <a href="http://phish.net/song/blaze-on">Blaze On</a> <a href="http://phish.net/song/stash">Stash</a> <a href="http://phish.net/song/cavern">Cavern</a> <a href="http://phish.net/song/run-like-an-antelope" title="Run Like an Antelope" class='jcard'>Antelope</a><a href="http://phish.net/song/run-like-an-antelope" class="full">Run Like an Antelope</a><sup>[1]</sup></p>
+	<p><b>Set 2</b>: <a href="http://phish.net/song/axilla">Axilla</a> <a href="http://phish.net/song/fuego">Fuego</a> <a href="http://phish.net/song/back-on-the-train" title="Back on the Train" class='jcard'>BOTT</a><a href="http://phish.net/song/back-on-the-train" class="full">Back on the Train</a> <a href="http://phish.net/song/saw-it-again">Saw It Again</a> <a href="http://phish.net/song/prince-caspian" title="Prince Caspian" class='jcard'>Caspian</a><a href="http://phish.net/song/prince-caspian" class="full">Prince Caspian</a> <a href="http://phish.net/song/waves">Waves</a> <a href="http://phish.net/song/joy">Joy</a> <a href="http://phish.net/song/the-wedge" title="The Wedge" class='jcard'>Wedge</a><a href="http://phish.net/song/the-wedge" class="full">The Wedge</a> <a href="http://phish.net/song/scent-of-a-mule" title="Scent of a Mule" class='jcard'>SOAMule</a><a href="http://phish.net/song/scent-of-a-mule" class="full">Scent of a Mule</a><sup>[2]</sup> <a href="http://phish.net/song/rock-and-roll" title="Rock and Roll" class='jcard'>R&amp;R</a><a href="http://phish.net/song/rock-and-roll" class="full">Rock and Roll</a> <a href="http://phish.net/song/you-enjoy-myself" title="You Enjoy Myself" class='jcard'>YEM</a><a href="http://phish.net/song/you-enjoy-myself" class="full">You Enjoy Myself</a></p>
+	<p><b>Encore</b>: <a href="http://phish.net/song/boogie-on-reggae-woman" title="Boogie On Reggae Woman" class='jcard'>Boogie On</a><a href="http://phish.net/song/boogie-on-reggae-woman" class="full">Boogie On Reggae Woman</a> <a href="http://phish.net/song/bouncing-around-the-room" title="Bouncing Around the Room" class='jcard'>Bouncin'</a><a href="http://phish.net/song/bouncing-around-the-room" class="full">Bouncing Around the Room</a> <a href="http://phish.net/song/golgi-apparatus" title="Golgi Apparatus" class='jcard'>Golgi</a><a href="http://phish.net/song/golgi-apparatus" class="full">Golgi Apparatus</a></p></p>
+	<p class='footnotes'>[1] Lyric changed to "Mike-O Esquandolas."<br />[2] Trey and Fish on Marimba Lumina<br /></p>
+	<p><strong>Notes:</strong> This show was webcast via&nbsp;<a href="http://www.livephish.com/">Live Phish</a>.&nbsp;Paul and Silas was played for the first time since October 20, 2013&nbsp;(107 shows). Antelope&#39;s lyrics were changed &quot;Mike-O Esquandolas.&quot;&nbsp;</p>
+	<h5 class="r"><a href="?d=2016-07-22"><img src="http://smedia.pnet-static.com/famfamfam/application_form.png" alt="Reviews" /></a> 
+			<a href="http://phish.net/setlists/?d=2016-07-22" class="h rpad">20 Reviews</a> 
+			<a href="http://phish.net/reviews/add.php?d=2016-07-22"><img src="http://smedia.pnet-static.com/famfamfam/application_form_add.png" alt="Add Review" /></a>
+			<a href="http://phish.net/reviews/add.php?d=2016-07-22" class="h rpad">Add Review</a><a href="http://phish.net/setlists/gapchart.php?d=2016-07-22"><img src="http://smedia.pnet-static.com/famfamfam/chart_curve.png" alt="Gap Chart" /></a>
+			<a href="http://phish.net/setlists/gapchart.php?d=2016-07-22" class="h">Gap Chart</a>
+			
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> <a name="2016-07-23" class="anchor">&nbsp;</a>
+<div class="setlist">
+	<h2>
+		<a href="http://phish.net/setlists/?d=2016-07-23"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=2016-07-23" class="sldate">Saturday, 07/23/2016</a> 
+		<br /><i><a href="http://phish.net/venue/1315" class='venue'>Sleep Train Amphitheatre</a>, Chula Vista, CA</i>
+	</h2>
+	<p><i>Soundcheck</i>: Funky Bitch, Foam</p>	<p><b>Set 1</b>: <a href="http://phish.net/song/farmhouse">Farmhouse</a> <a href="http://phish.net/song/555">555</a> <a href="http://phish.net/song/water-in-the-sky">Water in the Sky</a> <a href="http://phish.net/song/ghost">Ghost</a> <a href="http://phish.net/song/ass-handed">Ass Handed</a> <a href="http://phish.net/song/the-sloth" title="The Sloth" class='jcard'>Sloth</a><a href="http://phish.net/song/the-sloth" class="full">The Sloth</a> <a href="http://phish.net/song/martian-monster">Martian Monster</a> <a href="http://phish.net/song/reba">Reba</a> <a href="http://phish.net/song/ass-handed">Ass Handed</a> <a href="http://phish.net/song/tube">Tube</a> <a href="http://phish.net/song/wolfmans-brother" title="Wolfman's Brother" class='jcard'>Wolfman's</a><a href="http://phish.net/song/wolfmans-brother" class="full">Wolfman's Brother</a> <a href="http://phish.net/song/walls-of-the-cave" title="Walls of the Cave" class='jcard'>WotC</a><a href="http://phish.net/song/walls-of-the-cave" class="full">Walls of the Cave</a></p>
+	<p><b>Set 2</b>: <a href="http://phish.net/song/also-sprach-zarathustra" title="Also Sprach Zarathustra" class='jcard'>2001</a><a href="http://phish.net/song/also-sprach-zarathustra" class="full">Also Sprach Zarathustra</a> <a href="http://phish.net/song/46-days">46 Days</a> <a href="http://phish.net/song/piper">Piper</a> <a href="http://phish.net/song/twist">Twist</a> <a href="http://phish.net/song/backwards-down-the-number-line" title="Backwards Down the Number Line" class='jcard'>BDTNL</a><a href="http://phish.net/song/backwards-down-the-number-line" class="full">Backwards Down the Number Line</a> <a href="http://phish.net/song/carini">Carini</a> <a href="http://phish.net/song/harry-hood" title="Harry Hood" class='jcard'>Hood</a><a href="http://phish.net/song/harry-hood" class="full">Harry Hood</a> <a href="http://phish.net/song/loving-cup">Loving Cup</a></p>
+	<p><b>Encore</b>: <a href="http://phish.net/song/sleeping-monkey">Sleeping Monkey</a> <a href="http://phish.net/song/tweezer-reprise" title="Tweezer Reprise" class='jcard'>Tweeprise</a><a href="http://phish.net/song/tweezer-reprise" class="full">Tweezer Reprise</a></p></p><p style='clear:both !important;'><strong>Teases:</strong><br />&middot; <a href="/setlists/teases/california-love?teaseid=4085">California Love</a> tease &amp; quote in Wolfman's Brother<br />&middot; <a href="/setlists/teases/streets-of-cairo?teaseid=4086">Streets of Cairo</a> tease in Walls of the Cave<br />&middot; <a href="/setlists/teases/ass-handed?teaseid=4087">Ass Handed</a> quote in Carini<br />&middot; <a href="/setlists/teases/ass-handed?teaseid=4088">Ass Handed</a> quote in Tweezer Reprise<br />&middot; <a href="/setlists/teases/california-love?teaseid=4092">California Love</a> tease in Also Sprach Zarathustra<br />&middot; <a href="/setlists/teases/whipping-post?teaseid=4093">Whipping Post</a> tease in Ass Handed</p>
+	<p><strong>Notes:</strong> This show was webcast via&nbsp;<a href="http://www.livephish.com/">Live Phish</a>. Mike teased Whipping Post at the end of the first Ass Handed.&nbsp;California Love was teased and quoted in Wolfman&#39;s and teased in 2001. WOTC contained a Streets of Cairo tease. Carini contained Ass Handed quotes&nbsp;and Tweezer Reprise&#39;s lyrics were substituted for&nbsp;Ass Handed lyrics.</p>
+	<h5 class="r"><a href="?d=2016-07-23"><img src="http://smedia.pnet-static.com/famfamfam/application_form.png" alt="Reviews" /></a> 
+			<a href="http://phish.net/setlists/?d=2016-07-23" class="h rpad">17 Reviews</a> 
+			<a href="http://phish.net/reviews/add.php?d=2016-07-23"><img src="http://smedia.pnet-static.com/famfamfam/application_form_add.png" alt="Add Review" /></a>
+			<a href="http://phish.net/reviews/add.php?d=2016-07-23" class="h rpad">Add Review</a><a href="http://phish.net/setlists/gapchart.php?d=2016-07-23"><img src="http://smedia.pnet-static.com/famfamfam/chart_curve.png" alt="Gap Chart" /></a>
+			<a href="http://phish.net/setlists/gapchart.php?d=2016-07-23" class="h">Gap Chart</a>
+			
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> <a name="2016-08-26" class="anchor">&nbsp;</a>
+<div class="setlist">
+	<h2>
+		<a href="http://phish.net/setlists/?d=2016-08-26"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=2016-08-26" class="sldate">Friday, 08/26/2016</a> 
+		<br /><i><a href="http://phish.net/venue/1286" class='venue'>Oak Ridge Farm</a>, Arrington, VA</i>
+	</h2>
+	<p><i>This show is in the future, please check back later for complete setlist details.</i></p>
+	<p><strong>Notes:</strong> This performance will be part of the <a href="http://www.locknfestival.com/">Lockin&#39; Festival</a> that will also feature <a href="http://www.ween.com/">Ween</a>, <a href="http://www.mymorningjacket.com/">My Morning Jacket</a>, <a href="http://www.joerussosalmostdead.com/">Joe Russo&#39;s Almost Dead</a>, <a href="http://umphreys.com/">Umphrey&#39;s McGee</a>, <a href="http://www.whitedenimmusic.com/">White Denim</a>, and many others.</p>
+	<h5 class="r">
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> <a name="2016-08-28" class="anchor">&nbsp;</a>
+<div class="setlist">
+	<h2>
+		<a href="http://phish.net/setlists/?d=2016-08-28"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=2016-08-28" class="sldate">Sunday, 08/28/2016</a> 
+		<br /><i><a href="http://phish.net/venue/1286" class='venue'>Oak Ridge Farm</a>, Arrington, VA</i>
+	</h2>
+	<p><i>This show is in the future, please check back later for complete setlist details.</i></p>
+	<p><strong>Notes:</strong> This performance will be part of the&nbsp;<a href="http://www.locknfestival.com/">Lockin&#39; Festival</a>&nbsp;that will also feature&nbsp;<a href="http://www.ween.com/">Ween</a>,&nbsp;<a href="http://www.mymorningjacket.com/">My Morning Jacket</a>,&nbsp;<a href="http://www.joerussosalmostdead.com/">Joe Russo&#39;s Almost Dead</a>,&nbsp;<a href="http://umphreys.com/">Umphrey&#39;s McGee</a>,&nbsp;<a href="http://www.whitedenimmusic.com/">White Denim</a>, and many others.</p>
+	<h5 class="r">
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> <a name="2016-09-02" class="anchor">&nbsp;</a>
+<div class="setlist">
+	<h2>
+		<a href="http://phish.net/setlists/?d=2016-09-02"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=2016-09-02" class="sldate">Friday, 09/02/2016</a> 
+		<br /><i><a href="http://phish.net/venue/961" class='venue'>Dick's Sporting Goods Park</a>, Commerce City, CO</i>
+	</h2>
+	<p><i>This show is in the future, please check back later for complete setlist details.</i></p>
+	<h5 class="r">
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> <a name="2016-09-03" class="anchor">&nbsp;</a>
+<div class="setlist">
+	<h2>
+		<a href="http://phish.net/setlists/?d=2016-09-03"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=2016-09-03" class="sldate">Saturday, 09/03/2016</a> 
+		<br /><i><a href="http://phish.net/venue/961" class='venue'>Dick's Sporting Goods Park</a>, Commerce City, CO</i>
+	</h2>
+	<p><i>This show is in the future, please check back later for complete setlist details.</i></p>
+	<h5 class="r">
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> <a name="2016-09-04" class="anchor">&nbsp;</a>
+<div class="setlist">
+	<h2>
+		<a href="http://phish.net/setlists/?d=2016-09-04"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=2016-09-04" class="sldate">Sunday, 09/04/2016</a> 
+		<br /><i><a href="http://phish.net/venue/961" class='venue'>Dick's Sporting Goods Park</a>, Commerce City, CO</i>
+	</h2>
+	<p><i>This show is in the future, please check back later for complete setlist details.</i></p>
+	<h5 class="r">
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> <a name="2016-10-14" class="anchor">&nbsp;</a>
+<div class="setlist">
+	<h2>
+		<a href="http://phish.net/setlists/?d=2016-10-14"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=2016-10-14" class="sldate">Friday, 10/14/2016</a> 
+		<br /><i><a href="http://phish.net/venue/698" class='venue'>North Charleston Coliseum</a>, North Charleston, SC</i>
+	</h2>
+	<p><i>This show is in the future, please check back later for complete setlist details.</i></p>
+	<h5 class="r">
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> <a name="2016-10-15" class="anchor">&nbsp;</a>
+<div class="setlist">
+	<h2>
+		<a href="http://phish.net/setlists/?d=2016-10-15"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=2016-10-15" class="sldate">Saturday, 10/15/2016</a> 
+		<br /><i><a href="http://phish.net/venue/698" class='venue'>North Charleston Coliseum</a>, North Charleston, SC</i>
+	</h2>
+	<p><i>This show is in the future, please check back later for complete setlist details.</i></p>
+	<h5 class="r">
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> <a name="2016-10-16" class="anchor">&nbsp;</a>
+<div class="setlist">
+	<h2>
+		<a href="http://phish.net/setlists/?d=2016-10-16"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=2016-10-16" class="sldate">Sunday, 10/16/2016</a> 
+		<br /><i><a href="http://phish.net/venue/1379" class='venue'>Jacksonville Veterans Memorial Arena</a>, Jacksonville, FL</i>
+	</h2>
+	<p><i>This show is in the future, please check back later for complete setlist details.</i></p>
+	<h5 class="r">
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> <a name="2016-10-18" class="anchor">&nbsp;</a>
+<div class="setlist">
+	<h2>
+		<a href="http://phish.net/setlists/?d=2016-10-18"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=2016-10-18" class="sldate">Tuesday, 10/18/2016</a> 
+		<br /><i><a href="http://phish.net/venue/1329" class='venue'>Ascend Amphitheater</a>, Nashville, TN</i>
+	</h2>
+	<p><i>This show is in the future, please check back later for complete setlist details.</i></p>
+	<h5 class="r">
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> <a name="2016-10-19" class="anchor">&nbsp;</a>
+<div class="setlist">
+	<h2>
+		<a href="http://phish.net/setlists/?d=2016-10-19"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=2016-10-19" class="sldate">Wednesday, 10/19/2016</a> 
+		<br /><i><a href="http://phish.net/venue/1329" class='venue'>Ascend Amphitheater</a>, Nashville, TN</i>
+	</h2>
+	<p><i>This show is in the future, please check back later for complete setlist details.</i></p>
+	<h5 class="r">
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> <a name="2016-10-21" class="anchor">&nbsp;</a>
+<div class="setlist">
+	<h2>
+		<a href="http://phish.net/setlists/?d=2016-10-21"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=2016-10-21" class="sldate">Friday, 10/21/2016</a> 
+		<br /><i><a href="http://phish.net/venue/768" class='venue'>Verizon Wireless Amphitheatre at Encore Park</a>, Alpharetta, GA</i>
+	</h2>
+	<p><i>This show is in the future, please check back later for complete setlist details.</i></p>
+	<h5 class="r">
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> <a name="2016-10-22" class="anchor">&nbsp;</a>
+<div class="setlist">
+	<h2>
+		<a href="http://phish.net/setlists/?d=2016-10-22"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=2016-10-22" class="sldate">Saturday, 10/22/2016</a> 
+		<br /><i><a href="http://phish.net/venue/768" class='venue'>Verizon Wireless Amphitheatre at Encore Park</a>, Alpharetta, GA</i>
+	</h2>
+	<p><i>This show is in the future, please check back later for complete setlist details.</i></p>
+	<h5 class="r">
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> <a name="2016-10-24" class="anchor">&nbsp;</a>
+<div class="setlist">
+	<h2>
+		<a href="http://phish.net/setlists/?d=2016-10-24"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=2016-10-24" class="sldate">Monday, 10/24/2016</a> 
+		<br /><i><a href="http://phish.net/venue/1327" class='venue'>Verizon Theatre at Grand Prairie</a>, Grand Prairie, TX</i>
+	</h2>
+	<p><i>This show is in the future, please check back later for complete setlist details.</i></p>
+	<h5 class="r">
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> <a name="2016-10-25" class="anchor">&nbsp;</a>
+<div class="setlist">
+	<h2>
+		<a href="http://phish.net/setlists/?d=2016-10-25"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=2016-10-25" class="sldate">Tuesday, 10/25/2016</a> 
+		<br /><i><a href="http://phish.net/venue/1327" class='venue'>Verizon Theatre at Grand Prairie</a>, Grand Prairie, TX</i>
+	</h2>
+	<p><i>This show is in the future, please check back later for complete setlist details.</i></p>
+	<h5 class="r">
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> <a name="2016-10-28" class="anchor">&nbsp;</a>
+<div class="setlist">
+	<h2>
+		<a href="http://phish.net/setlists/?d=2016-10-28"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=2016-10-28" class="sldate">Friday, 10/28/2016</a> 
+		<br /><i><a href="http://phish.net/venue/1316" class='venue'>MGM Grand Garden Arena</a>, Las Vegas, NV</i>
+	</h2>
+	<p><i>This show is in the future, please check back later for complete setlist details.</i></p>
+	<h5 class="r">
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> <a name="2016-10-29" class="anchor">&nbsp;</a>
+<div class="setlist">
+	<h2>
+		<a href="http://phish.net/setlists/?d=2016-10-29"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=2016-10-29" class="sldate">Saturday, 10/29/2016</a> 
+		<br /><i><a href="http://phish.net/venue/1316" class='venue'>MGM Grand Garden Arena</a>, Las Vegas, NV</i>
+	</h2>
+	<p><i>This show is in the future, please check back later for complete setlist details.</i></p>
+	<h5 class="r">
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> <a name="2016-10-30" class="anchor">&nbsp;</a>
+<div class="setlist">
+	<h2>
+		<a href="http://phish.net/setlists/?d=2016-10-30"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=2016-10-30" class="sldate">Sunday, 10/30/2016</a> 
+		<br /><i><a href="http://phish.net/venue/1316" class='venue'>MGM Grand Garden Arena</a>, Las Vegas, NV</i>
+	</h2>
+	<p><i>This show is in the future, please check back later for complete setlist details.</i></p>
+	<h5 class="r">
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> <a name="2016-10-31" class="anchor">&nbsp;</a>
+<div class="setlist">
+	<h2>
+		<a href="http://phish.net/setlists/?d=2016-10-31"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=2016-10-31" class="sldate">Monday, 10/31/2016</a> 
+		<br /><i><a href="http://phish.net/venue/1316" class='venue'>MGM Grand Garden Arena</a>, Las Vegas, NV</i>
+	</h2>
+	<p><i>This show is in the future, please check back later for complete setlist details.</i></p>
+	<h5 class="r">
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> 		</div>
+<aside> 
+	<section>
+		<header>
+			<h3>READ THE BOOK!</h3>
+		</header>
+		<a target="_blank" href="http://phishcompanion.com"><img style="width:200px;" src='//smedia.pnet-static.com/site/book.jpg'></a><br>
+		The Phish Companion (3rd Edition) is now shipping!		 
+		<p>
+		&bull; Thousands of freshly-manicured setlists, song histories, and charts<br>
+		&bull; Hundreds of evocative show reviews &amp; fan stories<br>
+		&bull; 128 pages of dazzling Phish photography<br>
+		&bull; Stunning original works of art<br>
+		</p>
+		Only $39 and shipping now from <a target="_blank" href="http://phishcompanion.com">phishcompanion.com</a>!
+	</section>
+
+
+	<section>
+		<header>
+			<h3 class="donate">Support Phish.net</h3>
+		</header>
+		<form action="https://www.paypal.com/cgi-bin/webscr" method="post"> 
+			<input type="hidden" name="cmd" value="_xclick" /> 
+			<input type="hidden" name="business" value="ellis@mbird.org" /> 
+			<input type="hidden" name="item_name" value="Donate to the Mockingbird Foundation" /> 
+			<input type="hidden" name="item_number" value="052110" /> 
+			<input type="hidden" name="image_url" value="http://www.mbird.org/gfx/banners/mbs1.gif" /> 
+			<input type="hidden" name="return" value="http://www.mbird.org/thanks" /> 
+			<input type="hidden" name="cancel_return" value="http://phish.net/" /> 
+			<input type="image" src="http://images.paypal.com/images/x-click-but21.gif" border="0" name="submit" alt="Donate with PayPal - it's fast, free and secure!" /> 
+		</form>		
+<!-- <script class="dwolla_button" src="https://www.dwolla.com/scripts/button.min.js" type="text/javascript" data-key="cjMzppGCBhRVOeBL3GbF3emLAQFk7QTHGXj5Eq1wUlC3VXveH1" data-redirect="http://www.mbird.org/donations/contributors" data-label="Donate with Dwolla" data-name="Dwolla Donation to Mbird" data-description="undefined" data-amount="10" data-type="freetype"> -->		
+		Phish.net is a project of the non-profit <a href="http://mbird.org/">Mockingbird Foundation</a>.
+	</section>
+	<section>
+		<header>
+			<h3>Login</h3>
+		</header> 
+		<form action="https://api.phish.net/authorize/login.php" method="post">
+			<p>
+				Username<br />
+				<input type="text" name="username" size="15" /><br />
+				Password<br />
+				<input type="password" name="passwd" size="15" /><br /><br />
+				<input type="hidden" name="returnto" value="/" />
+				<input type="submit" value="Login" /><br /><br />
+				<small>
+					<a href="/register">Register</a> | <a href="/forgot_password">Forgot Password</a>
+				</small>
+			</p>
+		</form>
+	</section> 
+			
+	<section> 
+		<header> 
+			<h3>Archived Setlists</h3> 
+		</header>
+		<b>View setlists from</b>: <select onchange="location.href='/setlists/'+$(this).val()+'.html';">
+<option value='1983'>1983</option>
+<option value='1984'>1984</option>
+<option value='1985'>1985</option>
+<option value='1986'>1986</option>
+<option value='1987'>1987</option>
+<option value='1988'>1988</option>
+<option value='1989'>1989</option>
+<option value='1990'>1990</option>
+<option value='1991'>1991</option>
+<option value='1992'>1992</option>
+<option value='1993'>1993</option>
+<option value='1994'>1994</option>
+<option value='1995'>1995</option>
+<option value='1996'>1996</option>
+<option value='1997'>1997</option>
+<option value='1998'>1998</option>
+<option value='1999'>1999</option>
+<option value='2000'>2000</option>
+<option value='2001'>2001</option>
+<option value='2002'>2002</option>
+<option value='2003'>2003</option>
+<option value='2004'>2004</option>
+<option value='2005'>2005</option>
+<option value='2006'>2006</option>
+<option value='2007'>2007</option>
+<option value='2008'>2008</option>
+<option value='2009'>2009</option>
+<option value='2010'>2010</option>
+<option value='2011'>2011</option>
+<option value='2012'>2012</option>
+<option value='2013'>2013</option>
+<option value='2014'>2014</option>
+<option value='2015'>2015</option>
+<option selected="selected" value='2016'>2016</option>
+		</select>
+		<p><br>
+			<a class='btn btn-small uibutton' href="http://phish.net/setlists/info.php">Setlist Info</a>
+						<a class='btn btn-small uibutton' href='http://phish.net/lib/php/session.php?op=set&pref=songnotes&val=on'>Show Songnotes</a>
+							
+		</p>	 
+			</section> 
+	<section> 
+		<header> 
+			<h3>Phish News</h3> 
+		</header>
+		<p><a href="http://lists.phish.net/lists/info/phish-news">Subscribe to Phish-News</a> for exclusive info while on tour!</p>
+	</section>	
+		<section> 
+		<header> 
+			<h3>Best Rated Shows</h3> 
+		</header> 
+		<ul> 
+			<li><a href="/sideshows/?d=2013-09-07">2013-09-07 (Rated 4.8/5)</a>
+				<em>Oak Ridge Farm</em></li>
+			<li><a href="/setlists/?d=1999-12-31">1999-12-31 (Rated 4.704/5)</a>
+				<em>Big Cypress Seminole Indi...</em></li>
+			<li><a href="/setlists/?d=2015-08-22">2015-08-22 (Rated 4.695/5)</a>
+				<em>Watkins Glen International</em></li>
+			<li><a href="/setlists/?d=1997-11-17">1997-11-17 (Rated 4.693/5)</a>
+				<em>McNichols Arena</em></li>
+			<li><a href="/setlists/?d=2014-10-31">2014-10-31 (Rated 4.692/5)</a>
+				<em>MGM Grand Garden Arena</em></li>
+<a href="#void" onclick="$(this).hide();$('#moreRatings').slideDown('500');">Show More...</a><span id='moreRatings' style='display:none;'>			<li><a href="/setlists/?d=1997-12-07">1997-12-07 (Rated 4.691/5)</a>
+				<em>Ervin J. Nutter Center, W...</em></li>
+			<li><a href="/setlists/?d=1995-12-31">1995-12-31 (Rated 4.691/5)</a>
+				<em>Madison Square Garden</em></li>
+			<li><a href="/setlists/?d=1997-12-02">1997-12-02 (Rated 4.69/5)</a>
+				<em>CoreStates Spectrum</em></li>
+			<li><a href="/setlists/?d=1997-12-30">1997-12-30 (Rated 4.689/5)</a>
+				<em>Madison Square Garden</em></li>
+			<li><a href="/setlists/?d=1998-07-06">1998-07-06 (Rated 4.689/5)</a>
+				<em>Lucerna Theatre</em></li>
+			<li><a href="/setlists/?d=2003-02-28">2003-02-28 (Rated 4.688/5)</a>
+				<em>Nassau Coliseum</em></li>
+			<li><a href="/setlists/?d=1997-12-06">1997-12-06 (Rated 4.688/5)</a>
+				<em>The Palace of Auburn Hills</em></li>
+			<li><a href="/setlists/?d=1994-07-08">1994-07-08 (Rated 4.688/5)</a>
+				<em>Great Woods Center for th...</em></li>
+			<li><a href="/setlists/?d=1998-04-03">1998-04-03 (Rated 4.688/5)</a>
+				<em>Nassau Coliseum</em></li>
+			<li><a href="/setlists/?d=1995-12-07">1995-12-07 (Rated 4.687/5)</a>
+				<em>Niagara Falls Convention ...</em></li>
+</span>		</ul> 
+	</section>	
+	
+</aside>		</div>
+<footer><dl>
+       <dt>About</dt>
+       <dd><p>Phish.net is a non-commercial project run by and for Phish fans under the 
+		auspices of the <a href="http://phish.net/special/credits.php">all-volunteer</a>, non-profit Mockingbird Foundation. This project 
+		serves to compile, preserve, and protect encyclopedic information about Phish 
+		and their music. But we need your help!
+		</p>
+		<p>	&copy; 1990-2016 The Mockingbird Foundation, Inc.<br />
+		<a href="http://phish.net/terms-of-use.php">Terms of Use</a> | 
+		<a href="http://phish.net/credits">Site Credits</a> | 
+		<a href="http://phish.net/setlists/credits.php">Setlist History</a> <br />
+		Source code &copy; 2009-2016 <a href="http://twitter.com/sethadam1">Adam Scheinberg</a>.<br />
+		All Rights Reserved.<br />
+		Web Hosting by <a href="http://endpoint.com">End Point Corporation</a><br />
+		Contact us at <a href="mailto:mockingbird@mbird.org">mockingbird@mbird.org</a>.<br />Your session is bound to IP Address: 0.0.0.0		</p></dd>
+       
+       <dt>Phish.net Services</dt>
+       <dd><ul>
+		   <li><a href="http://phish.net">Phish.net</a></li>
+		   <li><a href="http://blog.phish.net">Phish.net Blog</a></li>
+		   <li><a href="http://api.phish.net">Phish.net API</a></li>
+		   <li><a href="http://m.phish.net">Phish.net Mobile Site</a></li>
+		   <li><a href="http://phish.net/partners.php">Phish.net Partners</a></li>
+		   <li><a href="http://mbird.org">The Mockingbird Foundation</a></li>
+       </ul>
+		<p style="text-align:center;"><img src="http://smedia.pnet-static.com/site/phishnet.100.png" alt="Phish.net" /></p>
+		</dd>
+       
+		<dt>Phish Links</dt>
+		<dd><ul> 
+			<li><a href="http://phish.com" target="_blank">Phish.com - The Official Band Site</a></li>	
+			<li><a href="http://twitter.com/phish" target="_blank">Phish on Twitter</a></li>	
+			<li><a href="http://www.livephish.com" target="_blank">Soundboard Downloads</a></li>
+			<li><a href="http://spreadsheets.google.com/pub?key=0AjeIQ6qQvexzcDhXS2twUC1US3BPMVZuUWdjZmY2RVE&gid=7" target="_blank">MP3 Collections</a></li>
+			<li><a href="http://www.phanart.net/" target="_blank">Phanart</a></li>   
+			<li><a href="http://cashortrade.org/" target="_blank">CashorTrade.org face value tickets</a></li> 
+			<li><a href="http://www.youtube.com/results?search_query=phish" target="_blank">YouTube Clips</a></li>
+			<li><a href="http://www.ihoz.com/PhishStats.html" target="_blank">ZZYZX's PhishStats</a></li>
+			<!-- 
+			<li><a href="http://yemblog.com/" target="_blank">Scotty B's YEM Blog</a></li>   	
+			<li><a href="http://hfpod.blogspot.com" target="_blank">Helping Friendly Podcast</a></li>
+			<li><a href="http://typeiicast.com/" target="_blank">Type II Cast podcast</a></li> 
+			<li><a href="http://phishthoughts.com/" target="_blank">Mr. Miner's PhishThoughts</a></li> --> 
+       <li><a href="https://twitter.com/phishnet" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @phishnet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></li>
+       </ul>
+</dd>
+</dl></footer>
+<div id="userbar">
+	<a class="pad" href="/login">Login</a>
+	<a href="/register">Register</a>
+</div>
+<div id="bookmodal" style="width:805px;display:none;">
+	<p><a href="http://phishcompanion.com"><img src="http://smedia.pnet-static.com/site/modal800.jpg"></a></p>
+</div>
+<link rel="stylesheet" href="http://sscripts.pnet-static.com/packages/jquery-modal/jquery.modal.min.css" type="text/css" media="screen" /> 
+<script type="text/javascript" src="http://sscripts.pnet-static.com/packages/jquery-modal/jquery.modal.min.js"></script> 	  
+<script>
+	$('#bookmodal').modal();
+</script>
+ 
+
+
+
+<!-- 
+	The look-and-feel of Phish.net 3.1 is was heavily based on a template created by Mads Kjaer of nettuts.com. (http://twitter.com/mads) 
+-->
+
+<!-- In summing up, the moral seems a little bit obscure... -->
+	<!-- <script type="text/javascript" src="http://api.phish.net/api.json?api=2.0&amp;method=pnet.shows.setlists.latest&amp;callback=stlst"></script> -->
+	<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-10341664-1']);
+	_gaq.push(['_trackPageview']);
+	 
+	(function() {
+	var ga = document.createElement('script');
+	ga.src = ('https:' == document.location.protocol ?
+	    'https://ssl' : 'http://www') +
+	    '.google-analytics.com/ga.js';
+	ga.setAttribute('async', 'true');
+	document.documentElement.firstChild.appendChild(ga);
+	})();
+	
+	$(document).ready( function() {
+		$('#nav').smint(); 
+	}); 
+	</script>
+<!-- whatever you do, take care of your shoes --> 
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"ee461d63a9","applicationID":"2258027","transactionName":"blQHMhADWxdWVhJfX1ceMBQLTUYBQ1kPRURKHgwIBgdNSkddFg==","queueTime":0,"applicationTime":125,"atts":"QhMERFgZSBk=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

@@ -1,0 +1,953 @@
+<!doctype html>
+<html lang="en">
+<!-- The source was quite invisible, the ever-present voice... -->
+<!-- Carini Had a Lumpy... --><head>
+	<title>Setlists > Phish.net</title>
+	<meta charset="ISO-8859-1" />
+	<meta name="theme-color" content="#336699">
+	<!-- <meta charset="UTF-8" /> (we had some issues with this) -->
+	<meta name="google-site-verification" content="H2BoGXg050tDUgH12X6iFwAvVmhBqmFSzV5w1IHjK9Y" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge; chrome=1"/><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[(new Date).getTime()].concat(u(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(2),u=t(3),c=t("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","finished","addToTrace","inlineHit"],p="api-",l=p+"ixn-";a(s,function(t,e){f[e]=o(p+e,!0,"api")}),f.addPageAction=o(p+"addPageAction",!0),e.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(l+"tracer",[Date.now(),t,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){d[e]=o(l+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,(new Date).getTime()])}},{}],2:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],3:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?u(t,a,i):i()}function n(n,r,o){t&&t(n,r,o);for(var i=e(o),a=l(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var s=f[m[n]];return s&&s.push([w,n,r,i]),i}function p(t,e){g[t]=l(t).concat(e)}function l(t){return g[t]||[]}function d(t){return s[t]=s[t]||o(n)}function v(t,e){c(t,function(t,n){e=e||"feature",m[n]=e,e in f||(f[e]=[])})}var g={},m={},w={on:p,emit:n,get:d,listeners:l,context:e,buffer:v};return w}function i(){return new r}var a="nr@context",u=t("gos"),c=t(2),f={},s={},p=e.exports=o();p.backlog=f},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!h++){var t=y.info=NREUM.info,e=s.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){c(m,function(e,n){t[e]||(t[e]=n)});var n="https"===g.split(":")[0]||t.sslForHttp;y.proto=n?"https://":"http://",u("mark",["onload",a()],null,"api");var r=s.createElement("script");r.src=y.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function o(){"complete"===s.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=t("handle"),c=t(2),f=window,s=f.document,p="addEventListener",l="attachEvent",d=f.XMLHttpRequest,v=d&&d.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:d,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},t(1);var g=""+location,m={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-963.min.js"},w=d&&v&&v[p]&&!/CriOS/.test(navigator.userAgent),y=e.exports={offset:a(),origin:g,features:{},xhrWrappable:w};s[p]?(s[p]("DOMContentLoaded",i,!1),f[p]("load",r,!1)):(s[l]("onreadystatechange",o),f[l]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script> <!-- jive and strive  -->
+	<meta name="application-name" content="Phish.net"/> <!-- like a potato to the throat -->
+	<link rel="stylesheet" href="http://scripts.phish.net/css/uibuttons.css" type="text/css" media="screen" />
+	<!-- offer them some meat -->
+	<link rel="stylesheet" href="http://sscripts.pnet-static.com/css/bootstrap/bscallout.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="http://sscripts.pnet-static.com/css/_phishnet.min.css?v=1.14" type="text/css" media="screen" />
+		<link rel="stylesheet" href="http://sscripts.pnet-static.com/css/ratings/rating.css" type="text/css" />
+	<link rel="stylesheet" href="http://sscripts.pnet-static.com/js/tinybox2/pnet.css" type="text/css" />
+	<link rel="stylesheet" href="http://sscripts.pnet-static.com/css/setlist-main.css?v=1" type="text/css" />
+	<link rel="stylesheet" href="http://sscripts.pnet-static.com/css/jquery.powertip.min.css?v=1" type="text/css" />
+	<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<script type="text/javascript" src="http://sscripts.pnet-static.com/js/jqplot/excanvas.min.js"></script>
+	<![endif]-->
+	<!-- with the right device you can make a pattern grow or you can tune up your car -->
+	<script type="text/javascript" src="http://sscripts.pnet-static.com/js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="http://sscripts.pnet-static.com/fancybox/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+	<script type="text/javascript" src="http://sscripts.pnet-static.com/js/scripts.js?v=1.16"></script>
+	<script type="text/javascript" src="http://sscripts.pnet-static.com/smint/js/jquery.smint.js"></script>
+	<script type="text/javascript" src="http://sscripts.pnet-static.com/js/rate-behavior.js"></script>
+	<script type="text/javascript" src="http://sscripts.pnet-static.com/js/rate-showrating.js"></script>
+	<script type="text/javascript" src="http://sscripts.pnet-static.com/js/iframe.js"></script>
+	<script type="text/javascript" src="http://sscripts.pnet-static.com/js/tinybox2/tinybox.js"></script>
+	<script type="text/javascript" src="http://sscripts.pnet-static.com/js/jquery.powertip.min.js"></script>
+	<script type="text/javascript" src="http://sscripts.pnet-static.com/js/setlist-main.js?v=18"></script>
+	<!-- boom --> 
+	<!-- the forest's tasty nectar shoot -->
+	<link rel="alternate" title="Phish.Net News" href="http://phish.net/feed/index.xml" type="application/rss+xml" />
+	<meta name="summary" content="The Phish.Net home page - A guide to the band Phish, its music and its fans and their presence on the Internet; created for Phish Fans by Phish Fans." />
+	<meta name="keywords" content="Phish, Phishnet, Phish.Net, Phish Net, News, About, FAQ, PhishFAQ, What is Phish?, Intro, Phishtory, Articles, Media, Lyrics, Chords, Helping Friendly Book, Helping Phriendly Book, Setlists, Reviews, Sound Clips, Tour Information, Upcoming and Current Events, Discussion, Rosemary's Digest, Benjy's Digest, Phish-Info, Digi-Phish, IRC, WWW, Graphics, Netshirt, The Mockingbird Foundation, Gamehendge, @phishnet, Phish api, Phans, Phish mobile, Phish blog" />
+	<link rel="shortcut icon" href="http://smedia.pnet-static.com/favicon.ico">
+	<link rel="apple-touch-icon" href="http://smedia.pnet-static.com/apple-touch-icon.png">
+<!-- Lucy Had a Lumpy...  --></head>
+
+<body>
+ 	<header class='logo-container'>
+		<h1 style="padding:8px;"><a href="/"><img src="http://smedia.pnet-static.com/logo/logo.png" style="width:220px;" alt="Phish.net: a Project of the Mockingbird Foundation" /></a></h1>
+	</header>
+	<nav id='nav'> 
+		<ul> 
+			<li><a href="/news">News</a>					
+				<ul class="submenu"> 
+					<li><a href="/news">Recent News</a></li> 
+					<li><a href="http://twitter.com/phishnet">.net on Twitter</a></li> 
+					<li><a href="http://facebook.com/phishnet">.net on Facebook</a></li> 
+				</ul>	
+			</li> 
+			<li class="selected"><a href="/setlists/">Shows</a>					
+				<ul class="submenu"> 
+					<li class="haslevel3" rel="setlist">
+						<a href="/setlists">Setlists</a>
+						<ul class="subsubmenu" id="setlistsubmenu">
+							<li><a href="/setlists/">Phish Setlists</a></li>
+							<li><a href="/sideshows/">Side Projects</a></li>
+							<li><a href="/setlists/upcoming.php">Upcoming Shows</a></li>
+						</ul>
+					</li> 
+					<li><a href="/venue">Venues</a></li>  
+					<li><a href="/tour">Tours</a></li> 
+				</ul>	
+			</li> 
+			<li><a href="/song/">Music</a>					
+				<ul class="submenu"> 
+					<li><a href="/song">Song Histories</a></li> 
+					<li class="haslevel3" rel="charts">
+						<a href="#">Charts</a>
+						<ul class="subsubmenu" id="chartssubmenu">
+							<li><a href="/jamcharts">Jam Charts</a></li> 
+							<li><a href="/tease-chart">Tease Chart</a></li> 
+							<li><a href="/debut-chart">Debut Chart</a></li> 
+							<li><a href="/guest-chart">Guest Chart</a></li> 						
+							<li><a href="/setlists/twenty-minute-jams.php">20 Min+ Jam Chart</a></li> 
+						</ul>
+					</li> 
+					<li><a href="/discography">Discography</a></li>
+					<li><a href="/special/lyrics/index.php">Lyrics Index</a></li>
+				</ul>	
+			</li>  
+			<li><a href="http://forum.phish.net">Community</a>					
+				<ul class="submenu"> 
+					<li><a href="http://forum.phish.net">.net Forum</a></li> 
+					<li><a href="/reviews">Fan Reviews</a></li> 
+					<li><a href="/chat">Chat</a></li> 
+					<li><a href="/trades">Ticket Trades</a></li> 
+					<li><a href="/special/activity-stream.php">Recent Activity</a></li> 
+				</ul>	
+			</li>			
+			<li><a href="http://blog.phish.net">Blog</a></li>
+			<li><a href="/faq/">FAQ</a></li>  
+			<li><a href="#">Site</a>					
+				<ul class="submenu"> 
+					<li class='haslevel3' rel='fun'><a href="/fun">Just for Fun</a>
+						<ul class="subsubmenu" id="funsubmenu">
+							<li><a href="http://phish.net/setlists/jump.php?showdate=RAND">Random Setlist</a></li>
+							<li><a href="http://phish.net/setlists/fantasy.php">Fantasy Setlist</a></li>
+							<li><a href="http://phish.net/user/dream-setlist.php">Dream Setlist</a></li>
+							<li><a href="http://phish.net/treys-notebook">Trey's Notebook</a></li>
+							<li><a href="http://phish.net/timeline">Phish.net Timeline</a></li>
+							<li><a href="http://smedia.pnet-static.com/fotonotes/index.php">101 Phish Songs</a></li>
+							<li><a href="http://phish.net/memes">The Meme Game</a></li>
+						</ul>
+					</li>
+					<li class="haslevel3" rel="tech">
+						<a href="#">Technology</a>
+						<ul class="subsubmenu" id="techsubmenu">
+							<li><a href="http://api.phish.net/">API</a></li>
+							<!-- <li><a href="/changelog">Change Log</a></li> -->
+						</ul>
+					</li> 					<li><a href="/partners.php">Partners</a></li> 
+					<li><a href="/contact">Contact</a></li>	
+				</ul>	
+			</li>  
+			<li><a href="/store" target='_blank'>Store</a></li>
+		</ul> 
+<a href="http://phish.net/feed"><img src="http://smedia.pnet-static.com/site/socialmedia/rss.png" alt="RSS Feeds" class='navimg' /></a>		<a href="http://facebook.com/phishnet"><img src="http://smedia.pnet-static.com/site/socialmedia/facebook.png" alt="Facebook" class='navimg' /></a>
+		<a href="http://twitter.com/phishnet"><img src="http://smedia.pnet-static.com/site/socialmedia/twitter.png" alt="Twitter" class='navimg' /></a>
+		<a href="http://mbird.org"><img src="http://smedia.pnet-static.com/site/socialmedia/mbird.png" alt="Mockingbird Foundation" class='navimg' /></a>
+	</nav>
+	<br style="clear:both;" />
+
+	<div id="content">
+		<div id="mainContent">
+			<input type="hidden" name="showdate" id="showdate" value="" />
+			<input type="hidden" name="showid" id="showid" value="" /><p>
+	<form action="?" method="get" id="jumpform">
+	<b>Jump to:</b> 
+		<select name="jumpmonth" id="jumpmonth">
+			<option value="01">1</option>
+			<option value="02">2</option>
+			<option value="03">3</option>
+			<option value="04">4</option>
+			<option value="05">5</option>
+			<option value="06">6</option>
+			<option value="07">7</option>
+			<option value="08">8</option>
+			<option value="09">9</option>
+			<option value="10">10</option>
+			<option value="11">11</option>
+			<option value="12">12</option>
+			
+		</select> / 
+		<select name="jumpday" id="jumpday">
+			<option value="01">1</option>
+			<option value="02">2</option>
+			<option value="03">3</option>
+			<option value="04">4</option>
+			<option value="05">5</option>
+			<option value="06">6</option>
+			<option value="07">7</option>
+			<option value="08">8</option>
+			<option value="09">9</option>
+			<option value="10">10</option>
+			<option value="11">11</option>
+			<option value="12">12</option>
+			<option value="13">13</option>
+			<option value="14">14</option>
+			<option value="15">15</option>
+			<option value="16">16</option>
+			<option value="17">17</option>
+			<option value="18">18</option>
+			<option value="19">19</option>
+			<option value="20">20</option>
+			<option value="21">21</option>
+			<option value="22">22</option>
+			<option value="23">23</option>
+			<option value="24">24</option>
+			<option value="25">25</option>
+			<option value="26">26</option>
+			<option value="27">27</option>
+			<option value="28">28</option>
+			<option value="29">29</option>
+			<option value="30">30</option>
+			<option value="31">31</option>
+			
+		</select> / 
+		<select name="jumpyear" id="jumpyear">
+			<option value="2016">2016</option>
+			<option value="2015">2015</option>
+			<option value="2014">2014</option>
+			<option value="2013">2013</option>
+			<option value="2012">2012</option>
+			<option value="2011">2011</option>
+			<option value="2010">2010</option>
+			<option value="2009">2009</option>
+			<option value="2008">2008</option>
+			<option value="2004">2004</option>
+			<option value="2003">2003</option>
+			<option value="2002">2002</option>
+			<option value="2001">2001</option>
+			<option value="2000">2000</option>
+			<option value="1999">1999</option>
+			<option value="1998">1998</option>
+			<option value="1997">1997</option>
+			<option value="1996">1996</option>
+			<option value="1995">1995</option>
+			<option value="1994">1994</option>
+			<option value="1993">1993</option>
+			<option value="1992">1992</option>
+			<option value="1991">1991</option>
+			<option value="1990">1990</option>
+			<option value="1989">1989</option>
+			<option value="1988">1988</option>
+			<option value="1987">1987</option>
+			<option value="1986">1986</option>
+			<option value="1985">1985</option>
+			<option value="1984">1984</option>
+			<option value="1983">1983</option>
+		</select> 
+		<input type="button" id="showjumper" value="Jump to Date!" />
+		<a href='#void' onclick="$(this).hide();$('.setlistoptions').show();" style='font-weight:bold;margin-left:5px;'>Setlist Options</a>
+		<fieldset class="setlistoptions" style='display:none;'>
+			<legend>Setlist Options</legend>
+			<span id="fontadjust">
+				Adjust Text size: <a class="increaseFont">Bigger</a> | <a class="decreaseFont">Smaller</a> | <a class="resetFont">Reset</a>
+			</span><br />
+			Footnotes: <a href="http://phish.net/lib/php/session.php?op=set&pref=songfootnotes&val=off">Hide Song Footnotes</a><br />View: <a href="http://phish.net/lib/php/session.php?op=set&pref=songnicknames&val=1" style="color:green;">Show Song Nicknames</a>
+				<a href="http://blog.phish.net/1296494327/introducing-shorthand-setlists" style="font-size:x-small;font-weight:bold;">[?]</a>			<a href="http://phish.net/abbr" style="font-size:x-small;color:#333;">[guide]</a>  
+			Teases: <a href="http://phish.net/lib/php/session.php?op=set&pref=teasebox&val=no">Hide Teases</a>			
+			Albums: <a href="http://phish.net/lib/php/session.php?op=set&pref=albums&val=no">Hide Song Distribution</a>		</fieldset>
+	</form>	
+</p>		<div id="setlistlegend"><br />February: <a href="#1985-02-01">1</a> | <a href="#1985-02-15">15</a> | <a href="#1985-02-22">22</a> | <a href="#1985-02-25">25</a> | <a href="#1985-02-25">25</a><br />March: <a href="#1985-03-02">2</a> | <a href="#1985-03-04">4</a> | <a href="#1985-03-08">8</a> | <a href="#1985-03-16">16</a> | <a href="#1985-03-29">29</a><br />April: <a href="#1985-04-06">6</a> | <a href="#1985-04-19">19</a> | <a href="#1985-04-21">21</a><br />May: <a href="#1985-05-01">1</a> | <a href="#1985-05-01">1</a> | <a href="#1985-05-01">1</a> | <a href="#1985-05-01">1</a> | <a href="#1985-05-03">3</a> | <a href="#1985-05-07">7</a> | <a href="#1985-05-31">31</a><br />September: <a href="#1985-09-26">26</a> | <a href="#1985-09-27">27</a><br />October: <a href="#1985-10-17">17</a> | <a href="#1985-10-20">20</a> | <a href="#1985-10-26">26</a> | <a href="#1985-10-30">30</a><br />November: <a href="#1985-11-02">2</a> | <a href="#1985-11-14">14</a> | <a href="#1985-11-23">23</a><br />December: <a href="#1985-12-13">13</a></div><a name="1985-02-01" class="anchor">&nbsp;</a>
+<div class="setlist excluded">
+	<h2>
+		<a href="http://phish.net/setlists/?d=1985-02-01"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=1985-02-01" class="sldate">Friday, 02/01/1985</a> 
+		<br /><i><a href="http://phish.net/venue/344" class='venue'>Doolin's</a>, Burlington, VT</i>
+	</h2>
+	<p><b>Set 1</b>: <span class='jcard' title="Slave to the Traffic Light">Slave</span><span class="full">Slave to the Traffic Light</span>,  <span class='jcard' title="Mike's Song">Mike's</span><span class="full">Mike's Song</span> >  <span class='jcard' title="Dave's Energy Guide">DEG</span><span class="full">Dave's Energy Guide</span>,  <span class='jcard' title="You Enjoy Myself">YEM</span><span class="full">You Enjoy Myself</span>,  <span class='jcard' title="Alumni Blues">Alumni</span><span class="full">Alumni Blues</span> >  <span class='jcard' title="Letter to Jimmy Page">LTJP</span><span class="full">Letter to Jimmy Page</span> >  <span class='jcard' title="Alumni Blues">Alumni</span><span class="full">Alumni Blues</span>,  <span>Prep School Hippie</span>,  <span class='jcard' title="Run Like an Antelope">Antelope</span><span class="full">Run Like an Antelope</span></p></p>
+	<p><strong>Notes:</strong> It is unconfirmed if this setlist is correct for this date, as it is identical to the first set of 2/3/86. If the setlist is correct, this show marked the first known performances of Mike's Song, Dave's Energy Guide, You Enjoy Myself, Alumni Blues, Letter to Jimmy Page, Prep School Hippie, and Run Like an Antelope.</p>
+	<p>NOTE:  This Phish performance does not count for stats purposes.</p>
+	<h5 class="r"><a href="?d=1985-02-01"><img src="http://smedia.pnet-static.com/famfamfam/application_form.png" alt="Reviews" /></a> 
+			<a href="http://phish.net/setlists/?d=1985-02-01" class="h rpad">0 Reviews</a> 
+			<a href="http://phish.net/reviews/add.php?d=1985-02-01"><img src="http://smedia.pnet-static.com/famfamfam/application_form_add.png" alt="Add Review" /></a>
+			<a href="http://phish.net/reviews/add.php?d=1985-02-01" class="h rpad">Add Review</a><a href="http://phish.net/setlists/gapchart.php?d=1985-02-01"><img src="http://smedia.pnet-static.com/famfamfam/chart_curve.png" alt="Gap Chart" /></a>
+			<a href="http://phish.net/setlists/gapchart.php?d=1985-02-01" class="h">Gap Chart</a>
+			
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> <a name="1985-02-15" class="anchor">&nbsp;</a>
+<div class="setlist">
+	<h2>
+		<a href="http://phish.net/setlists/?d=1985-02-15"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=1985-02-15" class="sldate">Friday, 02/15/1985</a> 
+		<br /><i><a href="http://phish.net/venue/344" class='venue'>Doolin's</a>, Burlington, VT</i>
+	</h2>
+	<p>No known setlist!</p>
+	<h5 class="r"><a href="?d=1985-02-15"><img src="http://smedia.pnet-static.com/famfamfam/application_form.png" alt="Reviews" /></a> 
+			<a href="http://phish.net/setlists/?d=1985-02-15" class="h rpad">0 Reviews</a> 
+			<a href="http://phish.net/reviews/add.php?d=1985-02-15"><img src="http://smedia.pnet-static.com/famfamfam/application_form_add.png" alt="Add Review" /></a>
+			<a href="http://phish.net/reviews/add.php?d=1985-02-15" class="h rpad">Add Review</a>
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> <a name="1985-02-22" class="anchor">&nbsp;</a>
+<div class="setlist">
+	<h2>
+		<a href="http://phish.net/setlists/?d=1985-02-22"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=1985-02-22" class="sldate">Friday, 02/22/1985</a> 
+		<br /><i><a href="http://phish.net/venue/344" class='venue'>Doolin's</a>, Burlington, VT</i>
+	</h2>
+	<p>No known setlist!</p>
+	<h5 class="r"><a href="?d=1985-02-22"><img src="http://smedia.pnet-static.com/famfamfam/application_form.png" alt="Reviews" /></a> 
+			<a href="http://phish.net/setlists/?d=1985-02-22" class="h rpad">0 Reviews</a> 
+			<a href="http://phish.net/reviews/add.php?d=1985-02-22"><img src="http://smedia.pnet-static.com/famfamfam/application_form_add.png" alt="Add Review" /></a>
+			<a href="http://phish.net/reviews/add.php?d=1985-02-22" class="h rpad">Add Review</a>
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> <a name="1985-02-25" class="anchor">&nbsp;</a>
+<div class="setlist">
+	<h2>
+		<a href="http://phish.net/setlists/?d=1985-02-25"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=1985-02-25" class="sldate">Monday, 02/25/1985</a> 
+		<br /><i><a href="http://phish.net/venue/344" class='venue'>Doolin's</a>, Burlington, VT</i>
+	</h2>
+	<p>No known setlist!</p>
+	<h5 class="r"><a href="?d=1985-02-25"><img src="http://smedia.pnet-static.com/famfamfam/application_form.png" alt="Reviews" /></a> 
+			<a href="http://phish.net/setlists/?d=1985-02-25" class="h rpad">0 Reviews</a> 
+			<a href="http://phish.net/reviews/add.php?d=1985-02-25"><img src="http://smedia.pnet-static.com/famfamfam/application_form_add.png" alt="Add Review" /></a>
+			<a href="http://phish.net/reviews/add.php?d=1985-02-25" class="h rpad">Add Review</a>
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> <a name="1985-02-25" class="anchor">&nbsp;</a>
+<div class="setlist">
+	<h2>
+		<a href="http://phish.net/setlists/?d=1985-02-25"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=1985-02-25" class="sldate">Monday, 02/25/1985</a> 
+		<br /><i><a href="http://phish.net/venue/345" class='venue'>Private Party</a>, Burlington, VT</i>
+	</h2>
+	<p>No known setlist!</p>
+	<h5 class="r"><a href="?d=1985-02-25"><img src="http://smedia.pnet-static.com/famfamfam/application_form.png" alt="Reviews" /></a> 
+			<a href="http://phish.net/setlists/?d=1985-02-25" class="h rpad">0 Reviews</a> 
+			<a href="http://phish.net/reviews/add.php?d=1985-02-25"><img src="http://smedia.pnet-static.com/famfamfam/application_form_add.png" alt="Add Review" /></a>
+			<a href="http://phish.net/reviews/add.php?d=1985-02-25" class="h rpad">Add Review</a>
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> <a name="1985-03-02" class="anchor">&nbsp;</a>
+<div class="setlist">
+	<h2>
+		<a href="http://phish.net/setlists/?d=1985-03-02"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=1985-03-02" class="sldate">Saturday, 03/02/1985</a> 
+		<br /><i><a href="http://phish.net/venue/10" class='venue'>Hunt's</a>, Burlington, VT</i>
+	</h2>
+	<p>No known setlist!</p>
+	<h5 class="r"><a href="?d=1985-03-02"><img src="http://smedia.pnet-static.com/famfamfam/application_form.png" alt="Reviews" /></a> 
+			<a href="http://phish.net/setlists/?d=1985-03-02" class="h rpad">0 Reviews</a> 
+			<a href="http://phish.net/reviews/add.php?d=1985-03-02"><img src="http://smedia.pnet-static.com/famfamfam/application_form_add.png" alt="Add Review" /></a>
+			<a href="http://phish.net/reviews/add.php?d=1985-03-02" class="h rpad">Add Review</a>
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> <a name="1985-03-04" class="anchor">&nbsp;</a>
+<div class="setlist">
+	<h2>
+		<a href="http://phish.net/setlists/?d=1985-03-04"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=1985-03-04" class="sldate">Monday, 03/04/1985</a> 
+		<br /><i><a href="http://phish.net/venue/10" class='venue'>Hunt's</a>, Burlington, VT</i>
+	</h2>
+	<p><b>Set 1</b>: <a href="http://phish.net/song/anarchy">Anarchy</a><sup>[1]</sup>,  <a href="http://phish.net/song/camel-walk">Camel Walk</a>,  <a href="http://phish.net/song/fire-up-the-ganja">Fire Up the Ganja</a><sup>[2]</sup>,  <a href="http://phish.net/song/skippy-the-wondermouse">Skippy the Wondermouse</a><sup>[3]</sup>,  <a href="http://phish.net/song/in-the-midnight-hour">In the Midnight Hour</a></p></p>
+	<p class='footnotes'>[1] First known version.<br />[2] First known Phish version; Bobby Hackney and Jah Roy on vocals.<br />[3] With McGrupp lyrics.<br /></p>
+	<p><strong>Notes:</strong> This show was an African Relief benefit for OXFAM.&nbsp;Fire Up the Ganja (which is the song Fire on the Mountain with different lyrics) featured Bobby Hackney and Jah Roy&nbsp;of the band Lambsbread on vocals. This setlist is incomplete and featured the first known version of Anarchy and first known Phish version of Fire Up the Ganja. This is the first known version of Skippy to have McGrupp lyrics. (This song was called Skippy by the band at this time, even though it eventually became McGrupp.)</p>
+	<h5 class="r"><a href="?d=1985-03-04"><img src="http://smedia.pnet-static.com/famfamfam/application_form.png" alt="Reviews" /></a> 
+			<a href="http://phish.net/setlists/?d=1985-03-04" class="h rpad">3 Reviews</a> 
+			<a href="http://phish.net/reviews/add.php?d=1985-03-04"><img src="http://smedia.pnet-static.com/famfamfam/application_form_add.png" alt="Add Review" /></a>
+			<a href="http://phish.net/reviews/add.php?d=1985-03-04" class="h rpad">Add Review</a><a href="http://phish.net/setlists/gapchart.php?d=1985-03-04"><img src="http://smedia.pnet-static.com/famfamfam/chart_curve.png" alt="Gap Chart" /></a>
+			<a href="http://phish.net/setlists/gapchart.php?d=1985-03-04" class="h">Gap Chart</a>
+			
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> <a name="1985-03-08" class="anchor">&nbsp;</a>
+<div class="setlist">
+	<h2>
+		<a href="http://phish.net/setlists/?d=1985-03-08"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=1985-03-08" class="sldate">Friday, 03/08/1985</a> 
+		<br /><i><a href="http://phish.net/venue/344" class='venue'>Doolin's</a>, Burlington, VT</i>
+	</h2>
+	<p><b>Set 1</b>: <a href="http://phish.net/song/sneakin-sally-through-the-alley" title="Sneakin' Sally Through the Alley" class='jcard'>Sneakin' Sally</a><a href="http://phish.net/song/sneakin-sally-through-the-alley" class="full">Sneakin' Sally Through the Alley</a><sup>[1]</sup></p></p>
+	<p class='footnotes'>[1] First known Phish performance.<br /></p>
+	<p><strong>Notes:</strong> This show featured the first known performance of Sneakin' Sally through the Alley.</p>
+	<h5 class="r"><a href="?d=1985-03-08"><img src="http://smedia.pnet-static.com/famfamfam/application_form.png" alt="Reviews" /></a> 
+			<a href="http://phish.net/setlists/?d=1985-03-08" class="h rpad">0 Reviews</a> 
+			<a href="http://phish.net/reviews/add.php?d=1985-03-08"><img src="http://smedia.pnet-static.com/famfamfam/application_form_add.png" alt="Add Review" /></a>
+			<a href="http://phish.net/reviews/add.php?d=1985-03-08" class="h rpad">Add Review</a><a href="http://phish.net/setlists/gapchart.php?d=1985-03-08"><img src="http://smedia.pnet-static.com/famfamfam/chart_curve.png" alt="Gap Chart" /></a>
+			<a href="http://phish.net/setlists/gapchart.php?d=1985-03-08" class="h">Gap Chart</a>
+			
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> <a name="1985-03-16" class="anchor">&nbsp;</a>
+<div class="setlist">
+	<h2>
+		<a href="http://phish.net/setlists/?d=1985-03-16"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=1985-03-16" class="sldate">Saturday, 03/16/1985</a> 
+		<br /><i><a href="http://phish.net/venue/344" class='venue'>Doolin's</a>, Burlington, VT</i>
+	</h2>
+	<p><b>Set 1</b>: <a href="http://phish.net/song/alumni-blues" title="Alumni Blues" class='jcard'>Alumni</a><a href="http://phish.net/song/alumni-blues" class="full">Alumni Blues</a><sup>[1]</sup>,  <a href="http://phish.net/song/skippy-the-wondermouse">Skippy the Wondermouse</a>,  <a href="http://phish.net/song/bertha">Bertha</a>,  <a href="http://phish.net/song/jam">Jam</a>,  <a href="http://phish.net/song/mikes-song" title="Mike's Song" class='jcard'>Mike's</a><a href="http://phish.net/song/mikes-song" class="full">Mike's Song</a><sup>[1]</sup></p></p>
+	<p class='footnotes'>[1] First known performance.<br /></p>
+	<p><strong>Notes:</strong> During the jam, cartoons were shown behind the band on six television screens. The cartoons got faster and faster while the band did the same. If the 2/1/85 setlist is not correct for that date, then this show featured the first known performances of Alumni Blues and Mike's Song.</p>
+	<h5 class="r"><a href="?d=1985-03-16"><img src="http://smedia.pnet-static.com/famfamfam/application_form.png" alt="Reviews" /></a> 
+			<a href="http://phish.net/setlists/?d=1985-03-16" class="h rpad">0 Reviews</a> 
+			<a href="http://phish.net/reviews/add.php?d=1985-03-16"><img src="http://smedia.pnet-static.com/famfamfam/application_form_add.png" alt="Add Review" /></a>
+			<a href="http://phish.net/reviews/add.php?d=1985-03-16" class="h rpad">Add Review</a><a href="http://phish.net/setlists/gapchart.php?d=1985-03-16"><img src="http://smedia.pnet-static.com/famfamfam/chart_curve.png" alt="Gap Chart" /></a>
+			<a href="http://phish.net/setlists/gapchart.php?d=1985-03-16" class="h">Gap Chart</a>
+			
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> <a name="1985-03-29" class="anchor">&nbsp;</a>
+<div class="setlist">
+	<h2>
+		<a href="http://phish.net/setlists/?d=1985-03-29"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=1985-03-29" class="sldate">Friday, 03/29/1985</a> 
+		<br /><i><a href="http://phish.net/venue/344" class='venue'>Doolin's</a>, Burlington, VT</i>
+	</h2>
+	<p>No known setlist!</p>
+	<h5 class="r"><a href="?d=1985-03-29"><img src="http://smedia.pnet-static.com/famfamfam/application_form.png" alt="Reviews" /></a> 
+			<a href="http://phish.net/setlists/?d=1985-03-29" class="h rpad">0 Reviews</a> 
+			<a href="http://phish.net/reviews/add.php?d=1985-03-29"><img src="http://smedia.pnet-static.com/famfamfam/application_form_add.png" alt="Add Review" /></a>
+			<a href="http://phish.net/reviews/add.php?d=1985-03-29" class="h rpad">Add Review</a>
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> <a name="1985-04-06" class="anchor">&nbsp;</a>
+<div class="setlist">
+	<h2>
+		<a href="http://phish.net/setlists/?d=1985-04-06"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=1985-04-06" class="sldate">Saturday, 04/06/1985</a> 
+		<br /><i><a href="http://phish.net/venue/346" class='venue'>Finbar's</a>, Burlington, VT</i>
+	</h2>
+	<p><b>Set 1</b>: <a href="http://phish.net/song/i-am-hydrogen" title="I Am Hydrogen" class='jcard'>Hydrogen</a><a href="http://phish.net/song/i-am-hydrogen" class="full">I Am Hydrogen</a><sup>[1]</sup>,  <a href="http://phish.net/song/dont-want-you-no-more">Don't Want You No More</a>,  <a href="http://phish.net/song/cities">Cities</a>,  <a href="http://phish.net/song/wild-child">Wild Child</a>,  <a href="http://phish.net/song/slave-to-the-traffic-light" title="Slave to the Traffic Light" class='jcard'>Slave</a><a href="http://phish.net/song/slave-to-the-traffic-light" class="full">Slave to the Traffic Light</a>,  <a href="http://phish.net/song/jam">Jam</a>,  <a href="http://phish.net/song/alumni-blues" title="Alumni Blues" class='jcard'>Alumni</a><a href="http://phish.net/song/alumni-blues" class="full">Alumni Blues</a> >  <a href="http://phish.net/song/letter-to-jimmy-page" title="Letter to Jimmy Page" class='jcard'>LTJP</a><a href="http://phish.net/song/letter-to-jimmy-page" class="full">Letter to Jimmy Page</a><sup>[1]</sup> >  <a href="http://phish.net/song/alumni-blues" title="Alumni Blues" class='jcard'>Alumni</a><a href="http://phish.net/song/alumni-blues" class="full">Alumni Blues</a> >  <a href="http://phish.net/song/mikes-song" title="Mike's Song" class='jcard'>Mike's</a><a href="http://phish.net/song/mikes-song" class="full">Mike's Song</a><sup>[2]</sup> >  <a href="http://phish.net/song/daves-energy-guide" title="Dave's Energy Guide" class='jcard'>DEG</a><a href="http://phish.net/song/daves-energy-guide" class="full">Dave's Energy Guide</a><sup>[1]</sup>,  <a href="http://phish.net/song/big-leg-emma">Big Leg Emma</a><sup>[3]</sup>,  <a href="http://phish.net/song/revolution">Revolution</a><sup>[1]</sup>,  <a href="http://phish.net/song/anarchy">Anarchy</a>,  <a href="http://phish.net/song/i-wish">I Wish</a><sup>[3]</sup>,  <a href="http://phish.net/song/camel-walk">Camel Walk</a>,  <a href="http://phish.net/song/run-like-an-antelope" title="Run Like an Antelope" class='jcard'>Antelope</a><a href="http://phish.net/song/run-like-an-antelope" class="full">Run Like an Antelope</a><sup>[1]</sup></p>
+	<p><b>Set 2</b>: <a href="http://phish.net/song/mcgrupp-and-the-watchful-hosemasters" title="McGrupp and the Watchful Hosemasters" class='jcard'>McGrupp</a><a href="http://phish.net/song/mcgrupp-and-the-watchful-hosemasters" class="full">McGrupp and the Watchful Hosemasters</a><sup>[4]</sup> >  <a href="http://phish.net/song/makisupa-policeman" title="Makisupa Policeman" class='jcard'>Makisupa</a><a href="http://phish.net/song/makisupa-policeman" class="full">Makisupa Policeman</a></p>
+	<p><b>Set 3</b>: <a href="http://phish.net/song/quinn-the-eskimo" title="Quinn the Eskimo" class='jcard'>Quinn</a><a href="http://phish.net/song/quinn-the-eskimo" class="full">Quinn the Eskimo</a><sup>[3]</sup></p></p>
+	<p class='footnotes'>[1] First known performance.<br />[2] Vocal section at the end with lyrics to the effect of "Life is not what it seems."<br />[3] First known Phish performance.<br />[4] First known performance. Narrated rather than sung.<br /></p>
+	<p><strong>Notes:</strong> This show was a benefit for Tools for Peace and Justice in Central America and featured the first known performances of Hydrogen, Revolution, and McGrupp and the first known Phish performances of Big Leg Emma and Quinn the Eskimo. The jam after Slave may have been Back Porch Boogie Blues. The end of Mike's Song contained a vocal section with lyrics to the effect of "Life is not what it seems."&nbsp;Revolution was dedicated to Anne Labrusciano and Trey explained it used to be entitled "Leunig&rsquo;s Sucks" but now it&rsquo;s entitled &ldquo;Revolution&rdquo;. Run Like An Antelope was introduced by Trey as &ldquo;Run Like an Antelope Out of Control&rdquo;. McGrupp And The Watchful Hosemasters was narrated rather than sung.&nbsp;If the 2/1/85 setlist is not correct for that date, then this show featured the first known performances of Letter to Jimmy Page, Dave's Energy Guide, and Run Like an Antelope.</p>
+	<h5 class="r"><a href="?d=1985-04-06"><img src="http://smedia.pnet-static.com/famfamfam/application_form.png" alt="Reviews" /></a> 
+			<a href="http://phish.net/setlists/?d=1985-04-06" class="h rpad">1 Review</a> 
+			<a href="http://phish.net/reviews/add.php?d=1985-04-06"><img src="http://smedia.pnet-static.com/famfamfam/application_form_add.png" alt="Add Review" /></a>
+			<a href="http://phish.net/reviews/add.php?d=1985-04-06" class="h rpad">Add Review</a><a href="http://phish.net/setlists/gapchart.php?d=1985-04-06"><img src="http://smedia.pnet-static.com/famfamfam/chart_curve.png" alt="Gap Chart" /></a>
+			<a href="http://phish.net/setlists/gapchart.php?d=1985-04-06" class="h">Gap Chart</a>
+			
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> <a name="1985-04-19" class="anchor">&nbsp;</a>
+<div class="setlist">
+	<h2>
+		<a href="http://phish.net/setlists/?d=1985-04-19"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=1985-04-19" class="sldate">Friday, 04/19/1985</a> 
+		<br /><i><a href="http://phish.net/venue/10" class='venue'>Hunt's</a>, Burlington, VT</i>
+	</h2>
+	<p>No known setlist!</p>
+	<p><strong>Notes:</strong> It is unclear whether a show occurred on this date or not. The recording of this show that circulates, both as 4/19/85 and as 5/19/85, contains the Scarlet -&gt; Eyes -&gt; Whipping Post from 5/3/85, and both the Midnight Hour and Fire Up the Ganja (with members of the band Lambsbread) from 3/4/85 Hunt&#39;s.&nbsp;</p>
+	<h5 class="r"><a href="?d=1985-04-19"><img src="http://smedia.pnet-static.com/famfamfam/application_form.png" alt="Reviews" /></a> 
+			<a href="http://phish.net/setlists/?d=1985-04-19" class="h rpad">0 Reviews</a> 
+			<a href="http://phish.net/reviews/add.php?d=1985-04-19"><img src="http://smedia.pnet-static.com/famfamfam/application_form_add.png" alt="Add Review" /></a>
+			<a href="http://phish.net/reviews/add.php?d=1985-04-19" class="h rpad">Add Review</a>
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> <a name="1985-04-21" class="anchor">&nbsp;</a>
+<div class="setlist">
+	<h2>
+		<a href="http://phish.net/setlists/?d=1985-04-21"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=1985-04-21" class="sldate">Sunday, 04/21/1985</a> 
+		<br /><i><a href="http://phish.net/venue/347" class='venue'>Goddard College</a>, Plainfield, VT</i>
+	</h2>
+	<p>No known setlist!</p>
+	<p><strong>Notes:</strong> This show was performed at The Bowl in the center of campus.</p>
+	<h5 class="r"><a href="?d=1985-04-21"><img src="http://smedia.pnet-static.com/famfamfam/application_form.png" alt="Reviews" /></a> 
+			<a href="http://phish.net/setlists/?d=1985-04-21" class="h rpad">0 Reviews</a> 
+			<a href="http://phish.net/reviews/add.php?d=1985-04-21"><img src="http://smedia.pnet-static.com/famfamfam/application_form_add.png" alt="Add Review" /></a>
+			<a href="http://phish.net/reviews/add.php?d=1985-04-21" class="h rpad">Add Review</a>
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> <a name="1985-05-01" class="anchor">&nbsp;</a>
+<div class="setlist">
+	<h2>
+		<a href="http://phish.net/setlists/?d=1985-05-01"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=1985-05-01" class="sldate">Wednesday, 05/01/1985</a> 
+		<br /><i><a href="http://phish.net/venue/348" class='venue'>University of Vermont</a>, Burlington, VT</i>
+	</h2>
+	<p>No known setlist!</p>
+	<p><strong>Notes:</strong> In what must have been the busiest day in early Phishtory, the band played four shows (three of which were fraternity parties).</p>
+	<h5 class="r"><a href="?d=1985-05-01"><img src="http://smedia.pnet-static.com/famfamfam/application_form.png" alt="Reviews" /></a> 
+			<a href="http://phish.net/setlists/?d=1985-05-01" class="h rpad">1 Review</a> 
+			<a href="http://phish.net/reviews/add.php?d=1985-05-01"><img src="http://smedia.pnet-static.com/famfamfam/application_form_add.png" alt="Add Review" /></a>
+			<a href="http://phish.net/reviews/add.php?d=1985-05-01" class="h rpad">Add Review</a>
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> <a name="1985-05-01" class="anchor">&nbsp;</a>
+<div class="setlist">
+	<h2>
+		<a href="http://phish.net/setlists/?d=1985-05-01"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=1985-05-01" class="sldate">Wednesday, 05/01/1985</a> 
+		<br /><i><a href="http://phish.net/venue/348" class='venue'>University of Vermont</a>, Burlington, VT</i>
+	</h2>
+	<p>No known setlist!</p>
+	<p><strong>Notes:</strong> In what must have been the busiest day in early Phishtory, the band played four shows (three of which were fraternity parties).</p>
+	<h5 class="r"><a href="?d=1985-05-01"><img src="http://smedia.pnet-static.com/famfamfam/application_form.png" alt="Reviews" /></a> 
+			<a href="http://phish.net/setlists/?d=1985-05-01" class="h rpad">0 Reviews</a> 
+			<a href="http://phish.net/reviews/add.php?d=1985-05-01"><img src="http://smedia.pnet-static.com/famfamfam/application_form_add.png" alt="Add Review" /></a>
+			<a href="http://phish.net/reviews/add.php?d=1985-05-01" class="h rpad">Add Review</a>
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> <a name="1985-05-01" class="anchor">&nbsp;</a>
+<div class="setlist">
+	<h2>
+		<a href="http://phish.net/setlists/?d=1985-05-01"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=1985-05-01" class="sldate">Wednesday, 05/01/1985</a> 
+		<br /><i><a href="http://phish.net/venue/348" class='venue'>University of Vermont</a>, Burlington, VT</i>
+	</h2>
+	<p>No known setlist!</p>
+	<p><strong>Notes:</strong> In what must have been the busiest day in early Phishtory, the band played four shows (three of which were fraternity parties).</p>
+	<h5 class="r"><a href="?d=1985-05-01"><img src="http://smedia.pnet-static.com/famfamfam/application_form.png" alt="Reviews" /></a> 
+			<a href="http://phish.net/setlists/?d=1985-05-01" class="h rpad">0 Reviews</a> 
+			<a href="http://phish.net/reviews/add.php?d=1985-05-01"><img src="http://smedia.pnet-static.com/famfamfam/application_form_add.png" alt="Add Review" /></a>
+			<a href="http://phish.net/reviews/add.php?d=1985-05-01" class="h rpad">Add Review</a>
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> <a name="1985-05-01" class="anchor">&nbsp;</a>
+<div class="setlist">
+	<h2>
+		<a href="http://phish.net/setlists/?d=1985-05-01"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=1985-05-01" class="sldate">Wednesday, 05/01/1985</a> 
+		<br /><i><a href="http://phish.net/venue/348" class='venue'>University of Vermont</a>, Burlington, VT</i>
+	</h2>
+	<p>No known setlist!</p>
+	<p><strong>Notes:</strong> In what must have been the busiest day in early Phishtory, the band played four shows (three of which were fraternity parties).</p>
+	<h5 class="r"><a href="?d=1985-05-01"><img src="http://smedia.pnet-static.com/famfamfam/application_form.png" alt="Reviews" /></a> 
+			<a href="http://phish.net/setlists/?d=1985-05-01" class="h rpad">0 Reviews</a> 
+			<a href="http://phish.net/reviews/add.php?d=1985-05-01"><img src="http://smedia.pnet-static.com/famfamfam/application_form_add.png" alt="Add Review" /></a>
+			<a href="http://phish.net/reviews/add.php?d=1985-05-01" class="h rpad">Add Review</a>
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> <a name="1985-05-03" class="anchor">&nbsp;</a>
+<div class="setlist">
+	<h2>
+		<a href="http://phish.net/setlists/?d=1985-05-03"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=1985-05-03" class="sldate">Friday, 05/03/1985</a> 
+		<br /><i><a href="http://phish.net/venue/348" class='venue'>University of Vermont</a>, Burlington, VT</i>
+	</h2>
+	<p><b>Set 1</b>: <a href="http://phish.net/song/slave-to-the-traffic-light" title="Slave to the Traffic Light" class='jcard'>Slave</a><a href="http://phish.net/song/slave-to-the-traffic-light" class="full">Slave to the Traffic Light</a>,  <a href="http://phish.net/song/mikes-song" title="Mike's Song" class='jcard'>Mike's</a><a href="http://phish.net/song/mikes-song" class="full">Mike's Song</a> >  <a href="http://phish.net/song/daves-energy-guide" title="Dave's Energy Guide" class='jcard'>DEG</a><a href="http://phish.net/song/daves-energy-guide" class="full">Dave's Energy Guide</a>,  <a href="http://phish.net/song/big-leg-emma">Big Leg Emma</a></p>
+	<p><b>Set 2</b>: <a href="http://phish.net/song/alumni-blues" title="Alumni Blues" class='jcard'>Alumni</a><a href="http://phish.net/song/alumni-blues" class="full">Alumni Blues</a>,  <a href="http://phish.net/song/wild-child">Wild Child</a>,  <a href="http://phish.net/song/cant-you-hear-me-knocking">Can't You Hear Me Knocking</a>,  <a href="http://phish.net/song/jam">Jam</a> ->  <a href="http://phish.net/song/cities">Cities</a>,  <a href="http://phish.net/song/bring-it-on-home">Bring It On Home</a><sup>[1]</sup></p>
+	<p><b>Set 3</b>: <a href="http://phish.net/song/scarlet-begonias">Scarlet Begonias</a> >  <a href="http://phish.net/song/eyes-of-the-world">Eyes of the World</a> ->  <a href="http://phish.net/song/whipping-post">Whipping Post</a><sup>[2]</sup> ->  <a href="http://phish.net/song/mcgrupp-and-the-watchful-hosemasters" title="McGrupp and the Watchful Hosemasters" class='jcard'>McGrupp</a><a href="http://phish.net/song/mcgrupp-and-the-watchful-hosemasters" class="full">McGrupp and the Watchful Hosemasters</a> >  <a href="http://phish.net/song/makisupa-policeman" title="Makisupa Policeman" class='jcard'>Makisupa</a><a href="http://phish.net/song/makisupa-policeman" class="full">Makisupa Policeman</a><sup>[3]</sup> >  <a href="http://phish.net/song/run-like-an-antelope" title="Run Like an Antelope" class='jcard'>Antelope</a><a href="http://phish.net/song/run-like-an-antelope" class="full">Run Like an Antelope</a> ->  <a href="http://phish.net/song/the-other-one">The Other One</a><sup>[4]</sup></p>
+	<p><b>Encore</b>: <a href="http://phish.net/song/anarchy">Anarchy</a></p></p>
+	<p class='footnotes'>[1] First known Phish performance; Bobby Brown on harmonica.<br />[2] Jeff on vocals.<br />[3] Reggae jam.<br />[4] First known Phish performance.<br /></p>
+	<p><strong>Notes:</strong> This show was performed at the Last Day Party on UVM&rsquo;s Redstone campus. It marked Page&rsquo;s debut with the band, as he sat in during portions of the third set. In fact, Big Leg Emma was preceded by an announcement from Trey that &ldquo;our friend Page, from Goddard, will sit in later.&rdquo; Bring it On Home featured Bobby Brown on harmonica and Whipping Post featured Jeff on vocals. McGrupp was dedicated to Fish. Makisupa featured a reggae jam. This show featured the only known Phish performances of Bring It On Home and The Other One.</p>
+	<h5 class="r"><a href="?d=1985-05-03"><img src="http://smedia.pnet-static.com/famfamfam/application_form.png" alt="Reviews" /></a> 
+			<a href="http://phish.net/setlists/?d=1985-05-03" class="h rpad">2 Reviews</a> 
+			<a href="http://phish.net/reviews/add.php?d=1985-05-03"><img src="http://smedia.pnet-static.com/famfamfam/application_form_add.png" alt="Add Review" /></a>
+			<a href="http://phish.net/reviews/add.php?d=1985-05-03" class="h rpad">Add Review</a><a href="http://phish.net/setlists/gapchart.php?d=1985-05-03"><img src="http://smedia.pnet-static.com/famfamfam/chart_curve.png" alt="Gap Chart" /></a>
+			<a href="http://phish.net/setlists/gapchart.php?d=1985-05-03" class="h">Gap Chart</a>
+			
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> <a name="1985-05-07" class="anchor">&nbsp;</a>
+<div class="setlist">
+	<h2>
+		<a href="http://phish.net/setlists/?d=1985-05-07"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=1985-05-07" class="sldate">Tuesday, 05/07/1985</a> 
+		<br /><i><a href="http://phish.net/venue/346" class='venue'>Finbar's</a>, Burlington, VT</i>
+	</h2>
+	<p>No known setlist!</p>
+	<h5 class="r"><a href="?d=1985-05-07"><img src="http://smedia.pnet-static.com/famfamfam/application_form.png" alt="Reviews" /></a> 
+			<a href="http://phish.net/setlists/?d=1985-05-07" class="h rpad">0 Reviews</a> 
+			<a href="http://phish.net/reviews/add.php?d=1985-05-07"><img src="http://smedia.pnet-static.com/famfamfam/application_form_add.png" alt="Add Review" /></a>
+			<a href="http://phish.net/reviews/add.php?d=1985-05-07" class="h rpad">Add Review</a>
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> <a name="1985-05-31" class="anchor">&nbsp;</a>
+<div class="setlist">
+	<h2>
+		<a href="http://phish.net/setlists/?d=1985-05-31"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=1985-05-31" class="sldate">Friday, 05/31/1985</a> 
+		<br /><i><a href="http://phish.net/venue/246" class='venue'>Slade Hall, University of Vermont</a>, Burlington, VT</i>
+	</h2>
+	<p><b>Set 1</b>: <a href="http://phish.net/song/big-leg-emma">Big Leg Emma</a></p></p>
+	<p><strong>Notes:</strong> This show was a benefit for the Union of Concerned Students (UCS), a group that worked with anti-Apartheid forces to help pull UVM investments out of South Africa. Herbal Tea also played at this show. It appears that Big Leg Emma may have been played, but the setlist is unknown.</p>
+	<h5 class="r"><a href="?d=1985-05-31"><img src="http://smedia.pnet-static.com/famfamfam/application_form.png" alt="Reviews" /></a> 
+			<a href="http://phish.net/setlists/?d=1985-05-31" class="h rpad">0 Reviews</a> 
+			<a href="http://phish.net/reviews/add.php?d=1985-05-31"><img src="http://smedia.pnet-static.com/famfamfam/application_form_add.png" alt="Add Review" /></a>
+			<a href="http://phish.net/reviews/add.php?d=1985-05-31" class="h rpad">Add Review</a><a href="http://phish.net/setlists/gapchart.php?d=1985-05-31"><img src="http://smedia.pnet-static.com/famfamfam/chart_curve.png" alt="Gap Chart" /></a>
+			<a href="http://phish.net/setlists/gapchart.php?d=1985-05-31" class="h">Gap Chart</a>
+			
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> <a name="1985-09-26" class="anchor">&nbsp;</a>
+<div class="setlist excluded">
+	<h2>
+		<a href="http://phish.net/setlists/?d=1985-09-26"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=1985-09-26" class="sldate">Thursday, 09/26/1985</a> 
+		<br /><i><a href="http://phish.net/venue/349" class='venue'>WRUV Radio</a>, Burlington, VT</i>
+	</h2>
+	<p><b>Set 1</b>: <span>Dog Log</span><sup>[1]</sup>,  <span>Prep School Hippie</span><sup>[1]</sup>,  <span>Camel Walk</span>,  <span class='jcard' title="Alumni Blues">Alumni</span><span class="full">Alumni Blues</span>,  <span class='jcard' title="Run Like an Antelope">Antelope</span><span class="full">Run Like an Antelope</span>,  <span class='jcard' title="Dave's Energy Guide">DEG</span><span class="full">Dave's Energy Guide</span>,  <span class='jcard' title="McGrupp and the Watchful Hosemasters">McGrupp</span><span class="full">McGrupp and the Watchful Hosemasters</span></p></p>
+	<p class='footnotes'>[1] First known performance.<br /></p>
+	<p><strong>Notes:</strong> This was an in-studio set that was aired live on the WRUV &ldquo;Exposure&rdquo; radio show. Before Antelope, the band invited fans to the Slade Hall gig on the following night. Prep School Hippie was introduced as &ldquo;Trust Fund Baby.&rdquo; This performance was the band&rsquo;s first with Page as an official member and featured the first known versions of Dog Log and Prep School Hippie.</p>
+	<p>NOTE:  This Phish performance does not count for stats purposes.</p>
+	<h5 class="r"><a href="?d=1985-09-26"><img src="http://smedia.pnet-static.com/famfamfam/application_form.png" alt="Reviews" /></a> 
+			<a href="http://phish.net/setlists/?d=1985-09-26" class="h rpad">0 Reviews</a> 
+			<a href="http://phish.net/reviews/add.php?d=1985-09-26"><img src="http://smedia.pnet-static.com/famfamfam/application_form_add.png" alt="Add Review" /></a>
+			<a href="http://phish.net/reviews/add.php?d=1985-09-26" class="h rpad">Add Review</a><a href="http://phish.net/setlists/gapchart.php?d=1985-09-26"><img src="http://smedia.pnet-static.com/famfamfam/chart_curve.png" alt="Gap Chart" /></a>
+			<a href="http://phish.net/setlists/gapchart.php?d=1985-09-26" class="h">Gap Chart</a>
+			
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> <a name="1985-09-27" class="anchor">&nbsp;</a>
+<div class="setlist">
+	<h2>
+		<a href="http://phish.net/setlists/?d=1985-09-27"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=1985-09-27" class="sldate">Friday, 09/27/1985</a> 
+		<br /><i><a href="http://phish.net/venue/246" class='venue'>Slade Hall, University of Vermont</a>, Burlington, VT</i>
+	</h2>
+	<p><b>Set 1</b>: <a href="http://phish.net/song/low-rider">Low Rider Jam</a> >  <a href="http://phish.net/song/big-leg-emma">Big Leg Emma</a>,  <a href="http://phish.net/song/wild-child">Wild Child</a>,  Bluegrass,  <a href="http://phish.net/song/camel-walk">Camel Walk</a>,  <a href="http://phish.net/song/possum">Possum</a><sup>[1]</sup>,  <a href="http://phish.net/song/fire">Fire</a>,  <a href="http://phish.net/song/slave-to-the-traffic-light" title="Slave to the Traffic Light" class='jcard'>Slave</a><a href="http://phish.net/song/slave-to-the-traffic-light" class="full">Slave to the Traffic Light</a>,  <a href="http://phish.net/song/in-the-midnight-hour">In the Midnight Hour</a></p>
+	<p><b>Set 2</b>: <a href="http://phish.net/song/melt-the-guns">Melt the Guns</a><sup>[2]</sup> >  <a href="http://phish.net/song/tv-theme">T.V. Theme</a><sup>[3]</sup>,  <a href="http://phish.net/song/sneakin-sally-through-the-alley" title="Sneakin' Sally Through the Alley" class='jcard'>Sneakin' Sally</a><a href="http://phish.net/song/sneakin-sally-through-the-alley" class="full">Sneakin' Sally Through the Alley</a><sup>[4]</sup>,  <a href="http://phish.net/song/prep-school-hippie">Prep School Hippie</a><sup>[5]</sup></p>
+	<p><b>Set 3</b>: <a href="http://phish.net/song/mikes-song" title="Mike's Song" class='jcard'>Mike's</a><a href="http://phish.net/song/mikes-song" class="full">Mike's Song</a> >  <a href="http://phish.net/song/daves-energy-guide" title="Dave's Energy Guide" class='jcard'>DEG</a><a href="http://phish.net/song/daves-energy-guide" class="full">Dave's Energy Guide</a>,  <a href="http://phish.net/song/mcgrupp-and-the-watchful-hosemasters" title="McGrupp and the Watchful Hosemasters" class='jcard'>McGrupp</a><a href="http://phish.net/song/mcgrupp-and-the-watchful-hosemasters" class="full">McGrupp and the Watchful Hosemasters</a> >  <a href="http://phish.net/song/cities">Cities</a>,  <a href="http://phish.net/song/anarchy">Anarchy</a>,  <a href="http://phish.net/song/revolution">Revolution</a>,  <a href="http://phish.net/song/anarchy">Anarchy</a><sup>[6]</sup>,  <a href="http://phish.net/song/revolution">Revolution</a><sup>[7]</sup>,  <a href="http://phish.net/song/makisupa-policeman" title="Makisupa Policeman" class='jcard'>Makisupa</a><a href="http://phish.net/song/makisupa-policeman" class="full">Makisupa Policeman</a></p></p>
+	<p class='footnotes'>[1] First known version.<br />[2] First known version; with a macaroni and cheese vocal jam. Audience shook boxes of macaroni and cheese.<br />[3] First known version. Audience shook boxes of macaroni and cheese.<br />[4] Audience shook boxes of macaroni and cheese.<br />[5] First known public performance.<br />[6] Sung as "Sex Mob"<br />[7] Sung as "Dead Cops"<br /></p>
+	<p><strong>Notes:</strong> This show was performed on the Redstone campus,&nbsp;is likely incomplete based on song and tape cuts, and may have been two sets instead of three. This show featured the first known performances of Possum,&nbsp;Melt the Guns, and T.V. Theme&nbsp;and the first known public performance of Prep School Hippie. Boxes of macaroni and cheese were passed out to the audience to&nbsp;shake along with the band during Melt the Guns, T.V. Theme, and Sneakin&#39; Sally. Melt the Guns included a macaroni and cheese vocal&nbsp;jam.&nbsp;Anarchy and Revolution were performed twice with the second versions being sung as &quot;Sex Mob&quot; and &quot;Dead Cops&quot; respectively. Trey jokingly introduced McGrupp as &quot;Love the One You&#39;re With.&quot; The segue between McGrupp and Cities included a jam that would eventually become the end of David Bowie. The band handed out boxes of macaroni and cheese during Melt the Guns for the audience to use as shakers. The source of this setlist is phish.com.</p>
+	<h5 class="r"><a href="?d=1985-09-27"><img src="http://smedia.pnet-static.com/famfamfam/application_form.png" alt="Reviews" /></a> 
+			<a href="http://phish.net/setlists/?d=1985-09-27" class="h rpad">0 Reviews</a> 
+			<a href="http://phish.net/reviews/add.php?d=1985-09-27"><img src="http://smedia.pnet-static.com/famfamfam/application_form_add.png" alt="Add Review" /></a>
+			<a href="http://phish.net/reviews/add.php?d=1985-09-27" class="h rpad">Add Review</a><a href="http://phish.net/setlists/gapchart.php?d=1985-09-27"><img src="http://smedia.pnet-static.com/famfamfam/chart_curve.png" alt="Gap Chart" /></a>
+			<a href="http://phish.net/setlists/gapchart.php?d=1985-09-27" class="h">Gap Chart</a>
+			
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> <a name="1985-10-17" class="anchor">&nbsp;</a>
+<div class="setlist">
+	<h2>
+		<a href="http://phish.net/setlists/?d=1985-10-17"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=1985-10-17" class="sldate">Thursday, 10/17/1985</a> 
+		<br /><i><a href="http://phish.net/venue/346" class='venue'>Finbar's</a>, Burlington, VT</i>
+	</h2>
+	<p><b>Set 1</b>: <a href="http://phish.net/song/tv-theme">T.V. Theme</a>,  <a href="http://phish.net/song/alumni-blues" title="Alumni Blues" class='jcard'>Alumni</a><a href="http://phish.net/song/alumni-blues" class="full">Alumni Blues</a> >  <a href="http://phish.net/song/letter-to-jimmy-page" title="Letter to Jimmy Page" class='jcard'>LTJP</a><a href="http://phish.net/song/letter-to-jimmy-page" class="full">Letter to Jimmy Page</a> >  <a href="http://phish.net/song/alumni-blues" title="Alumni Blues" class='jcard'>Alumni</a><a href="http://phish.net/song/alumni-blues" class="full">Alumni Blues</a> >  <a href="http://phish.net/song/mikes-song" title="Mike's Song" class='jcard'>Mike's</a><a href="http://phish.net/song/mikes-song" class="full">Mike's Song</a>,  <a href="http://phish.net/song/daves-energy-guide" title="Dave's Energy Guide" class='jcard'>DEG</a><a href="http://phish.net/song/daves-energy-guide" class="full">Dave's Energy Guide</a>,  <a href="http://phish.net/song/revolution">Revolution</a>,  <a href="http://phish.net/song/anarchy">Anarchy</a>,  <a href="http://phish.net/song/camel-walk">Camel Walk</a>,  <a href="http://phish.net/song/run-like-an-antelope" title="Run Like an Antelope" class='jcard'>Antelope</a><a href="http://phish.net/song/run-like-an-antelope" class="full">Run Like an Antelope</a>,  <a href="http://phish.net/song/mcgrupp-and-the-watchful-hosemasters" title="McGrupp and the Watchful Hosemasters" class='jcard'>McGrupp</a><a href="http://phish.net/song/mcgrupp-and-the-watchful-hosemasters" class="full">McGrupp and the Watchful Hosemasters</a></p></p>
+	<p><strong>Notes:</strong> Some fans have labeled the show-opening jam a &ldquo;<em>Star Trek</em> Jam.&rdquo;</p>
+	<h5 class="r"><a href="?d=1985-10-17"><img src="http://smedia.pnet-static.com/famfamfam/application_form.png" alt="Reviews" /></a> 
+			<a href="http://phish.net/setlists/?d=1985-10-17" class="h rpad">4 Reviews</a> 
+			<a href="http://phish.net/reviews/add.php?d=1985-10-17"><img src="http://smedia.pnet-static.com/famfamfam/application_form_add.png" alt="Add Review" /></a>
+			<a href="http://phish.net/reviews/add.php?d=1985-10-17" class="h rpad">Add Review</a><a href="http://phish.net/setlists/gapchart.php?d=1985-10-17"><img src="http://smedia.pnet-static.com/famfamfam/chart_curve.png" alt="Gap Chart" /></a>
+			<a href="http://phish.net/setlists/gapchart.php?d=1985-10-17" class="h">Gap Chart</a>
+			
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> <a name="1985-10-20" class="anchor">&nbsp;</a>
+<div class="setlist">
+	<h2>
+		<a href="http://phish.net/setlists/?d=1985-10-20"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=1985-10-20" class="sldate">Sunday, 10/20/1985</a> 
+		<br /><i><a href="http://phish.net/venue/246" class='venue'>Slade Hall, University of Vermont</a>, Burlington, VT</i>
+	</h2>
+	<p>No known setlist!</p>
+	<h5 class="r"><a href="?d=1985-10-20"><img src="http://smedia.pnet-static.com/famfamfam/application_form.png" alt="Reviews" /></a> 
+			<a href="http://phish.net/setlists/?d=1985-10-20" class="h rpad">0 Reviews</a> 
+			<a href="http://phish.net/reviews/add.php?d=1985-10-20"><img src="http://smedia.pnet-static.com/famfamfam/application_form_add.png" alt="Add Review" /></a>
+			<a href="http://phish.net/reviews/add.php?d=1985-10-20" class="h rpad">Add Review</a>
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> <a name="1985-10-26" class="anchor">&nbsp;</a>
+<div class="setlist excluded">
+	<h2>
+		<a href="http://phish.net/setlists/?d=1985-10-26"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=1985-10-26" class="sldate">Saturday, 10/26/1985</a> 
+		<br /><i><a href="http://phish.net/venue/347" class='venue'>Goddard College</a>, Plainfield, VT</i>
+	</h2>
+	<p>No known setlist!</p>
+	<p><strong>Notes:</strong> "Halloween Fest" This would have been Phish&rsquo;s first Halloween celebration, but they were unable to play. References to the show are made in <em>The Phish Book</em>; for audio comments, dig deep into the Hunt&rsquo;s show four nights later.</p>
+	<p>NOTE:  This Phish performance does not count for stats purposes.</p>
+	<h5 class="r"><a href="?d=1985-10-26"><img src="http://smedia.pnet-static.com/famfamfam/application_form.png" alt="Reviews" /></a> 
+			<a href="http://phish.net/setlists/?d=1985-10-26" class="h rpad">0 Reviews</a> 
+			<a href="http://phish.net/reviews/add.php?d=1985-10-26"><img src="http://smedia.pnet-static.com/famfamfam/application_form_add.png" alt="Add Review" /></a>
+			<a href="http://phish.net/reviews/add.php?d=1985-10-26" class="h rpad">Add Review</a>
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> <a name="1985-10-30" class="anchor">&nbsp;</a>
+<div class="setlist">
+	<h2>
+		<a href="http://phish.net/setlists/?d=1985-10-30"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=1985-10-30" class="sldate">Wednesday, 10/30/1985</a> 
+		<br /><i><a href="http://phish.net/venue/10" class='venue'>Hunt's</a>, Burlington, VT</i>
+	</h2>
+	<p><b>Set 1</b>: <a href="http://phish.net/song/harry-hood" title="Harry Hood" class='jcard'>Hood</a><a href="http://phish.net/song/harry-hood" class="full">Harry Hood</a><sup>[1]</sup>,  <a href="http://phish.net/song/dog-log">Dog Log</a><sup>[2]</sup> >  <a href="http://phish.net/song/possum">Possum</a>,  <a href="http://phish.net/song/slave-to-the-traffic-light" title="Slave to the Traffic Light" class='jcard'>Slave</a><a href="http://phish.net/song/slave-to-the-traffic-light" class="full">Slave to the Traffic Light</a>,  <a href="http://phish.net/song/sneakin-sally-through-the-alley" title="Sneakin' Sally Through the Alley" class='jcard'>Sneakin' Sally</a><a href="http://phish.net/song/sneakin-sally-through-the-alley" class="full">Sneakin' Sally Through the Alley</a>,  <a href="http://phish.net/song/i-wish">I Wish</a>,  <a href="http://phish.net/song/revival">Revival</a>,  <a href="http://phish.net/song/alumni-blues" title="Alumni Blues" class='jcard'>Alumni</a><a href="http://phish.net/song/alumni-blues" class="full">Alumni Blues</a><sup>[3]</sup> >  <a href="http://phish.net/song/letter-to-jimmy-page" title="Letter to Jimmy Page" class='jcard'>LTJP</a><a href="http://phish.net/song/letter-to-jimmy-page" class="full">Letter to Jimmy Page</a> >  <a href="http://phish.net/song/alumni-blues" title="Alumni Blues" class='jcard'>Alumni</a><a href="http://phish.net/song/alumni-blues" class="full">Alumni Blues</a>,  <a href="http://phish.net/song/prep-school-hippie">Prep School Hippie</a>,  <a href="http://phish.net/song/skippy-the-wondermouse">Skippy the Wondermouse</a></p></p>
+	<p class='footnotes'>[1] First known version.<br />[2] First known public version.<br />[3] Lyric referenced pumpkin pie.<br /></p>
+	<p><strong>Notes:</strong> This show contained the first known version&nbsp;of Harry Hood&nbsp;and the first known public version of Dog Log. Trey remarked during the intro to Hood that &quot;this one is a story of the man who lives directly across the street from us right now.&quot; (The house on King Street where Trey, Fish, and Brian Long lived was across the street from the Hood factory.) Slave was dedicated to &ldquo;Brickle.&rdquo; Trey&rsquo;s humorous comments about being &ldquo;back on Planet Earth&rdquo; were in reference to the events at Goddard on October 26. Alumni had a reference to pumpkin pie. This setlist is likely incomplete.</p>
+	<h5 class="r"><a href="?d=1985-10-30"><img src="http://smedia.pnet-static.com/famfamfam/application_form.png" alt="Reviews" /></a> 
+			<a href="http://phish.net/setlists/?d=1985-10-30" class="h rpad">1 Review</a> 
+			<a href="http://phish.net/reviews/add.php?d=1985-10-30"><img src="http://smedia.pnet-static.com/famfamfam/application_form_add.png" alt="Add Review" /></a>
+			<a href="http://phish.net/reviews/add.php?d=1985-10-30" class="h rpad">Add Review</a><a href="http://phish.net/setlists/gapchart.php?d=1985-10-30"><img src="http://smedia.pnet-static.com/famfamfam/chart_curve.png" alt="Gap Chart" /></a>
+			<a href="http://phish.net/setlists/gapchart.php?d=1985-10-30" class="h">Gap Chart</a>
+			
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> <a name="1985-11-02" class="anchor">&nbsp;</a>
+<div class="setlist">
+	<h2>
+		<a href="http://phish.net/setlists/?d=1985-11-02"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=1985-11-02" class="sldate">Saturday, 11/02/1985</a> 
+		<br /><i><a href="http://phish.net/venue/246" class='venue'>Slade Hall, University of Vermont</a>, Burlington, VT</i>
+	</h2>
+	<p>No known setlist!</p>
+	<h5 class="r"><a href="?d=1985-11-02"><img src="http://smedia.pnet-static.com/famfamfam/application_form.png" alt="Reviews" /></a> 
+			<a href="http://phish.net/setlists/?d=1985-11-02" class="h rpad">0 Reviews</a> 
+			<a href="http://phish.net/reviews/add.php?d=1985-11-02"><img src="http://smedia.pnet-static.com/famfamfam/application_form_add.png" alt="Add Review" /></a>
+			<a href="http://phish.net/reviews/add.php?d=1985-11-02" class="h rpad">Add Review</a>
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> <a name="1985-11-14" class="anchor">&nbsp;</a>
+<div class="setlist">
+	<h2>
+		<a href="http://phish.net/setlists/?d=1985-11-14"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=1985-11-14" class="sldate">Thursday, 11/14/1985</a> 
+		<br /><i><a href="http://phish.net/venue/350" class='venue'>Memorial Auditorium Basement</a>, Burlington, VT</i>
+	</h2>
+	<p><b>Set 1</b>: <a href="http://phish.net/song/slave-to-the-traffic-light" title="Slave to the Traffic Light" class='jcard'>Slave</a><a href="http://phish.net/song/slave-to-the-traffic-light" class="full">Slave to the Traffic Light</a><sup>[1]</sup>,  <a href="http://phish.net/song/hurricane">Hurricane</a><sup>[2]</sup>,  <a href="http://phish.net/song/makisupa-policeman" title="Makisupa Policeman" class='jcard'>Makisupa</a><a href="http://phish.net/song/makisupa-policeman" class="full">Makisupa Policeman</a><sup>[3]</sup> >  <a href="http://phish.net/song/piggies">Piggies</a><sup>[2]</sup> ->  <a href="http://phish.net/song/makisupa-policeman" title="Makisupa Policeman" class='jcard'>Makisupa</a><a href="http://phish.net/song/makisupa-policeman" class="full">Makisupa Policeman</a><sup>[3]</sup> ->  <a href="http://phish.net/song/drums">Drums</a><sup>[4]</sup> >  <a href="http://phish.net/song/alumni-blues" title="Alumni Blues" class='jcard'>Alumni</a><a href="http://phish.net/song/alumni-blues" class="full">Alumni Blues</a><sup>[3]</sup> >  <a href="http://phish.net/song/dear-mrs-reagan">Dear Mrs. Reagan</a><sup>[5]</sup></p></p>
+	<p class='footnotes'>[1] Acoustic. Possible female vocalist accompaniment.<br />[2] First known Phish version; acoustic.<br />[3] Acoustic.<br />[4] Possible guest appearance by Marc Daubert, at least one member of The Joneses, and possibly others.<br />[5] First known version; acoustic.<br /></p>
+	<p><strong>Notes:</strong> This show was an acoustic benefit that also featured performances by The Joneses and The Visions. Fish played percussion instead of a drumkit. Slave appeared to have a female vocalist accompanying Trey. This show also featured the first known version of Dear Mrs. Reagan and the first known&nbsp;Phish versions of Hurricane and Piggies. Makisupa included additional impromptu verses regarding Mike, Fish and their &quot;new friend, Page.&quot; Piggies was dedicated to Harry Mitiguy, then president of the Howard Bank (referred to by Trey as &quot;Howard Mitiguy&quot;). The drum jam out of Makisupa may have included Marc Daubert, at least one member of The Joneses, and possibly others. Phish&#39;s archivist, Kevin Shapiro, played the Makisupa &gt; Piggies -&gt; Makisupa portion of this show on From the Archives on 10/30/09 at Festival 8. The date of this show may be 11/19/85.</p>
+	<h5 class="r"><a href="?d=1985-11-14"><img src="http://smedia.pnet-static.com/famfamfam/application_form.png" alt="Reviews" /></a> 
+			<a href="http://phish.net/setlists/?d=1985-11-14" class="h rpad">2 Reviews</a> 
+			<a href="http://phish.net/reviews/add.php?d=1985-11-14"><img src="http://smedia.pnet-static.com/famfamfam/application_form_add.png" alt="Add Review" /></a>
+			<a href="http://phish.net/reviews/add.php?d=1985-11-14" class="h rpad">Add Review</a><a href="http://phish.net/setlists/gapchart.php?d=1985-11-14"><img src="http://smedia.pnet-static.com/famfamfam/chart_curve.png" alt="Gap Chart" /></a>
+			<a href="http://phish.net/setlists/gapchart.php?d=1985-11-14" class="h">Gap Chart</a>
+			
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> <a name="1985-11-23" class="anchor">&nbsp;</a>
+<div class="setlist">
+	<h2>
+		<a href="http://phish.net/setlists/?d=1985-11-23"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=1985-11-23" class="sldate">Saturday, 11/23/1985</a> 
+		<br /><i><a href="http://phish.net/venue/347" class='venue'>Goddard College</a>, Plainfield, VT</i>
+	</h2>
+	<p><b>Set 1</b>: <a href="http://phish.net/song/wild-thing">Wild Thing</a><sup>[1]</sup></p>
+	<p><b>Set 2</b>: <a href="http://phish.net/song/mikes-song" title="Mike's Song" class='jcard'>Mike's</a><a href="http://phish.net/song/mikes-song" class="full">Mike's Song</a>,  <a href="http://phish.net/song/whipping-post">Whipping Post Jam</a>,  <a href="http://phish.net/song/run-like-an-antelope" title="Run Like an Antelope" class='jcard'>Antelope</a><a href="http://phish.net/song/run-like-an-antelope" class="full">Run Like an Antelope</a> ->  <a href="http://phish.net/song/daves-energy-guide" title="Dave's Energy Guide" class='jcard'>DEG</a><a href="http://phish.net/song/daves-energy-guide" class="full">Dave's Energy Guide</a></p></p>
+	<p class='footnotes'>[1] First known Phish performance.<br /></p><p style='clear:both !important;'><strong>Teases:</strong><br />&middot; <a href="/setlists/teases/norwegian-wood-this-bird-has-flown?teaseid=1550">Norwegian Wood (This Bird Has Flown)</a> and <a href="/setlists/teases/dark-star?teaseid=3200">Dark Star</a> teases  in Whipping Post</p>
+	<p><strong>Notes:</strong> This list for Set II is likely incomplete, as the only recording that circulates fades in and out at points. The &ldquo;Whipping Post Jam&rdquo; fades in after Mike&rsquo;s Song on the recording that circulates. This &ldquo;Jam&rdquo; contained jams reminiscent of The Grateful Dead&rsquo;s The Other One and Dark Star. It also featured Norwegian Wood teases from Mike, and a jam reminiscent of the early intro to Harry Hood. Antelope fades in after the &ldquo;Whipping Post Jam&rdquo; fades out. The complete lists for Sets I (featuring the first known Phish performance of Wild Thing) and II are not known, although Mike has referenced the first set Wild Thing in interviews and in <em>The Phish Book</em>.</p>
+	<h5 class="r"><a href="?d=1985-11-23"><img src="http://smedia.pnet-static.com/famfamfam/application_form.png" alt="Reviews" /></a> 
+			<a href="http://phish.net/setlists/?d=1985-11-23" class="h rpad">4 Reviews</a> 
+			<a href="http://phish.net/reviews/add.php?d=1985-11-23"><img src="http://smedia.pnet-static.com/famfamfam/application_form_add.png" alt="Add Review" /></a>
+			<a href="http://phish.net/reviews/add.php?d=1985-11-23" class="h rpad">Add Review</a><a href="http://phish.net/setlists/gapchart.php?d=1985-11-23"><img src="http://smedia.pnet-static.com/famfamfam/chart_curve.png" alt="Gap Chart" /></a>
+			<a href="http://phish.net/setlists/gapchart.php?d=1985-11-23" class="h">Gap Chart</a>
+			
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> <a name="1985-12-13" class="anchor">&nbsp;</a>
+<div class="setlist">
+	<h2>
+		<a href="http://phish.net/setlists/?d=1985-12-13"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=1985-12-13" class="sldate">Friday, 12/13/1985</a> 
+		<br /><i><a href="http://phish.net/venue/345" class='venue'>Private Party</a>, Burlington, VT</i>
+	</h2>
+	<p>No known setlist!</p>
+	<p><strong>Notes:</strong> This show is sometimes noted as the &ldquo;Red House Party.&rdquo;</p>
+	<h5 class="r"><a href="?d=1985-12-13"><img src="http://smedia.pnet-static.com/famfamfam/application_form.png" alt="Reviews" /></a> 
+			<a href="http://phish.net/setlists/?d=1985-12-13" class="h rpad">0 Reviews</a> 
+			<a href="http://phish.net/reviews/add.php?d=1985-12-13"><img src="http://smedia.pnet-static.com/famfamfam/application_form_add.png" alt="Add Review" /></a>
+			<a href="http://phish.net/reviews/add.php?d=1985-12-13" class="h rpad">Add Review</a>
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> 		</div>
+<aside> 
+	<section>
+		<header>
+			<h3>READ THE BOOK!</h3>
+		</header>
+		<a target="_blank" href="http://phishcompanion.com"><img style="width:200px;" src='//smedia.pnet-static.com/site/book.jpg'></a><br>
+		The Phish Companion (3rd Edition) is now shipping!		 
+		<p>
+		&bull; Thousands of freshly-manicured setlists, song histories, and charts<br>
+		&bull; Hundreds of evocative show reviews &amp; fan stories<br>
+		&bull; 128 pages of dazzling Phish photography<br>
+		&bull; Stunning original works of art<br>
+		</p>
+		Only $39 and shipping now from <a target="_blank" href="http://phishcompanion.com">phishcompanion.com</a>!
+	</section>
+
+
+	<section>
+		<header>
+			<h3 class="donate">Support Phish.net</h3>
+		</header>
+		<form action="https://www.paypal.com/cgi-bin/webscr" method="post"> 
+			<input type="hidden" name="cmd" value="_xclick" /> 
+			<input type="hidden" name="business" value="ellis@mbird.org" /> 
+			<input type="hidden" name="item_name" value="Donate to the Mockingbird Foundation" /> 
+			<input type="hidden" name="item_number" value="052110" /> 
+			<input type="hidden" name="image_url" value="http://www.mbird.org/gfx/banners/mbs1.gif" /> 
+			<input type="hidden" name="return" value="http://www.mbird.org/thanks" /> 
+			<input type="hidden" name="cancel_return" value="http://phish.net/" /> 
+			<input type="image" src="http://images.paypal.com/images/x-click-but21.gif" border="0" name="submit" alt="Donate with PayPal - it's fast, free and secure!" /> 
+		</form>		
+<!-- <script class="dwolla_button" src="https://www.dwolla.com/scripts/button.min.js" type="text/javascript" data-key="cjMzppGCBhRVOeBL3GbF3emLAQFk7QTHGXj5Eq1wUlC3VXveH1" data-redirect="http://www.mbird.org/donations/contributors" data-label="Donate with Dwolla" data-name="Dwolla Donation to Mbird" data-description="undefined" data-amount="10" data-type="freetype"> -->		
+		Phish.net is a project of the non-profit <a href="http://mbird.org/">Mockingbird Foundation</a>.
+	</section>
+	<section>
+		<header>
+			<h3>Login</h3>
+		</header> 
+		<form action="https://api.phish.net/authorize/login.php" method="post">
+			<p>
+				Username<br />
+				<input type="text" name="username" size="15" /><br />
+				Password<br />
+				<input type="password" name="passwd" size="15" /><br /><br />
+				<input type="hidden" name="returnto" value="/" />
+				<input type="submit" value="Login" /><br /><br />
+				<small>
+					<a href="/register">Register</a> | <a href="/forgot_password">Forgot Password</a>
+				</small>
+			</p>
+		</form>
+	</section> 
+			
+	<section> 
+		<header> 
+			<h3>Archived Setlists</h3> 
+		</header>
+		<b>View setlists from</b>: <select onchange="location.href='/setlists/'+$(this).val()+'.html';">
+<option value='1983'>1983</option>
+<option value='1984'>1984</option>
+<option selected="selected" value='1985'>1985</option>
+<option value='1986'>1986</option>
+<option value='1987'>1987</option>
+<option value='1988'>1988</option>
+<option value='1989'>1989</option>
+<option value='1990'>1990</option>
+<option value='1991'>1991</option>
+<option value='1992'>1992</option>
+<option value='1993'>1993</option>
+<option value='1994'>1994</option>
+<option value='1995'>1995</option>
+<option value='1996'>1996</option>
+<option value='1997'>1997</option>
+<option value='1998'>1998</option>
+<option value='1999'>1999</option>
+<option value='2000'>2000</option>
+<option value='2001'>2001</option>
+<option value='2002'>2002</option>
+<option value='2003'>2003</option>
+<option value='2004'>2004</option>
+<option value='2005'>2005</option>
+<option value='2006'>2006</option>
+<option value='2007'>2007</option>
+<option value='2008'>2008</option>
+<option value='2009'>2009</option>
+<option value='2010'>2010</option>
+<option value='2011'>2011</option>
+<option value='2012'>2012</option>
+<option value='2013'>2013</option>
+<option value='2014'>2014</option>
+<option value='2015'>2015</option>
+<option value='2016'>2016</option>
+		</select>
+		<p><br>
+			<a class='btn btn-small uibutton' href="http://phish.net/setlists/info.php">Setlist Info</a>
+						<a class='btn btn-small uibutton' href='http://phish.net/lib/php/session.php?op=set&pref=songnotes&val=on'>Show Songnotes</a>
+							
+		</p>	 
+			</section> 
+	<section> 
+		<header> 
+			<h3>Phish News</h3> 
+		</header>
+		<p><a href="http://lists.phish.net/lists/info/phish-news">Subscribe to Phish-News</a> for exclusive info while on tour!</p>
+	</section>	
+		<section> 
+		<header> 
+			<h3>Best Rated Shows</h3> 
+		</header> 
+		<ul> 
+			<li><a href="/sideshows/?d=2013-09-07">2013-09-07 (Rated 4.8/5)</a>
+				<em>Oak Ridge Farm</em></li>
+			<li><a href="/setlists/?d=1999-12-31">1999-12-31 (Rated 4.704/5)</a>
+				<em>Big Cypress Seminole Indi...</em></li>
+			<li><a href="/setlists/?d=2015-08-22">2015-08-22 (Rated 4.695/5)</a>
+				<em>Watkins Glen International</em></li>
+			<li><a href="/setlists/?d=1997-11-17">1997-11-17 (Rated 4.693/5)</a>
+				<em>McNichols Arena</em></li>
+			<li><a href="/setlists/?d=2014-10-31">2014-10-31 (Rated 4.692/5)</a>
+				<em>MGM Grand Garden Arena</em></li>
+<a href="#void" onclick="$(this).hide();$('#moreRatings').slideDown('500');">Show More...</a><span id='moreRatings' style='display:none;'>			<li><a href="/setlists/?d=1997-12-07">1997-12-07 (Rated 4.691/5)</a>
+				<em>Ervin J. Nutter Center, W...</em></li>
+			<li><a href="/setlists/?d=1995-12-31">1995-12-31 (Rated 4.691/5)</a>
+				<em>Madison Square Garden</em></li>
+			<li><a href="/setlists/?d=1997-12-02">1997-12-02 (Rated 4.69/5)</a>
+				<em>CoreStates Spectrum</em></li>
+			<li><a href="/setlists/?d=1997-12-30">1997-12-30 (Rated 4.689/5)</a>
+				<em>Madison Square Garden</em></li>
+			<li><a href="/setlists/?d=1998-07-06">1998-07-06 (Rated 4.689/5)</a>
+				<em>Lucerna Theatre</em></li>
+			<li><a href="/setlists/?d=2003-02-28">2003-02-28 (Rated 4.688/5)</a>
+				<em>Nassau Coliseum</em></li>
+			<li><a href="/setlists/?d=1997-12-06">1997-12-06 (Rated 4.688/5)</a>
+				<em>The Palace of Auburn Hills</em></li>
+			<li><a href="/setlists/?d=1994-07-08">1994-07-08 (Rated 4.688/5)</a>
+				<em>Great Woods Center for th...</em></li>
+			<li><a href="/setlists/?d=1998-04-03">1998-04-03 (Rated 4.688/5)</a>
+				<em>Nassau Coliseum</em></li>
+			<li><a href="/setlists/?d=1995-12-07">1995-12-07 (Rated 4.687/5)</a>
+				<em>Niagara Falls Convention ...</em></li>
+</span>		</ul> 
+	</section>	
+	
+</aside>		</div>
+<footer><dl>
+       <dt>About</dt>
+       <dd><p>Phish.net is a non-commercial project run by and for Phish fans under the 
+		auspices of the <a href="http://phish.net/special/credits.php">all-volunteer</a>, non-profit Mockingbird Foundation. This project 
+		serves to compile, preserve, and protect encyclopedic information about Phish 
+		and their music. But we need your help!
+		</p>
+		<p>	&copy; 1990-2016 The Mockingbird Foundation, Inc.<br />
+		<a href="http://phish.net/terms-of-use.php">Terms of Use</a> | 
+		<a href="http://phish.net/credits">Site Credits</a> | 
+		<a href="http://phish.net/setlists/credits.php">Setlist History</a> <br />
+		Source code &copy; 2009-2016 <a href="http://twitter.com/sethadam1">Adam Scheinberg</a>.<br />
+		All Rights Reserved.<br />
+		Web Hosting by <a href="http://endpoint.com">End Point Corporation</a><br />
+		Contact us at <a href="mailto:mockingbird@mbird.org">mockingbird@mbird.org</a>.<br />Your session is bound to IP Address: 0.0.0.0		</p></dd>
+       
+       <dt>Phish.net Services</dt>
+       <dd><ul>
+		   <li><a href="http://phish.net">Phish.net</a></li>
+		   <li><a href="http://blog.phish.net">Phish.net Blog</a></li>
+		   <li><a href="http://api.phish.net">Phish.net API</a></li>
+		   <li><a href="http://m.phish.net">Phish.net Mobile Site</a></li>
+		   <li><a href="http://phish.net/partners.php">Phish.net Partners</a></li>
+		   <li><a href="http://mbird.org">The Mockingbird Foundation</a></li>
+       </ul>
+		<p style="text-align:center;"><img src="http://smedia.pnet-static.com/site/phishnet.100.png" alt="Phish.net" /></p>
+		</dd>
+       
+		<dt>Phish Links</dt>
+		<dd><ul> 
+			<li><a href="http://phish.com" target="_blank">Phish.com - The Official Band Site</a></li>	
+			<li><a href="http://twitter.com/phish" target="_blank">Phish on Twitter</a></li>	
+			<li><a href="http://www.livephish.com" target="_blank">Soundboard Downloads</a></li>
+			<li><a href="http://spreadsheets.google.com/pub?key=0AjeIQ6qQvexzcDhXS2twUC1US3BPMVZuUWdjZmY2RVE&gid=7" target="_blank">MP3 Collections</a></li>
+			<li><a href="http://www.phanart.net/" target="_blank">Phanart</a></li>   
+			<li><a href="http://cashortrade.org/" target="_blank">CashorTrade.org face value tickets</a></li> 
+			<li><a href="http://www.youtube.com/results?search_query=phish" target="_blank">YouTube Clips</a></li>
+			<li><a href="http://www.ihoz.com/PhishStats.html" target="_blank">ZZYZX's PhishStats</a></li>
+			<!-- 
+			<li><a href="http://yemblog.com/" target="_blank">Scotty B's YEM Blog</a></li>   	
+			<li><a href="http://hfpod.blogspot.com" target="_blank">Helping Friendly Podcast</a></li>
+			<li><a href="http://typeiicast.com/" target="_blank">Type II Cast podcast</a></li> 
+			<li><a href="http://phishthoughts.com/" target="_blank">Mr. Miner's PhishThoughts</a></li> --> 
+       <li><a href="https://twitter.com/phishnet" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @phishnet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></li>
+       </ul>
+</dd>
+</dl></footer>
+<div id="userbar">
+	<a class="pad" href="/login">Login</a>
+	<a href="/register">Register</a>
+</div>
+<div id="bookmodal" style="width:805px;display:none;">
+	<p><a href="http://phishcompanion.com"><img src="http://smedia.pnet-static.com/site/modal800.jpg"></a></p>
+</div>
+<link rel="stylesheet" href="http://sscripts.pnet-static.com/packages/jquery-modal/jquery.modal.min.css" type="text/css" media="screen" /> 
+<script type="text/javascript" src="http://sscripts.pnet-static.com/packages/jquery-modal/jquery.modal.min.js"></script> 	  
+<script>
+	$('#bookmodal').modal();
+</script>
+ 
+
+
+
+<!-- 
+	The look-and-feel of Phish.net 3.1 is was heavily based on a template created by Mads Kjaer of nettuts.com. (http://twitter.com/mads) 
+-->
+
+<!-- In summing up, the moral seems a little bit obscure... -->
+	<!-- <script type="text/javascript" src="http://api.phish.net/api.json?api=2.0&amp;method=pnet.shows.setlists.latest&amp;callback=stlst"></script> -->
+	<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-10341664-1']);
+	_gaq.push(['_trackPageview']);
+	 
+	(function() {
+	var ga = document.createElement('script');
+	ga.src = ('https:' == document.location.protocol ?
+	    'https://ssl' : 'http://www') +
+	    '.google-analytics.com/ga.js';
+	ga.setAttribute('async', 'true');
+	document.documentElement.firstChild.appendChild(ga);
+	})();
+	
+	$(document).ready( function() {
+		$('#nav').smint(); 
+	}); 
+	</script>
+<!-- whatever you do, take care of your shoes --> 
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"ee461d63a9","applicationID":"2258027","transactionName":"blQHMhADWxdWVhJfX1ceMBQLTUYBQ1kPRURKHgwIBgdNSkddFg==","queueTime":0,"applicationTime":118,"atts":"QhMERFgZSBk=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

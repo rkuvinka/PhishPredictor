@@ -1,0 +1,520 @@
+<!doctype html>
+<html lang="en">
+<!-- The source was quite invisible, the ever-present voice... -->
+<!-- Carini Had a Lumpy... --><head>
+	<title>Setlists > Phish.net</title>
+	<meta charset="ISO-8859-1" />
+	<meta name="theme-color" content="#336699">
+	<!-- <meta charset="UTF-8" /> (we had some issues with this) -->
+	<meta name="google-site-verification" content="H2BoGXg050tDUgH12X6iFwAvVmhBqmFSzV5w1IHjK9Y" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge; chrome=1"/><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[(new Date).getTime()].concat(u(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(2),u=t(3),c=t("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","finished","addToTrace","inlineHit"],p="api-",l=p+"ixn-";a(s,function(t,e){f[e]=o(p+e,!0,"api")}),f.addPageAction=o(p+"addPageAction",!0),e.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(l+"tracer",[Date.now(),t,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){d[e]=o(l+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,(new Date).getTime()])}},{}],2:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],3:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?u(t,a,i):i()}function n(n,r,o){t&&t(n,r,o);for(var i=e(o),a=l(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var s=f[m[n]];return s&&s.push([w,n,r,i]),i}function p(t,e){g[t]=l(t).concat(e)}function l(t){return g[t]||[]}function d(t){return s[t]=s[t]||o(n)}function v(t,e){c(t,function(t,n){e=e||"feature",m[n]=e,e in f||(f[e]=[])})}var g={},m={},w={on:p,emit:n,get:d,listeners:l,context:e,buffer:v};return w}function i(){return new r}var a="nr@context",u=t("gos"),c=t(2),f={},s={},p=e.exports=o();p.backlog=f},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!h++){var t=y.info=NREUM.info,e=s.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){c(m,function(e,n){t[e]||(t[e]=n)});var n="https"===g.split(":")[0]||t.sslForHttp;y.proto=n?"https://":"http://",u("mark",["onload",a()],null,"api");var r=s.createElement("script");r.src=y.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function o(){"complete"===s.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=t("handle"),c=t(2),f=window,s=f.document,p="addEventListener",l="attachEvent",d=f.XMLHttpRequest,v=d&&d.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:d,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},t(1);var g=""+location,m={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-963.min.js"},w=d&&v&&v[p]&&!/CriOS/.test(navigator.userAgent),y=e.exports={offset:a(),origin:g,features:{},xhrWrappable:w};s[p]?(s[p]("DOMContentLoaded",i,!1),f[p]("load",r,!1)):(s[l]("onreadystatechange",o),f[l]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script> <!-- jive and strive  -->
+	<meta name="application-name" content="Phish.net"/> <!-- like a potato to the throat -->
+	<link rel="stylesheet" href="http://scripts.phish.net/css/uibuttons.css" type="text/css" media="screen" />
+	<!-- offer them some meat -->
+	<link rel="stylesheet" href="http://sscripts.pnet-static.com/css/bootstrap/bscallout.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="http://sscripts.pnet-static.com/css/_phishnet.min.css?v=1.14" type="text/css" media="screen" />
+		<link rel="stylesheet" href="http://sscripts.pnet-static.com/css/ratings/rating.css" type="text/css" />
+	<link rel="stylesheet" href="http://sscripts.pnet-static.com/js/tinybox2/pnet.css" type="text/css" />
+	<link rel="stylesheet" href="http://sscripts.pnet-static.com/css/setlist-main.css?v=1" type="text/css" />
+	<link rel="stylesheet" href="http://sscripts.pnet-static.com/css/jquery.powertip.min.css?v=1" type="text/css" />
+	<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<script type="text/javascript" src="http://sscripts.pnet-static.com/js/jqplot/excanvas.min.js"></script>
+	<![endif]-->
+	<!-- with the right device you can make a pattern grow or you can tune up your car -->
+	<script type="text/javascript" src="http://sscripts.pnet-static.com/js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="http://sscripts.pnet-static.com/fancybox/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+	<script type="text/javascript" src="http://sscripts.pnet-static.com/js/scripts.js?v=1.16"></script>
+	<script type="text/javascript" src="http://sscripts.pnet-static.com/smint/js/jquery.smint.js"></script>
+	<script type="text/javascript" src="http://sscripts.pnet-static.com/js/rate-behavior.js"></script>
+	<script type="text/javascript" src="http://sscripts.pnet-static.com/js/rate-showrating.js"></script>
+	<script type="text/javascript" src="http://sscripts.pnet-static.com/js/iframe.js"></script>
+	<script type="text/javascript" src="http://sscripts.pnet-static.com/js/tinybox2/tinybox.js"></script>
+	<script type="text/javascript" src="http://sscripts.pnet-static.com/js/jquery.powertip.min.js"></script>
+	<script type="text/javascript" src="http://sscripts.pnet-static.com/js/setlist-main.js?v=18"></script>
+	<!-- boom --> 
+	<!-- the forest's tasty nectar shoot -->
+	<link rel="alternate" title="Phish.Net News" href="http://phish.net/feed/index.xml" type="application/rss+xml" />
+	<meta name="summary" content="The Phish.Net home page - A guide to the band Phish, its music and its fans and their presence on the Internet; created for Phish Fans by Phish Fans." />
+	<meta name="keywords" content="Phish, Phishnet, Phish.Net, Phish Net, News, About, FAQ, PhishFAQ, What is Phish?, Intro, Phishtory, Articles, Media, Lyrics, Chords, Helping Friendly Book, Helping Phriendly Book, Setlists, Reviews, Sound Clips, Tour Information, Upcoming and Current Events, Discussion, Rosemary's Digest, Benjy's Digest, Phish-Info, Digi-Phish, IRC, WWW, Graphics, Netshirt, The Mockingbird Foundation, Gamehendge, @phishnet, Phish api, Phans, Phish mobile, Phish blog" />
+	<link rel="shortcut icon" href="http://smedia.pnet-static.com/favicon.ico">
+	<link rel="apple-touch-icon" href="http://smedia.pnet-static.com/apple-touch-icon.png">
+<!-- Lucy Had a Lumpy...  --></head>
+
+<body>
+ 	<header class='logo-container'>
+		<h1 style="padding:8px;"><a href="/"><img src="http://smedia.pnet-static.com/logo/logo.png" style="width:220px;" alt="Phish.net: a Project of the Mockingbird Foundation" /></a></h1>
+	</header>
+	<nav id='nav'> 
+		<ul> 
+			<li><a href="/news">News</a>					
+				<ul class="submenu"> 
+					<li><a href="/news">Recent News</a></li> 
+					<li><a href="http://twitter.com/phishnet">.net on Twitter</a></li> 
+					<li><a href="http://facebook.com/phishnet">.net on Facebook</a></li> 
+				</ul>	
+			</li> 
+			<li class="selected"><a href="/setlists/">Shows</a>					
+				<ul class="submenu"> 
+					<li class="haslevel3" rel="setlist">
+						<a href="/setlists">Setlists</a>
+						<ul class="subsubmenu" id="setlistsubmenu">
+							<li><a href="/setlists/">Phish Setlists</a></li>
+							<li><a href="/sideshows/">Side Projects</a></li>
+							<li><a href="/setlists/upcoming.php">Upcoming Shows</a></li>
+						</ul>
+					</li> 
+					<li><a href="/venue">Venues</a></li>  
+					<li><a href="/tour">Tours</a></li> 
+				</ul>	
+			</li> 
+			<li><a href="/song/">Music</a>					
+				<ul class="submenu"> 
+					<li><a href="/song">Song Histories</a></li> 
+					<li class="haslevel3" rel="charts">
+						<a href="#">Charts</a>
+						<ul class="subsubmenu" id="chartssubmenu">
+							<li><a href="/jamcharts">Jam Charts</a></li> 
+							<li><a href="/tease-chart">Tease Chart</a></li> 
+							<li><a href="/debut-chart">Debut Chart</a></li> 
+							<li><a href="/guest-chart">Guest Chart</a></li> 						
+							<li><a href="/setlists/twenty-minute-jams.php">20 Min+ Jam Chart</a></li> 
+						</ul>
+					</li> 
+					<li><a href="/discography">Discography</a></li>
+					<li><a href="/special/lyrics/index.php">Lyrics Index</a></li>
+				</ul>	
+			</li>  
+			<li><a href="http://forum.phish.net">Community</a>					
+				<ul class="submenu"> 
+					<li><a href="http://forum.phish.net">.net Forum</a></li> 
+					<li><a href="/reviews">Fan Reviews</a></li> 
+					<li><a href="/chat">Chat</a></li> 
+					<li><a href="/trades">Ticket Trades</a></li> 
+					<li><a href="/special/activity-stream.php">Recent Activity</a></li> 
+				</ul>	
+			</li>			
+			<li><a href="http://blog.phish.net">Blog</a></li>
+			<li><a href="/faq/">FAQ</a></li>  
+			<li><a href="#">Site</a>					
+				<ul class="submenu"> 
+					<li class='haslevel3' rel='fun'><a href="/fun">Just for Fun</a>
+						<ul class="subsubmenu" id="funsubmenu">
+							<li><a href="http://phish.net/setlists/jump.php?showdate=RAND">Random Setlist</a></li>
+							<li><a href="http://phish.net/setlists/fantasy.php">Fantasy Setlist</a></li>
+							<li><a href="http://phish.net/user/dream-setlist.php">Dream Setlist</a></li>
+							<li><a href="http://phish.net/treys-notebook">Trey's Notebook</a></li>
+							<li><a href="http://phish.net/timeline">Phish.net Timeline</a></li>
+							<li><a href="http://smedia.pnet-static.com/fotonotes/index.php">101 Phish Songs</a></li>
+							<li><a href="http://phish.net/memes">The Meme Game</a></li>
+						</ul>
+					</li>
+					<li class="haslevel3" rel="tech">
+						<a href="#">Technology</a>
+						<ul class="subsubmenu" id="techsubmenu">
+							<li><a href="http://api.phish.net/">API</a></li>
+							<!-- <li><a href="/changelog">Change Log</a></li> -->
+						</ul>
+					</li> 					<li><a href="/partners.php">Partners</a></li> 
+					<li><a href="/contact">Contact</a></li>	
+				</ul>	
+			</li>  
+			<li><a href="/store" target='_blank'>Store</a></li>
+		</ul> 
+<a href="http://phish.net/feed"><img src="http://smedia.pnet-static.com/site/socialmedia/rss.png" alt="RSS Feeds" class='navimg' /></a>		<a href="http://facebook.com/phishnet"><img src="http://smedia.pnet-static.com/site/socialmedia/facebook.png" alt="Facebook" class='navimg' /></a>
+		<a href="http://twitter.com/phishnet"><img src="http://smedia.pnet-static.com/site/socialmedia/twitter.png" alt="Twitter" class='navimg' /></a>
+		<a href="http://mbird.org"><img src="http://smedia.pnet-static.com/site/socialmedia/mbird.png" alt="Mockingbird Foundation" class='navimg' /></a>
+	</nav>
+	<br style="clear:both;" />
+
+	<div id="content">
+		<div id="mainContent">
+			<input type="hidden" name="showdate" id="showdate" value="" />
+			<input type="hidden" name="showid" id="showid" value="" /><p>
+	<form action="?" method="get" id="jumpform">
+	<b>Jump to:</b> 
+		<select name="jumpmonth" id="jumpmonth">
+			<option value="01">1</option>
+			<option value="02">2</option>
+			<option value="03">3</option>
+			<option value="04">4</option>
+			<option value="05">5</option>
+			<option value="06">6</option>
+			<option value="07">7</option>
+			<option value="08">8</option>
+			<option value="09">9</option>
+			<option value="10">10</option>
+			<option value="11">11</option>
+			<option value="12">12</option>
+			
+		</select> / 
+		<select name="jumpday" id="jumpday">
+			<option value="01">1</option>
+			<option value="02">2</option>
+			<option value="03">3</option>
+			<option value="04">4</option>
+			<option value="05">5</option>
+			<option value="06">6</option>
+			<option value="07">7</option>
+			<option value="08">8</option>
+			<option value="09">9</option>
+			<option value="10">10</option>
+			<option value="11">11</option>
+			<option value="12">12</option>
+			<option value="13">13</option>
+			<option value="14">14</option>
+			<option value="15">15</option>
+			<option value="16">16</option>
+			<option value="17">17</option>
+			<option value="18">18</option>
+			<option value="19">19</option>
+			<option value="20">20</option>
+			<option value="21">21</option>
+			<option value="22">22</option>
+			<option value="23">23</option>
+			<option value="24">24</option>
+			<option value="25">25</option>
+			<option value="26">26</option>
+			<option value="27">27</option>
+			<option value="28">28</option>
+			<option value="29">29</option>
+			<option value="30">30</option>
+			<option value="31">31</option>
+			
+		</select> / 
+		<select name="jumpyear" id="jumpyear">
+			<option value="2016">2016</option>
+			<option value="2015">2015</option>
+			<option value="2014">2014</option>
+			<option value="2013">2013</option>
+			<option value="2012">2012</option>
+			<option value="2011">2011</option>
+			<option value="2010">2010</option>
+			<option value="2009">2009</option>
+			<option value="2008">2008</option>
+			<option value="2004">2004</option>
+			<option value="2003">2003</option>
+			<option value="2002">2002</option>
+			<option value="2001">2001</option>
+			<option value="2000">2000</option>
+			<option value="1999">1999</option>
+			<option value="1998">1998</option>
+			<option value="1997">1997</option>
+			<option value="1996">1996</option>
+			<option value="1995">1995</option>
+			<option value="1994">1994</option>
+			<option value="1993">1993</option>
+			<option value="1992">1992</option>
+			<option value="1991">1991</option>
+			<option value="1990">1990</option>
+			<option value="1989">1989</option>
+			<option value="1988">1988</option>
+			<option value="1987">1987</option>
+			<option value="1986">1986</option>
+			<option value="1985">1985</option>
+			<option value="1984">1984</option>
+			<option value="1983">1983</option>
+		</select> 
+		<input type="button" id="showjumper" value="Jump to Date!" />
+		<a href='#void' onclick="$(this).hide();$('.setlistoptions').show();" style='font-weight:bold;margin-left:5px;'>Setlist Options</a>
+		<fieldset class="setlistoptions" style='display:none;'>
+			<legend>Setlist Options</legend>
+			<span id="fontadjust">
+				Adjust Text size: <a class="increaseFont">Bigger</a> | <a class="decreaseFont">Smaller</a> | <a class="resetFont">Reset</a>
+			</span><br />
+			Footnotes: <a href="http://phish.net/lib/php/session.php?op=set&pref=songfootnotes&val=off">Hide Song Footnotes</a><br />View: <a href="http://phish.net/lib/php/session.php?op=set&pref=songnicknames&val=1" style="color:green;">Show Song Nicknames</a>
+				<a href="http://blog.phish.net/1296494327/introducing-shorthand-setlists" style="font-size:x-small;font-weight:bold;">[?]</a>			<a href="http://phish.net/abbr" style="font-size:x-small;color:#333;">[guide]</a>  
+			Teases: <a href="http://phish.net/lib/php/session.php?op=set&pref=teasebox&val=no">Hide Teases</a>			
+			Albums: <a href="http://phish.net/lib/php/session.php?op=set&pref=albums&val=no">Hide Song Distribution</a>		</fieldset>
+	</form>	
+</p>		<div id="setlistlegend"><br />October: <a href="#1984-10-23">23</a><br />November: <a href="#1984-11-03">3</a><br />December: <a href="#1984-12-01">1</a></div><a name="1984-10-23" class="anchor">&nbsp;</a>
+<div class="setlist">
+	<h2>
+		<a href="http://phish.net/setlists/?d=1984-10-23"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=1984-10-23" class="sldate">Tuesday, 10/23/1984</a> 
+		<br /><i><a href="http://phish.net/venue/46" class='venue'>69 Grant Street</a>, Burlington, VT</i>
+	</h2>
+	<p><b>Set 1</b>: <a href="http://phish.net/song/makisupa-policeman" title="Makisupa Policeman" class='jcard'>Makisupa</a><a href="http://phish.net/song/makisupa-policeman" class="full">Makisupa Policeman</a><sup>[1]</sup></p></p>
+	<p class='footnotes'>[1] First known performance.<br /></p>
+	<p><strong>Notes:</strong> This show, played in the garage of a house on Grant Street, is believed to be the band&rsquo;s first show after Trey&rsquo;s return to the University of Vermont and the first show where the band was billed as Phish. It is known that Makisupa (first known performance) was played but the rest of the setlist is unknown. The date is believed to be correct but may have been a few days earlier or later.</p>
+	<h5 class="r"><a href="?d=1984-10-23"><img src="http://smedia.pnet-static.com/famfamfam/application_form.png" alt="Reviews" /></a> 
+			<a href="http://phish.net/setlists/?d=1984-10-23" class="h rpad">0 Reviews</a> 
+			<a href="http://phish.net/reviews/add.php?d=1984-10-23"><img src="http://smedia.pnet-static.com/famfamfam/application_form_add.png" alt="Add Review" /></a>
+			<a href="http://phish.net/reviews/add.php?d=1984-10-23" class="h rpad">Add Review</a><a href="http://phish.net/setlists/gapchart.php?d=1984-10-23"><img src="http://smedia.pnet-static.com/famfamfam/chart_curve.png" alt="Gap Chart" /></a>
+			<a href="http://phish.net/setlists/gapchart.php?d=1984-10-23" class="h">Gap Chart</a>
+			
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> <a name="1984-11-03" class="anchor">&nbsp;</a>
+<div class="setlist">
+	<h2>
+		<a href="http://phish.net/setlists/?d=1984-11-03"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=1984-11-03" class="sldate">Saturday, 11/03/1984</a> 
+		<br /><i><a href="http://phish.net/venue/246" class='venue'>Slade Hall, University of Vermont</a>, Burlington, VT</i>
+	</h2>
+	<p><b>Set 1</b>: <a href="http://phish.net/song/in-the-midnight-hour">In the Midnight Hour</a>,  <a href="http://phish.net/song/wild-child">Wild Child</a><sup>[1]</sup>,  <a href="http://phish.net/song/jam">Jam</a> ->  <a href="http://phish.net/song/bertha">Bertha</a><sup>[1]</sup>,  <a href="http://phish.net/song/cant-you-hear-me-knocking">Can't You Hear Me Knocking</a><sup>[1]</sup> ->  <a href="http://phish.net/song/st-stephen">St. Stephen Jam</a> ->  <a href="http://phish.net/song/cant-you-hear-me-knocking">Can't You Hear Me Knocking</a>,  <a href="http://phish.net/song/camel-walk">Camel Walk</a><sup>[2]</sup>,  <a href="http://phish.net/song/eyes-of-the-world">Eyes of the World</a><sup>[1]</sup> ->  <a href="http://phish.net/song/whipping-post">Whipping Post</a><sup>[3]</sup> ->  <a href="http://phish.net/song/drums">Drums</a><sup>[4]</sup></p></p>
+	<p class='footnotes'>[1] First known Phish performance.<br />[2] First known performance<br />[3] First known Phish performance; Jeff on vocals.<br />[4] Marc Daubert on percussion.<br /></p>
+	<p><strong>Notes:</strong> The setlist for this show might be incomplete, as the recordings that circulate cut during Drums. Marc Daubert made a guest appearance on percussion. This show featured the first known performance of Camel Walk and the first known Phish performances of Wild Child, Bertha, Can&#39;t You Hear Me Knocking, Eyes of the World, and Whipping Post (which featured Jeff on vocals). CYHMK included a St. Stephen tease. Copies of this performance often circulate with the incorrect date of November 3, 1983. Also, it is possible that this show was actually on Friday, November 2, 1984, as a photo of a flyer for a show on &ldquo;11/2&rdquo; was printed in <em>The Phish Book</em>.</p>
+	<h5 class="r"><a href="?d=1984-11-03"><img src="http://smedia.pnet-static.com/famfamfam/application_form.png" alt="Reviews" /></a> 
+			<a href="http://phish.net/setlists/?d=1984-11-03" class="h rpad">5 Reviews</a> 
+			<a href="http://phish.net/reviews/add.php?d=1984-11-03"><img src="http://smedia.pnet-static.com/famfamfam/application_form_add.png" alt="Add Review" /></a>
+			<a href="http://phish.net/reviews/add.php?d=1984-11-03" class="h rpad">Add Review</a><a href="http://phish.net/setlists/gapchart.php?d=1984-11-03"><img src="http://smedia.pnet-static.com/famfamfam/chart_curve.png" alt="Gap Chart" /></a>
+			<a href="http://phish.net/setlists/gapchart.php?d=1984-11-03" class="h">Gap Chart</a>
+			
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> <a name="1984-12-01" class="anchor">&nbsp;</a>
+<div class="setlist">
+	<h2>
+		<a href="http://phish.net/setlists/?d=1984-12-01"><img src="http://smedia.pnet-static.com/famfamfam/link.png" alt="Link" title="Permalink" /></a> 
+		<a href="http://phish.net/setlists/?d=1984-12-01" class="sldate">Saturday, 12/01/1984</a> 
+		<br /><i><a href="http://phish.net/venue/2" class='venue'>Nectar's</a>, Burlington, VT</i>
+	</h2>
+	<p><i>Soundcheck</i>: Fluffhead</p>	<p><b>Set 1</b>: <a href="http://phish.net/song/jam">Jam</a>,  <a href="http://phish.net/song/wild-child">Wild Child</a> >  <a href="http://phish.net/song/bertha">Bertha</a>,  <a href="http://phish.net/song/cant-you-hear-me-knocking">Can't You Hear Me Knocking</a>,  <a href="http://phish.net/song/camel-walk">Camel Walk</a>,  <a href="http://phish.net/song/jam">Jam</a>,  <a href="http://phish.net/song/in-the-midnight-hour">In the Midnight Hour</a>,  <a href="http://phish.net/song/scarlet-begonias">Scarlet Begonias</a> >  <a href="http://phish.net/song/fire">Fire</a><sup>[1]</sup> >  <a href="http://phish.net/song/fire-on-the-mountain" title="Fire on the Mountain" class='jcard'>FOTM</a><a href="http://phish.net/song/fire-on-the-mountain" class="full">Fire on the Mountain</a> >  <a href="http://phish.net/song/makisupa-policeman" title="Makisupa Policeman" class='jcard'>Makisupa</a><a href="http://phish.net/song/makisupa-policeman" class="full">Makisupa Policeman</a>,  <a href="http://phish.net/song/slave-to-the-traffic-light" title="Slave to the Traffic Light" class='jcard'>Slave</a><a href="http://phish.net/song/slave-to-the-traffic-light" class="full">Slave to the Traffic Light</a><sup>[2]</sup>,  <a href="http://phish.net/song/spanish-flea">Spanish Flea</a><sup>[1]</sup>,  <a href="http://phish.net/song/dont-want-you-no-more">Don't Want You No More</a><sup>[3]</sup> ->  <a href="http://phish.net/song/cities">Cities</a><sup>[1]</sup> ->  <a href="http://phish.net/song/drums">Drums</a><sup>[4]</sup> ->  <a href="http://phish.net/song/skippy-the-wondermouse">Skippy the Wondermouse</a><sup>[5]</sup>,  <a href="http://phish.net/song/fluffhead">Fluffhead</a><sup>[6]</sup></p>
+	<p><b>Encore</b>: <a href="http://phish.net/song/eyes-of-the-world">Eyes of the World</a></p></p>
+	<p class='footnotes'>[1] First known Phish performance.<br />[2] First known performance.<br />[3] First known Phish performance; missing final lyrics.<br />[4] Marc Daubert.<br />[5] First known Phish performance; Dude of Life on vocals.<br />[6] First known performance; Dude of Life on vocals.<br /></p>
+	<p><strong>Notes:</strong> Skippy and Fluffhead featured The Dude of Life on vocals. The jam after Camel Walk may have been Back Porch Boogie Blues. Spanish Flea included an introduction of the band members. Don&rsquo;t Want You No More was not performed in its entirety, as it lacked the final lyrics. The lengthy percussion jam featured a guest appearance from Marc Daubert. Mike recalls that there were approximately 200 people in the audience. This gig featured the first known version of Slave to the Traffic Light and Fluffhead, the first known Phish versions of Fire, Don&#39;t Want You No More, Cities, and Skippy the Wondermouse, and the only known Phish version of Spanish Flea. This performance was on the upstairs level of Nectar&#39;s.</p>
+	<h5 class="r"><a href="?d=1984-12-01"><img src="http://smedia.pnet-static.com/famfamfam/application_form.png" alt="Reviews" /></a> 
+			<a href="http://phish.net/setlists/?d=1984-12-01" class="h rpad">4 Reviews</a> 
+			<a href="http://phish.net/reviews/add.php?d=1984-12-01"><img src="http://smedia.pnet-static.com/famfamfam/application_form_add.png" alt="Add Review" /></a>
+			<a href="http://phish.net/reviews/add.php?d=1984-12-01" class="h rpad">Add Review</a><a href="http://phish.net/setlists/gapchart.php?d=1984-12-01"><img src="http://smedia.pnet-static.com/famfamfam/chart_curve.png" alt="Gap Chart" /></a>
+			<a href="http://phish.net/setlists/gapchart.php?d=1984-12-01" class="h">Gap Chart</a>
+			
+		<a href='#top'><img src="http://smedia.pnet-static.com/famfamfam/arrow_up.png" alt="Top" /> Back to Top</a>
+	</h5>
+</div> 		</div>
+<aside> 
+	<section>
+		<header>
+			<h3>READ THE BOOK!</h3>
+		</header>
+		<a target="_blank" href="http://phishcompanion.com"><img style="width:200px;" src='//smedia.pnet-static.com/site/book.jpg'></a><br>
+		The Phish Companion (3rd Edition) is now shipping!		 
+		<p>
+		&bull; Thousands of freshly-manicured setlists, song histories, and charts<br>
+		&bull; Hundreds of evocative show reviews &amp; fan stories<br>
+		&bull; 128 pages of dazzling Phish photography<br>
+		&bull; Stunning original works of art<br>
+		</p>
+		Only $39 and shipping now from <a target="_blank" href="http://phishcompanion.com">phishcompanion.com</a>!
+	</section>
+
+
+	<section>
+		<header>
+			<h3 class="donate">Support Phish.net</h3>
+		</header>
+		<form action="https://www.paypal.com/cgi-bin/webscr" method="post"> 
+			<input type="hidden" name="cmd" value="_xclick" /> 
+			<input type="hidden" name="business" value="ellis@mbird.org" /> 
+			<input type="hidden" name="item_name" value="Donate to the Mockingbird Foundation" /> 
+			<input type="hidden" name="item_number" value="052110" /> 
+			<input type="hidden" name="image_url" value="http://www.mbird.org/gfx/banners/mbs1.gif" /> 
+			<input type="hidden" name="return" value="http://www.mbird.org/thanks" /> 
+			<input type="hidden" name="cancel_return" value="http://phish.net/" /> 
+			<input type="image" src="http://images.paypal.com/images/x-click-but21.gif" border="0" name="submit" alt="Donate with PayPal - it's fast, free and secure!" /> 
+		</form>		
+<!-- <script class="dwolla_button" src="https://www.dwolla.com/scripts/button.min.js" type="text/javascript" data-key="cjMzppGCBhRVOeBL3GbF3emLAQFk7QTHGXj5Eq1wUlC3VXveH1" data-redirect="http://www.mbird.org/donations/contributors" data-label="Donate with Dwolla" data-name="Dwolla Donation to Mbird" data-description="undefined" data-amount="10" data-type="freetype"> -->		
+		Phish.net is a project of the non-profit <a href="http://mbird.org/">Mockingbird Foundation</a>.
+	</section>
+	<section>
+		<header>
+			<h3>Login</h3>
+		</header> 
+		<form action="https://api.phish.net/authorize/login.php" method="post">
+			<p>
+				Username<br />
+				<input type="text" name="username" size="15" /><br />
+				Password<br />
+				<input type="password" name="passwd" size="15" /><br /><br />
+				<input type="hidden" name="returnto" value="/" />
+				<input type="submit" value="Login" /><br /><br />
+				<small>
+					<a href="/register">Register</a> | <a href="/forgot_password">Forgot Password</a>
+				</small>
+			</p>
+		</form>
+	</section> 
+			
+	<section> 
+		<header> 
+			<h3>Archived Setlists</h3> 
+		</header>
+		<b>View setlists from</b>: <select onchange="location.href='/setlists/'+$(this).val()+'.html';">
+<option value='1983'>1983</option>
+<option selected="selected" value='1984'>1984</option>
+<option value='1985'>1985</option>
+<option value='1986'>1986</option>
+<option value='1987'>1987</option>
+<option value='1988'>1988</option>
+<option value='1989'>1989</option>
+<option value='1990'>1990</option>
+<option value='1991'>1991</option>
+<option value='1992'>1992</option>
+<option value='1993'>1993</option>
+<option value='1994'>1994</option>
+<option value='1995'>1995</option>
+<option value='1996'>1996</option>
+<option value='1997'>1997</option>
+<option value='1998'>1998</option>
+<option value='1999'>1999</option>
+<option value='2000'>2000</option>
+<option value='2001'>2001</option>
+<option value='2002'>2002</option>
+<option value='2003'>2003</option>
+<option value='2004'>2004</option>
+<option value='2005'>2005</option>
+<option value='2006'>2006</option>
+<option value='2007'>2007</option>
+<option value='2008'>2008</option>
+<option value='2009'>2009</option>
+<option value='2010'>2010</option>
+<option value='2011'>2011</option>
+<option value='2012'>2012</option>
+<option value='2013'>2013</option>
+<option value='2014'>2014</option>
+<option value='2015'>2015</option>
+<option value='2016'>2016</option>
+		</select>
+		<p><br>
+			<a class='btn btn-small uibutton' href="http://phish.net/setlists/info.php">Setlist Info</a>
+						<a class='btn btn-small uibutton' href='http://phish.net/lib/php/session.php?op=set&pref=songnotes&val=on'>Show Songnotes</a>
+							
+		</p>	 
+			</section> 
+	<section> 
+		<header> 
+			<h3>Phish News</h3> 
+		</header>
+		<p><a href="http://lists.phish.net/lists/info/phish-news">Subscribe to Phish-News</a> for exclusive info while on tour!</p>
+	</section>	
+		<section> 
+		<header> 
+			<h3>Best Rated Shows</h3> 
+		</header> 
+		<ul> 
+			<li><a href="/sideshows/?d=2013-09-07">2013-09-07 (Rated 4.8/5)</a>
+				<em>Oak Ridge Farm</em></li>
+			<li><a href="/setlists/?d=1999-12-31">1999-12-31 (Rated 4.704/5)</a>
+				<em>Big Cypress Seminole Indi...</em></li>
+			<li><a href="/setlists/?d=2015-08-22">2015-08-22 (Rated 4.695/5)</a>
+				<em>Watkins Glen International</em></li>
+			<li><a href="/setlists/?d=1997-11-17">1997-11-17 (Rated 4.693/5)</a>
+				<em>McNichols Arena</em></li>
+			<li><a href="/setlists/?d=2014-10-31">2014-10-31 (Rated 4.692/5)</a>
+				<em>MGM Grand Garden Arena</em></li>
+<a href="#void" onclick="$(this).hide();$('#moreRatings').slideDown('500');">Show More...</a><span id='moreRatings' style='display:none;'>			<li><a href="/setlists/?d=1997-12-07">1997-12-07 (Rated 4.691/5)</a>
+				<em>Ervin J. Nutter Center, W...</em></li>
+			<li><a href="/setlists/?d=1995-12-31">1995-12-31 (Rated 4.691/5)</a>
+				<em>Madison Square Garden</em></li>
+			<li><a href="/setlists/?d=1997-12-02">1997-12-02 (Rated 4.69/5)</a>
+				<em>CoreStates Spectrum</em></li>
+			<li><a href="/setlists/?d=1997-12-30">1997-12-30 (Rated 4.689/5)</a>
+				<em>Madison Square Garden</em></li>
+			<li><a href="/setlists/?d=1998-07-06">1998-07-06 (Rated 4.689/5)</a>
+				<em>Lucerna Theatre</em></li>
+			<li><a href="/setlists/?d=2003-02-28">2003-02-28 (Rated 4.688/5)</a>
+				<em>Nassau Coliseum</em></li>
+			<li><a href="/setlists/?d=1997-12-06">1997-12-06 (Rated 4.688/5)</a>
+				<em>The Palace of Auburn Hills</em></li>
+			<li><a href="/setlists/?d=1994-07-08">1994-07-08 (Rated 4.688/5)</a>
+				<em>Great Woods Center for th...</em></li>
+			<li><a href="/setlists/?d=1998-04-03">1998-04-03 (Rated 4.688/5)</a>
+				<em>Nassau Coliseum</em></li>
+			<li><a href="/setlists/?d=1995-12-07">1995-12-07 (Rated 4.687/5)</a>
+				<em>Niagara Falls Convention ...</em></li>
+</span>		</ul> 
+	</section>	
+	
+</aside>		</div>
+<footer><dl>
+       <dt>About</dt>
+       <dd><p>Phish.net is a non-commercial project run by and for Phish fans under the 
+		auspices of the <a href="http://phish.net/special/credits.php">all-volunteer</a>, non-profit Mockingbird Foundation. This project 
+		serves to compile, preserve, and protect encyclopedic information about Phish 
+		and their music. But we need your help!
+		</p>
+		<p>	&copy; 1990-2016 The Mockingbird Foundation, Inc.<br />
+		<a href="http://phish.net/terms-of-use.php">Terms of Use</a> | 
+		<a href="http://phish.net/credits">Site Credits</a> | 
+		<a href="http://phish.net/setlists/credits.php">Setlist History</a> <br />
+		Source code &copy; 2009-2016 <a href="http://twitter.com/sethadam1">Adam Scheinberg</a>.<br />
+		All Rights Reserved.<br />
+		Web Hosting by <a href="http://endpoint.com">End Point Corporation</a><br />
+		Contact us at <a href="mailto:mockingbird@mbird.org">mockingbird@mbird.org</a>.<br />Your session is bound to IP Address: 0.0.0.0		</p></dd>
+       
+       <dt>Phish.net Services</dt>
+       <dd><ul>
+		   <li><a href="http://phish.net">Phish.net</a></li>
+		   <li><a href="http://blog.phish.net">Phish.net Blog</a></li>
+		   <li><a href="http://api.phish.net">Phish.net API</a></li>
+		   <li><a href="http://m.phish.net">Phish.net Mobile Site</a></li>
+		   <li><a href="http://phish.net/partners.php">Phish.net Partners</a></li>
+		   <li><a href="http://mbird.org">The Mockingbird Foundation</a></li>
+       </ul>
+		<p style="text-align:center;"><img src="http://smedia.pnet-static.com/site/phishnet.100.png" alt="Phish.net" /></p>
+		</dd>
+       
+		<dt>Phish Links</dt>
+		<dd><ul> 
+			<li><a href="http://phish.com" target="_blank">Phish.com - The Official Band Site</a></li>	
+			<li><a href="http://twitter.com/phish" target="_blank">Phish on Twitter</a></li>	
+			<li><a href="http://www.livephish.com" target="_blank">Soundboard Downloads</a></li>
+			<li><a href="http://spreadsheets.google.com/pub?key=0AjeIQ6qQvexzcDhXS2twUC1US3BPMVZuUWdjZmY2RVE&gid=7" target="_blank">MP3 Collections</a></li>
+			<li><a href="http://www.phanart.net/" target="_blank">Phanart</a></li>   
+			<li><a href="http://cashortrade.org/" target="_blank">CashorTrade.org face value tickets</a></li> 
+			<li><a href="http://www.youtube.com/results?search_query=phish" target="_blank">YouTube Clips</a></li>
+			<li><a href="http://www.ihoz.com/PhishStats.html" target="_blank">ZZYZX's PhishStats</a></li>
+			<!-- 
+			<li><a href="http://yemblog.com/" target="_blank">Scotty B's YEM Blog</a></li>   	
+			<li><a href="http://hfpod.blogspot.com" target="_blank">Helping Friendly Podcast</a></li>
+			<li><a href="http://typeiicast.com/" target="_blank">Type II Cast podcast</a></li> 
+			<li><a href="http://phishthoughts.com/" target="_blank">Mr. Miner's PhishThoughts</a></li> --> 
+       <li><a href="https://twitter.com/phishnet" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @phishnet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></li>
+       </ul>
+</dd>
+</dl></footer>
+<div id="userbar">
+	<a class="pad" href="/login">Login</a>
+	<a href="/register">Register</a>
+</div>
+<div id="bookmodal" style="width:805px;display:none;">
+	<p><a href="http://phishcompanion.com"><img src="http://smedia.pnet-static.com/site/modal800.jpg"></a></p>
+</div>
+<link rel="stylesheet" href="http://sscripts.pnet-static.com/packages/jquery-modal/jquery.modal.min.css" type="text/css" media="screen" /> 
+<script type="text/javascript" src="http://sscripts.pnet-static.com/packages/jquery-modal/jquery.modal.min.js"></script> 	  
+<script>
+	$('#bookmodal').modal();
+</script>
+ 
+
+
+
+<!-- 
+	The look-and-feel of Phish.net 3.1 is was heavily based on a template created by Mads Kjaer of nettuts.com. (http://twitter.com/mads) 
+-->
+
+<!-- In summing up, the moral seems a little bit obscure... -->
+	<!-- <script type="text/javascript" src="http://api.phish.net/api.json?api=2.0&amp;method=pnet.shows.setlists.latest&amp;callback=stlst"></script> -->
+	<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-10341664-1']);
+	_gaq.push(['_trackPageview']);
+	 
+	(function() {
+	var ga = document.createElement('script');
+	ga.src = ('https:' == document.location.protocol ?
+	    'https://ssl' : 'http://www') +
+	    '.google-analytics.com/ga.js';
+	ga.setAttribute('async', 'true');
+	document.documentElement.firstChild.appendChild(ga);
+	})();
+	
+	$(document).ready( function() {
+		$('#nav').smint(); 
+	}); 
+	</script>
+<!-- whatever you do, take care of your shoes --> 
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"ee461d63a9","applicationID":"2258027","transactionName":"blQHMhADWxdWVhJfX1ceMBQLTUYBQ1kPRURKHgwIBgdNSkddFg==","queueTime":0,"applicationTime":9,"atts":"QhMERFgZSBk=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
